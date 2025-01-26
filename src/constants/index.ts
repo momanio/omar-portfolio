@@ -1,11 +1,3 @@
-import bandar from "../assets/projects/bandar.webp";
-import baslex from "../assets/projects/baslex.png";
-import elham from "../assets/projects/elham.webp";
-
-import xitmnt from "../assets/projects/xitmnt.webp";
-
-import herbalhome from "../assets/projects/herbalhome.webp";
-import codefolio from "../assets/projects/codefolio.webp";
 import just from "../assets/company/just.webp";
 import nixpend from "../assets/company/nixpend.webp";
 import sitech from "../assets/company/sitech.webp";
@@ -101,7 +93,7 @@ export const experiences = [
   },
 ];
 
-export const projects = [
+/* export const projects = [
   {
     id: "project-1",
     name: "Baslex",
@@ -152,7 +144,7 @@ export const projects = [
     repo: "https://github.com/momanio/my-codefolio",
   },
 ];
-
+ */
 export const socialIcons = [
   { id: "Github", socialPath: "https://github.com/momanio", icon: FaGithub },
   {

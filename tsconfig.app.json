@@ -17,7 +17,7 @@
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM"],
     "module": "ESNext",
-    "moduleResolution": "node", // Use "node" for compatibility
+    "moduleResolution": "bundler", // Use "node" for compatibility
     "skipLibCheck": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
