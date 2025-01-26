@@ -1,7 +1,13 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router";
+import Home from "./pages/home/Home";
 import "./App.css";
 
-function App() {
-  return <h1>Vite + React</h1>;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
+};
