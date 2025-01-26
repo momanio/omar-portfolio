@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
-import { styles } from "../../constants";
+
 import { experiences } from "../../constants";
 import { Section } from "../../components/Section";
 import { textVariant } from "../../utils/motion";
@@ -14,7 +14,7 @@ import { IoMdCodeDownload } from "react-icons/io";
 export const Experience: React.FC = () => (
   <Section idName="experience">
     <motion.div variants={textVariant()}>
-      <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
+      <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem]">
         Education and Experience.
       </h2>
     </motion.div>
@@ -59,16 +59,6 @@ export const Experience: React.FC = () => (
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out
             "
-            onMouseOver={() => {
-              const btn =
-                document.querySelector<HTMLImageElement>(".download-btn");
-              if (btn) btn.setAttribute("src", downloadHover);
-            }}
-            onMouseOut={() => {
-              const btn =
-                document.querySelector<HTMLImageElement>(".download-btn");
-              if (btn) btn.setAttribute("src", download);
-            }}
           >
             MY RESUME
             <IoMdCodeDownload />

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { styles } from "../../constants";
 import { RiScrollToBottomLine } from "react-icons/ri";
 
 export const Hero = () => {
@@ -44,9 +43,7 @@ export const Hero = () => {
         ))}
       </div>
 
-      <div
-        className={`${styles.paddingX} relative max-w-7xl mx-auto flex flex-col items-center justify-center h-full text-center`}
-      >
+      <div className="sm:px-16 px-6 relative max-w-7xl mx-auto flex flex-col items-center justify-center h-full text-center">
         <motion.h1
           className="text-5xl sm:text-7xl font-extrabold leading-tight tracking-wide"
           initial={{ opacity: 0, y: -50 }}

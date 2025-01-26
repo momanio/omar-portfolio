@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../../utils/motion";
-import { services, styles } from "../../constants";
-import ServiceCard from "../../components/ServiceCard";
-import { Section } from "../../components/Section";
+import { services } from "../../constants";
+import { Section } from "@/components/Section";
+import ServiceCard from "@/components/ServiceCard";
 
 export const About: React.FC = () => {
   return (
@@ -11,11 +11,13 @@ export const About: React.FC = () => {
       className="flex flex-col  w-full h-screen items-center px-10 py-10"
     >
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>About Me</h2>
+        <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins">
+          About Me
+        </h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("up", "tween", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
         As a Freelance Frontend Developer with expertise in JavaScript,

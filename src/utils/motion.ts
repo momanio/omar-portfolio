@@ -1,7 +1,7 @@
 import { Variants } from "framer-motion"; // Import Variants from Framer Motion
 
 // Type definitions
-type Direction = "left" | "right" | "up" | "down";
+type Direction = "left" | "right" | "up" | "down" | undefined;
 type TransitionType = "tween" | "spring";
 
 interface DirectionOffsets {
@@ -13,7 +13,7 @@ interface Transition {
   type: TransitionType;
   delay: number;
   duration: number;
-  ease: string;
+  ease?: string;
 }
 
 // Use Variants from Framer Motion for compatibility
@@ -31,6 +31,7 @@ const getDirectionOffsets = (direction: Direction): DirectionOffsets => {
     case "down":
       return { x: 0, y: -100 };
     default:
+      console.warn(`Invalid direction: ${direction}`);
       return { x: 0, y: 0 };
   }
 };
@@ -40,13 +41,19 @@ const createTransition = (
   type: TransitionType = "tween",
   delay = 0,
   duration = 1,
-  ease = "easeOut"
+  ease?: string
 ): Transition => ({
   type,
   delay,
   duration,
-  ease,
+  ...(ease ? { ease } : {}),
 });
+
+// Default animation variant
+export const defaultVariant: AnimationVariant = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { duration: 0.5 } },
+};
 
 export const textVariant = (delay = 0): AnimationVariant => ({
   hidden: {
@@ -106,11 +113,9 @@ export const slideIn = (
   duration = 1,
   ease = "easeOut"
 ): AnimationVariant => {
+  const { x, y } = getDirectionOffsets(direction);
   return {
-    hidden: {
-      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
-      y: direction === "up" ? "-100%" : direction === "down" ? "100%" : 0,
-    },
+    hidden: { x, y },
     show: {
       x: 0,
       y: 0,

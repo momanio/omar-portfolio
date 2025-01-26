@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import { IoMdSend } from "react-icons/io";
 import { Section } from "../../components/Section";
 import { slideIn } from "../../utils/motion";
-import { styles } from "../../constants";
 interface FormState {
   name: string;
   email: string;
@@ -71,13 +70,17 @@ export const Contact: React.FC = () => {
 
   return (
     <Section idName="contact">
-      <div className="-mt-[8rem] flex flex-col-reverse xl:flex-row gap-10 overflow-hidden">
+      <div className="-mt-[10rem] p-10 flex flex-col-reverse xl:flex-row gap-10 overflow-hidden">
         <motion.div
-          variants={slideIn("left", "tween", 0.2, 1)}
+          variants={slideIn("left", "spring", 0.2, 1)}
           className="flex-[0.75] bg-jet p-8 rounded-2xl"
         >
-          <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+          <p className="sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins">
+            Get in touch
+          </p>
+          <h3 className="text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins">
+            Contact.
+          </h3>
 
           <form
             ref={formRef}

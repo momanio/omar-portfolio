@@ -31,20 +31,20 @@ const Home = () => {
       </div>
 
       <Suspense fallback={<div>Loading content...</div>}>
-        <div className="">
+        <div className="bg-cover bg-center bg-no-repeat bg-gradient-to-b from-white to-zinc-950">
           <About />
         </div>
-        <div className="bg-experience bg-cover bg-center bg-no-repeat">
+        <div className="bg-gradient-to-tl from-white via-black to-zinc-900 bg-cover bg-center bg-no-repeat">
           <Experience />
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div className="bg-gradient-to-tl from-white via-black to-zinc-900 bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
-        <div className="bg-projects bg-cover bg-center bg-no-repeat">
+        <div className="bg-gradient-to-tl from-white via-black to-zinc-900 bg-cover bg-center bg-no-repeat">
           <Projects />
         </div>
-        <div className="bg-contact bg-cover bg-center bg-no-repeat">
+        <div className="bg-gradient-to-tl from-white via-black to-zinc-900 bg-cover bg-center bg-no-repeat text-white">
           <Contact />
         </div>
       </Suspense>

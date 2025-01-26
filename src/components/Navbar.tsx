@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { styles } from "../constants";
 import { navLinks } from "../constants";
 import logo from "../assets/logo/logo-black.webp";
 import { motion } from "framer-motion";
@@ -24,11 +23,8 @@ export const Navbar = () => {
   };
 
   return (
-    <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed top-0 z-20 bg-flashWhite sm:opacity-[0.9] xxs:h-[12vh]`}
-    >
+    <nav className="sm:px-16 px-6 w-full flex items-center py-2 fixed top-0 z-20 bg-flashWhite sm:opacity-[0.9] xxs:h-[12vh]">
       <div className="w-full flex justify-between items-center max-w-full mx-auto">
-        {/* Animate the logo */}
         <motion.a
           href="#"
           className="flex items-center gap-2"

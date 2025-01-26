@@ -1,9 +1,9 @@
 import { create } from "zustand";
-import type { SanityDocument } from "@sanity/client";
+import type { Project } from "../types/project";
 
 interface ProjectStore {
-  projects: SanityDocument[];
-  setProjects: (projects: SanityDocument[]) => void;
+  projects: Project[];
+  setProjects: (projects: Project[]) => void;
 }
 
 export const useProjectsStore = create<ProjectStore>((set) => ({

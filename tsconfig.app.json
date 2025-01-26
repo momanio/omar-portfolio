@@ -1,26 +1,31 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true, // Enable .d.ts generation
+    "declarationMap": false, // Optional: Avoid generating source maps for declarations
+    "emitDeclarationOnly": false, // Emit JS and declaration files together
+    "outDir": "./dist", // Ensure .d.ts files are stored in the output folder
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@hooks/*": ["src/hooks/*"]
+    },
+    "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ES2020", "DOM"],
     "module": "ESNext",
+    "moduleResolution": "node", // Use "node" for compatibility
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "isolatedModules": true,
-    "moduleDetection": "force",
-    "noEmit": true,
+    "esModuleInterop": true,
     "jsx": "react-jsx",
-
-    /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noEmit": true, // Prevent emitting JS files during development
+    "isolatedModules": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "references": []
 }

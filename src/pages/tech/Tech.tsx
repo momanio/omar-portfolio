@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../../utils/motion";
-import { technologies } from "../../constants";
-import { styles } from "../../constants";
+import { technologies } from "@/constants";
 import { IconType } from "react-icons";
 
 interface Technology {
@@ -19,7 +18,9 @@ export const Tech: React.FC = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="text-center"
       >
-        <h2 className={`${styles.sectionHeadTextLight} mb-8`}>Technologies</h2>
+        <h2 className="text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins mb-8">
+          Technologies
+        </h2>
       </motion.div>
 
       <div className="flex flex-wrap justify-center gap-10 mt-10">
