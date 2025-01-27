@@ -32,12 +32,12 @@ export const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.5 }}
         >
           <img
             src={logo}
             alt="logo"
-            className="sm:w-[80px] sm:h-[80px] w-[80px] h-[80px] object-contain"
+            className="sm:w-[80px] sm:h-[80px]  object-contain"
           />
         </motion.a>
 

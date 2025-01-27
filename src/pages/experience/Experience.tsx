@@ -14,7 +14,7 @@ import { IoMdCodeDownload } from "react-icons/io";
 export const Experience: React.FC = () => (
   <Section idName="experience">
     <motion.div variants={textVariant()}>
-      <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem]">
+      <h2 className="text-white font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem]">
         Education and Experience.
       </h2>
     </motion.div>

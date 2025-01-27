@@ -15,13 +15,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   return (
     <motion.div
-      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full bg-gradient-to-br from-gray-800 via-gray-900 to-black p-[1px] rounded-[20px] shadow-md hover:shadow-lg transition-shadow duration-300"
+      variants={fadeIn("up", "spring", 0.3 * index, 0.75)}
+      className="group relative w-full rounded-xl bg-gradient-to-br from-gray-900 to-black p-[2px] shadow-lg hover:shadow-xl transition-shadow duration-300"
     >
-      <div className="bg-jetLight rounded-[20px] py-8 px-6 min-h-[280px] flex flex-col justify-center items-center">
-        <Icon className="w-16 h-16 text-indigo-500 mb-4" />
-
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+      <div className="flex flex-col items-center justify-center h-full w-full rounded-xl bg-gray-800 py-10 px-6">
+        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gray-700 group-hover:bg-gray-600 transition duration-300">
+          <Icon className="text-white text-3xl" />
+        </div>
+        <h3 className="text-center text-xl font-semibold text-white mt-4 group-hover:text-gray-300">
           {title}
         </h3>
       </div>
