@@ -21,7 +21,7 @@ export const ProjectsList = () => {
       </div>
     );
   }
-
+  console.log(projects);
   return (
     <section className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
@@ -34,7 +34,7 @@ export const ProjectsList = () => {
             <Link to={`/${project.slug.current}`} className="block">
               <div className="relative h-48">
                 <img
-                  src={project.mainImage || "/placeholder-image.jpg"} // Fallback for null images
+                  src={project.mainImage || "/placeholder-image.jpg"}
                   alt={project.title}
                   className="h-full w-full object-cover transition group-hover:scale-105"
                 />
@@ -46,6 +46,9 @@ export const ProjectsList = () => {
                 <p className="text-gray-500 text-sm mt-2">
                   {new Date(project.publishedAt).toLocaleDateString()}
                 </p>
+              </div>
+              <div className="">
+                <p className="text-gray-500 text-sm mt-2">{project.tags}</p>
               </div>
             </Link>
           </li>

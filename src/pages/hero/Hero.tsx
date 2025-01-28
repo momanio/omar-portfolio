@@ -1,7 +1,30 @@
+import { useHeroStore } from "@/store/useHeroStore";
+import { useHero } from "@/hooks/useHero";
 import { motion } from "framer-motion";
 import { RiScrollToBottomLine } from "react-icons/ri";
 
 export const Hero = () => {
+  const { isLoading, error } = useHero();
+  const hero = useHeroStore((state) => state.hero[0]);
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen text-2xl">
+        Loading...
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-screen text-2xl text-red-500">
+        Error loading projects
+      </div>
+    );
+  }
+
+  console.log("Hero: ", hero);
+
   const handleNavLinkClick = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -50,7 +73,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Omar <span className="text-gray-400">Momani</span>
+          {hero.FirstName}{" "}
+          <span className="text-gray-400">{hero.LastName}</span>
         </motion.h1>
         <motion.p
           className="mt-4 text-lg sm:text-xl max-w-3xl text-gray-300"
@@ -58,8 +82,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Building captivating, high-performance web experiences using modern
-          technologies. Join me as I turn your vision into reality.
+          {hero.jobTitle}
         </motion.p>
 
         <motion.div

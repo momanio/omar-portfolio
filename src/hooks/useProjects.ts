@@ -9,12 +9,15 @@ const PROJECTS_QUERY = `*[
 ]|order(publishedAt desc)[0...12]{
   _id,
   title,
+  body,
+  tags,
+  techStack,
   slug,
   "mainImage": image.asset->url, // Map image field to mainImage
   publishedAt
 }`;
 
-export function useProjects() {
+export const useProjects = () => {
   const setProjects = useProjectsStore((state) => state.setProjects);
 
   return useQuery<Project[]>({
@@ -25,4 +28,4 @@ export function useProjects() {
       return projects;
     },
   });
-}
+};
