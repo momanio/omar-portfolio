@@ -70,7 +70,7 @@ export const Contact: React.FC = () => {
 
   return (
     <Section idName="contact">
-      <div className="-mt-[10rem] p-10 flex flex-col-reverse xl:flex-row gap-10 overflow-hidden">
+      <div className="mt-10 p-10 flex flex-col-reverse xl:flex-row gap-10 overflow-hidden">
         <motion.div
           variants={slideIn("left", "spring", 0.2, 1)}
           className="flex-[0.75] bg-jet p-8 rounded-2xl"
@@ -98,7 +98,7 @@ export const Contact: React.FC = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-none border-none font-medium"
+                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1  font-medium"
               />
             </label>
 
@@ -113,7 +113,7 @@ export const Contact: React.FC = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-none border-none font-medium"
+                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1 font-medium"
               />
             </label>
 
@@ -127,14 +127,14 @@ export const Contact: React.FC = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What's your message?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-none border-none font-medium resize-none"
+                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1 font-medium resize-none"
               />
             </label>
 
             <button
               type="submit"
               className="
-                live-demo flex justify-center  
+                outline-1 flex justify-center  
                 sm:gap-4 gap-3 
                 sm:text-[20px] text-[16px] 
                 text-timberWolf font-bold font-beckman 
@@ -142,7 +142,7 @@ export const Contact: React.FC = () => {
                 whitespace-nowrap 
                 sm:w-[130px] sm:h-[50px] w-[100px] h-[45px] 
                 rounded-[10px] bg-night 
-                hover:bg-battleGray hover:text-eerieBlack 
+                hover:bg-gray-300 hover:text-zinc-900 
                 transition duration-[0.2s] ease-in-out
                 group
               "
