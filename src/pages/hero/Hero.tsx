@@ -33,9 +33,9 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative w-full h-screen bg-gradient-to-tl from-white via-black to-zinc-900 text-white overflow-hidden">
+    <section className="relative w-full h-screen bg-gradient-to-b from-gray-900 to-black text-white overflow-hidden">
       <motion.div
-        className="absolute inset-0 bg-gradient-to-tr from-blue-950 via-transparent to-black opacity-30"
+        className="absolute inset-0 bg-gradient-to-tr from-blue-950 via-transparent to-black"
         animate={{ opacity: [0.5, 0.8, 0.5] }}
         transition={{
           duration: 5,
@@ -68,16 +68,16 @@ export const Hero = () => {
 
       <div className="sm:px-16 px-6 relative max-w-7xl mx-auto flex flex-col items-center justify-center h-full text-center">
         <motion.h1
-          className="text-5xl sm:text-7xl font-extrabold leading-tight tracking-wide"
+          className="text-5xl sm:text-7xl  font-extrabold leading-tight tracking-wide"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
           {hero.FirstName}{" "}
-          <span className="text-gray-400">{hero.LastName}</span>
+          <span className="text-gray-500">{hero.LastName}</span>
         </motion.h1>
         <motion.p
-          className="mt-4 text-lg sm:text-xl max-w-3xl text-gray-300"
+          className="mt-4 text-lg font-bold sm:text-xl max-w-3xl text-[#F8FAFC]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -93,7 +93,7 @@ export const Hero = () => {
         >
           <button
             onClick={() => handleNavLinkClick("projects")}
-            className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white font-bold rounded-full shadow-lg transition transform hover:scale-105"
+            className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full shadow-lg transition transform hover:scale-105"
           >
             View Projects
           </button>
@@ -107,17 +107,16 @@ export const Hero = () => {
       </div>
 
       <div className="absolute bottom-10 w-full flex justify-center items-center">
-        <RiScrollToBottomLine />
         <motion.div
-          onClick={() => handleNavLinkClick("about")}
-          className="cursor-pointer flex flex-col items-center gap-2"
+          className="absolute bottom-10 w-full flex justify-center items-center cursor-pointer"
           whileHover={{ y: 10 }}
+          onClick={() =>
+            document
+              .getElementById("about")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
         >
-          <motion.span
-            className="block w-6 h-6 border-l-2 border-b-2 border-indigo-500 -rotate-45"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 1.2, repeat: Infinity }}
-          />
+          <RiScrollToBottomLine size={50} className="text-indigo-500" />
         </motion.div>
       </div>
     </section>

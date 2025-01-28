@@ -53,7 +53,7 @@ export const Navbar = () => {
             src={logo}
             alt="Logo"
             className={`transition-all duration-300 ${
-              isScrolled ? "w-[4rem] h-[4rem]" : "w-[7rem] h-[7rem]"
+              isScrolled ? "w-[5rem] h-[5rem]" : "w-[7rem] h-[7rem]"
             } object-contain`}
           />
         </motion.a>
@@ -64,8 +64,8 @@ export const Navbar = () => {
               key={nav.id}
               className={`text-sm sm:text-base font-medium uppercase tracking-wide ${
                 active === nav.id
-                  ? "text-gray-950 border-b-2 border-gray-text-gray-300"
-                  : "text-zinc-400 hover:text-gray-950"
+                  ? "text-zinc-400 border-b-2 border-gray-text-gray-300"
+                  : "text-[#F8FAFC] hover:text-gray-950"
               } cursor-pointer transition duration-300`}
               onClick={() => handleNavLinkClick(nav.id)}
               whileHover={{ scale: 1.5 }}

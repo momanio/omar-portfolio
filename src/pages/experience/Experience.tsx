@@ -13,10 +13,11 @@ import { IoMdCodeDownload } from "react-icons/io";
 
 export const Experience: React.FC = () => (
   <Section idName="experience">
-    <motion.div variants={textVariant()}>
-      <h2 className="text-white font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem]">
+    <motion.div variants={textVariant()} className="text-center mb-10">
+      <h2 className="text-[#F8FAFC] font-extrabold md:text-[60px] sm:text-[48px] text-[36px]">
         Education and Experience.
       </h2>
+      <div className="w-24 h-1 bg-white mx-auto rounded-md mt-2" />
     </motion.div>
 
     <div className="mt-20 flex flex-col">
@@ -61,7 +62,6 @@ export const Experience: React.FC = () => (
             "
           >
             MY RESUME
-            <IoMdCodeDownload />
           </a>
         </VerticalTimelineElement>
       </VerticalTimeline>

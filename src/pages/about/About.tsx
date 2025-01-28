@@ -8,7 +8,7 @@ export const About: React.FC = () => {
   return (
     <Section idName="about" className="relative  text-white">
       <motion.div variants={textVariant()} className="text-center mb-10">
-        <h2 className="text-white font-extrabold md:text-[60px] sm:text-[48px] text-[36px]">
+        <h2 className="text-[#F8FAFC] font-extrabold md:text-[60px] sm:text-[48px] text-[36px]">
           About Me
         </h2>
         <div className="w-24 h-1 bg-white mx-auto rounded-md mt-2" />
@@ -19,9 +19,9 @@ export const About: React.FC = () => {
         className="text-center text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed px-6 sm:px-12"
       >
         Frontend Developer specializing in building responsive, modern web
-        applications using React, Angular, and TypeScript. With a focus on clean
-        code and user-first design, I deliver efficient, scalable solutions
-        tailored to client needs.
+        applications and Headless CMS using JavaScript frameworks React,
+        Angular, With a focus on clean code and user-friendly design, I deliver
+        efficient, scalable solutions tailored to client needs.
       </motion.p>
 
       <motion.div

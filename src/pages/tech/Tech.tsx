@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../../utils/motion";
 import { technologies } from "@/constants";
 import { IconType } from "react-icons";
+import { Section } from "@/components/Section";
 
 interface Technology {
   name: string;
@@ -10,17 +11,12 @@ interface Technology {
 
 export const Tech: React.FC = () => {
   return (
-    <section className="padding-top p-10 max-w-7xl mx-auto relative z-0">
-      <motion.div
-        variants={textVariant()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
-        className="text-center"
-      >
-        <h2 className="text-timberWolf text-white md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins mb-8">
+    <Section idName="Tech" className="relative  text-white">
+      <motion.div variants={textVariant()} className="text-center mb-10">
+        <h2 className="text-[#F8FAFC] font-extrabold md:text-[60px] sm:text-[48px] text-[36px]">
           Technologies
         </h2>
+        <div className="w-24 h-1 bg-white mx-auto rounded-md mt-2" />
       </motion.div>
 
       <div className="flex flex-wrap justify-center gap-10 mt-10">
@@ -39,6 +35,6 @@ export const Tech: React.FC = () => {
           </motion.div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };

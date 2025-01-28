@@ -3,6 +3,7 @@ import { Contact } from "../contact/Contact";
 import { Navbar } from "../../components/Navbar";
 import { Experience } from "../experience/Experience";
 import { About } from "../about/About";
+import { Footer } from "@/components/Footer";
 
 const Hero = lazy(() =>
   import("../hero/Hero").then(({ Hero }) => ({
@@ -47,6 +48,7 @@ const Home = () => {
         <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat text-white">
           <Contact />
         </div>
+        <Footer />
       </Suspense>
     </div>
   );
