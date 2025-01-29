@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const Projects = () => {
   return (
-    <Section idName="about" className="relative  text-white">
+    <Section idName="projects" className="relative  text-white">
       <motion.div variants={textVariant()} className="text-center mb-10">
         <h2 className="text-[#F8FAFC] font-extrabold md:text-[60px] sm:text-[48px] text-[36px]">
           Projects

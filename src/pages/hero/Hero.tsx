@@ -45,7 +45,7 @@ export const Hero = () => {
       />
 
       <div className="absolute inset-0 pointer-events-none">
-        {[...Array(12)].map((_, index) => (
+        {[...Array(7)].map((_, index) => (
           <motion.div
             key={index}
             className="absolute w-4 h-4 bg-white rounded-full opacity-20"

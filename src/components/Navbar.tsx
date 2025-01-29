@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { navLinks } from "../constants";
-import logo from "../assets/logo/logo-black.webp";
+import logo from "../assets/logo/omar-logo.svg";
 import { motion } from "framer-motion";
 import { IoIosClose, IoMdMenu } from "react-icons/io";
 
@@ -34,8 +34,8 @@ export const Navbar = () => {
     <nav
       className={`fixed top-0 z-30 w-full transition-all duration-300 ${
         isScrolled
-          ? "bg-zinc-300 opacity-75 shadow-md py-2"
-          : "bg-transparent py-4"
+          ? "bg-transparent "
+          : "bg-gradient-to-b from-gray-900 to-black opacity-75 shadow-md"
       }`}
     >
       <div className="flex justify-between items-center px-6 sm:px-16 max-w-7xl mx-auto">
@@ -62,7 +62,7 @@ export const Navbar = () => {
           {navLinks.map((nav) => (
             <motion.li
               key={nav.id}
-              className={`text-sm sm:text-base font-medium uppercase tracking-wide ${
+              className={`text-lg sm:text-base font-semibold uppercase tracking-wide ${
                 active === nav.id
                   ? "text-zinc-400 border-b-2 border-gray-text-gray-300"
                   : "text-[#F8FAFC] hover:text-gray-950"
@@ -78,7 +78,7 @@ export const Navbar = () => {
         <div className="sm:hidden">
           <button
             onClick={() => setToggle(!toggle)}
-            className="text-gray-800 text-2xl"
+            className="text-gray-300 text-3xl"
             aria-label="Toggle Menu"
           >
             {toggle ? <IoIosClose /> : <IoMdMenu />}
