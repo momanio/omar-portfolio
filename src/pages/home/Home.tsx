@@ -4,6 +4,7 @@ import { Navbar } from "../../components/Navbar";
 import { Experience } from "../experience/Experience";
 import { About } from "../about/About";
 import { Footer } from "@/components/Footer";
+import { Spinner } from "@/components/Spinner";
 
 const Hero = lazy(() =>
   import("../hero/Hero").then(({ Hero }) => ({
@@ -31,7 +32,7 @@ const Home = () => {
         <Hero />
       </div>
 
-      <Suspense fallback={<div>Loading content...</div>}>
+      <Suspense fallback={<Spinner />}>
         <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat">
           <About />
         </div>

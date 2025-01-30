@@ -2,17 +2,14 @@ import { useHeroStore } from "@/store/useHeroStore";
 import { useHero } from "@/hooks/useHero";
 import { motion } from "framer-motion";
 import { RiScrollToBottomLine } from "react-icons/ri";
+import { Spinner } from "@/components/Spinner";
 
 export const Hero = () => {
   const { isLoading, error } = useHero();
   const hero = useHeroStore((state) => state.hero[0]);
 
   if (isLoading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen text-2xl">
-        Loading...
-      </div>
-    );
+    return <Spinner />;
   }
 
   if (error) {
