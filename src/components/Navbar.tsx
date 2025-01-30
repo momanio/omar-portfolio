@@ -34,8 +34,8 @@ export const Navbar = () => {
     <nav
       className={`fixed top-0 z-30 w-full transition-all duration-300 ${
         isScrolled
-          ? "bg-transparent "
-          : "bg-gradient-to-b from-gray-900 to-black opacity-75 shadow-md"
+          ? "bg-gradient-to-b from-gray-900 to-black opacity-95 shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="flex justify-between items-center px-6 sm:px-16 max-w-7xl mx-auto">

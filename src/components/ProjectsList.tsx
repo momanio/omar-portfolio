@@ -27,22 +27,22 @@ export const ProjectsList = () => {
       {projects.map((project) => (
         <li
           key={project._id}
-          className="group overflow-hidden rounded-lg shadow-lg transition hover:shadow-xl bg-white"
+          className="group overflow-hidden rounded-xl shadow-lg transition hover:shadow-2xl backdrop-blur-md bg-white/10 border border-white/20"
         >
           <Link to={`/${project.slug.current}`} className="block">
             <div className="relative h-48">
               <img
                 src={project.mainImage || "/placeholder-image.jpg"}
                 alt={project.title}
-                className="h-full w-full object-cover transition group-hover:scale-105"
+                className="h-full w-full object-cover transition group-hover:scale-105 rounded-t-xl"
               />
             </div>
 
-            <div className="p-4">
-              <h2 className="text-2xl font-semibold text-gray-800 group-hover:text-blue-600">
+            <div className="p-6 bg-white/20 backdrop-blur-lg rounded-b-xl">
+              <h2 className="text-2xl font-semibold text-gray-200 group-hover:text-blue-400">
                 {project.title}
               </h2>
-              <p className="text-gray-500 text-sm mt-2">
+              <p className="text-gray-400 text-sm mt-2">
                 {new Date(project.publishedAt).toLocaleDateString()}
               </p>
 
@@ -51,7 +51,7 @@ export const ProjectsList = () => {
                   {project.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="px-2 py-1 text-xs font-medium text-white bg-indigo-500 rounded-full"
+                      className="px-2 py-1 text-xs font-medium text-white bg-blue-500/80 rounded-full backdrop-blur-md"
                     >
                       {tag}
                     </span>
@@ -61,10 +61,10 @@ export const ProjectsList = () => {
 
               {project.techStack && (
                 <div className="mt-4">
-                  <h3 className="text-sm font-semibold text-gray-700">
-                    Tech Stack:
+                  <h3 className="text-sm font-semibold text-gray-300">
+                    Tech Stack
                   </h3>
-                  <ul className="list-disc list-inside text-sm text-gray-600 mt-1">
+                  <ul className="grid grid-cols-3 list-disc list-inside text-sm text-gray-400 mt-1">
                     {project.techStack.map((tech, index) => (
                       <li key={index}>{tech}</li>
                     ))}
