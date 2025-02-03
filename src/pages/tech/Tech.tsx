@@ -27,10 +27,10 @@ export const Tech: React.FC = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className="w-24 h-24 flex items-center justify-center rounded-full bg-radial-[at_25%_25%] from-gray-500 to-zinc-950 to-75% shadow-lg hover:shadow-2xl transition-transform transform hover:scale-110"
+            className="w-23 h-23 flex items-center justify-center rounded-full bg-radial-[at_25%_25%] from-gray-500 to-zinc-950 to-75% shadow-lg hover:shadow-2xl transition-transform transform hover:scale-110"
           >
             {technology.icon && (
-              <technology.icon size={60} className="text-white" />
+              <technology.icon size={55} className="text-white" />
             )}
           </motion.div>
         ))}

@@ -65,7 +65,7 @@ export const Hero = () => {
 
       <div className="sm:px-16 px-6 relative max-w-7xl mx-auto flex flex-col items-center justify-center h-full text-center">
         <motion.h1
-          className="text-5xl sm:text-7xl  font-extrabold leading-tight tracking-wide"
+          className="text-5xl sm:text-7xl uppercase font-extrabold leading-tight tracking-wide"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -103,19 +103,17 @@ export const Hero = () => {
         </motion.div>
       </div>
 
-      <div className="absolute bottom-10 w-full flex justify-center items-center">
-        <motion.div
-          className="absolute bottom-10 w-full flex justify-center items-center cursor-pointer"
-          whileHover={{ y: 10 }}
-          onClick={() =>
-            document
-              .getElementById("about")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          <RiScrollToBottomLine size={50} className="text-indigo-500" />
-        </motion.div>
-      </div>
+      <motion.div
+        className="absolute bottom-10 w-full flex justify-center items-center cursor-pointer"
+        whileHover={{ y: 10 }}
+        onClick={() =>
+          document
+            .getElementById("about")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
+      >
+        <RiScrollToBottomLine size={50} className="text-indigo-500" />
+      </motion.div>
     </section>
   );
 };

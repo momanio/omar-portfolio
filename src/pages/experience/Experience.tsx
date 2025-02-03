@@ -41,9 +41,7 @@ export const Experience: React.FC = () => (
           contentArrowStyle={{ borderRight: "7px solid  #232631" }}
           iconStyle={{ background: "#333333" }}
           icon={
-            <div className="flex justify-center items-center w-full h-full">
-              <IoMdCodeDownload />
-            </div>
+            <IoMdCodeDownload className="justify-center items-center w-full h-full" />
           }
         >
           <a
@@ -53,10 +51,10 @@ export const Experience: React.FC = () => (
             className="
               flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-3 pr-3 
+              font-bold  items-center py-5 pl-3 pr-3 
               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
               w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+              sm:mt-[22px] mt-[16px]  
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out
             "

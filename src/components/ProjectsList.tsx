@@ -21,7 +21,7 @@ export const ProjectsList = () => {
       </div>
     );
   }
-
+  console.log("Projects: ", projects);
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project) => (
@@ -42,9 +42,7 @@ export const ProjectsList = () => {
               <h2 className="text-2xl font-semibold text-gray-200 group-hover:text-blue-400">
                 {project.title}
               </h2>
-              <p className="text-gray-400 text-sm mt-2">
-                {new Date(project.publishedAt).toLocaleDateString()}
-              </p>
+              <p className="text-gray-400 text-sm mt-2"></p>
 
               {project.tags && (
                 <div className="mt-3 flex flex-wrap gap-2">

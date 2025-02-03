@@ -70,7 +70,7 @@ export const Contact: React.FC = () => {
 
   return (
     <Section idName="contact">
-      <div className="mt-10 p-10 flex flex-col-reverse xl:flex-row gap-10 overflow-hidden">
+      <div className="mt-10 p-10 flex flex-col-reverse xl:flex-row gap-10 overflow-hidden rounded-xl shadow-lg transition hover:shadow-2xl backdrop-blur-md bg-white/10 border border-white/20">
         <motion.div
           variants={slideIn("left", "spring", 0.2, 1)}
           className="flex-[0.75] bg-jet p-8 rounded-2xl"
@@ -78,7 +78,7 @@ export const Contact: React.FC = () => {
           <p className="sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins">
             Get in touch
           </p>
-          <h3 className="text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins">
+          <h3 className=" font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins">
             Contact.
           </h3>
 
@@ -88,9 +88,7 @@ export const Contact: React.FC = () => {
             className="mt-10 flex flex-col gap-6 font-poppins"
           >
             <label className="flex flex-col">
-              <span className="text-timberWolf font-medium mb-4">
-                Your Name
-              </span>
+              <span className=" font-medium mb-4">Your Name</span>
               <input
                 type="text"
                 name="name"
@@ -98,14 +96,12 @@ export const Contact: React.FC = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1  font-medium"
+                className=" py-4 px-6 placeholder:text-taupe  rounded-lg outline-1  font-medium"
               />
             </label>
 
             <label className="flex flex-col">
-              <span className="text-timberWolf font-medium mb-4">
-                Your Email
-              </span>
+              <span className=" font-medium mb-4">Your Email</span>
               <input
                 type="email"
                 name="email"
@@ -113,21 +109,19 @@ export const Contact: React.FC = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1 font-medium"
+                className=" py-4 px-6 placeholder:text-taupe  rounded-lg outline-1 font-medium"
               />
             </label>
 
             <label className="flex flex-col">
-              <span className="text-timberWolf font-medium mb-4">
-                Your Message
-              </span>
+              <span className=" font-medium mb-4">Your Message</span>
               <textarea
                 rows={7}
                 name="message"
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What's your message?"
-                className="bg-eerieBlack py-4 px-6 placeholder:text-taupe text-timberWolf rounded-lg outline-1 font-medium resize-none"
+                className=" py-4 px-6 placeholder:text-taupe  rounded-lg outline-1 font-medium resize-none"
               />
             </label>
 
@@ -137,7 +131,7 @@ export const Contact: React.FC = () => {
                 outline-1 flex justify-center  
                 sm:gap-4 gap-3 
                 sm:text-[20px] text-[16px] 
-                text-timberWolf font-bold font-beckman 
+                 font-bold font-beckman 
                 items-center py-5 
                 whitespace-nowrap 
                 sm:w-[130px] sm:h-[50px] w-[100px] h-[45px] 

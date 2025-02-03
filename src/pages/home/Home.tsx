@@ -49,8 +49,8 @@ const Home = () => {
         <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat text-white">
           <Contact />
         </div>
-        <Footer />
       </Suspense>
+      <Footer />
     </div>
   );
 };
