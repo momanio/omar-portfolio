@@ -9,7 +9,7 @@ import { experiences } from "../../constants";
 import { Section } from "../../components/Section";
 import { textVariant } from "../../utils/motion";
 import ExperienceCard from "../../components/ExperienceCard";
-import { IoMdCodeDownload } from "react-icons/io";
+import { FaRegFilePdf } from "react-icons/fa";
 
 export const Experience: React.FC = () => (
   <Section idName="experience">
@@ -41,7 +41,7 @@ export const Experience: React.FC = () => (
           contentArrowStyle={{ borderRight: "7px solid  #232631" }}
           iconStyle={{ background: "#333333" }}
           icon={
-            <IoMdCodeDownload className="justify-center items-center w-full h-full" />
+            <FaRegFilePdf className="justify-center items-center w-full h-full" />
           }
         >
           <a
@@ -50,10 +50,10 @@ export const Experience: React.FC = () => (
             rel="noopener noreferrer"
             className="
               flex justify-between 
-              sm:text-[18px] text-[14px] text-timberWolf 
+              sm:text-[18px] text-[14px] 
               font-bold  items-center py-5 pl-3 pr-3 
               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
+              w-[125px] h-[46px] rounded-[10px] 
               sm:mt-[22px] mt-[16px]  
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out

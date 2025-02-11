@@ -16,7 +16,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
       background: "linear-gradient(to right, #1f1f1f, #333333, #f4f4f6)",
-      opacity: 0.9,
       color: "#292929",
       borderRadius: "24px",
       boxShadow:
@@ -36,7 +35,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
     }
   >
     <div>
-      <h3 className="text-black text-[26px] font-bold font-beckman tracking-[2px]">
+      <h3 className="text-black text-[26px] font-bold  tracking-[2px]">
         {experience.title}
       </h3>
       <p

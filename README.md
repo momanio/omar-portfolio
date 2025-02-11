@@ -1,6 +1,6 @@
 #Omar Portfolio
 
-A modern, responsive, and feature-rich portfolio showcasing your skills and projects. Built with cutting-edge web technologies, this portfolio is designed to leave a lasting impression.
+A headless CMS modern, responsive, and feature-rich portfolio showcasing your skills and projects. Built with cutting-edge web technologies, this portfolio is designed to leave a lasting impression.
 
 Features
 Frameworks & Libraries:
