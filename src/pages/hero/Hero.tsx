@@ -51,7 +51,7 @@ export const Hero = () => {
               left: `${Math.random() * 100}%`,
             }}
             animate={{
-              y: ["0%", "30%", "0%"],
+              y: ["0%", "35%", "0%"],
               opacity: [0.2, 0.5, 0.2],
             }}
             transition={{

@@ -13,7 +13,7 @@ const PROJECTS_QUERY = `*[
   tags,
   techStack,
   slug,
-  "mainImage": image.asset->url, // Map image field to mainImage
+  "mainImage": image.asset->url, 
   publishedAt
 }`;
 
