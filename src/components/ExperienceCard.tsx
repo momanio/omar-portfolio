@@ -23,11 +23,7 @@ export const ExperienceCard: React.FC<ExperienceProps> = ({
       iconStyle={timelineStyles.icon}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
-            src={icon}
-            alt={name}
-            className="w-[100%] h-[100%] object-contain"
-          />
+          <img src={icon} alt={name} className="w-full h-full object-contain" />
         </div>
       }
     >
@@ -48,7 +44,7 @@ export const ExperienceCard: React.FC<ExperienceProps> = ({
 
 const timelineStyles = {
   content: {
-    background: "linear-gradient(to right, #1f1f1f, #333333, #f4f4f6)",
+    background: "linear-gradient(to bottom, #1f1f1f, #333333, #f4f4f6)",
     color: "white",
     borderRadius: "24px",
     boxShadow:

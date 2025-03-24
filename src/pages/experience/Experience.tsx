@@ -66,7 +66,7 @@ export const Experience: React.FC = () => {
             contentArrowStyle={{ borderRight: "7px solid  #232631" }}
             iconStyle={{ background: "#333333" }}
             icon={
-              <FaRegFilePdf className="justify-center items-center w-full h-full" />
+              <FaRegFilePdf className="justify-center items-center w-full h-full fill-white" />
             }
           >
             <a
@@ -75,6 +75,7 @@ export const Experience: React.FC = () => {
               rel="noopener noreferrer"
               className="
             flex justify-between 
+            text-white
             sm:text-[18px] text-[14px] 
             font-bold  items-center py-5 pl-3 pr-3 
             whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
