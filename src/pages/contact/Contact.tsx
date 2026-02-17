@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
   const [messageType, setMessageType] = useState<"success" | "error" | "">("");
 
   const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
@@ -50,7 +50,7 @@ export const Contact: React.FC = () => {
           to_email: "o.a.momani@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -64,7 +64,7 @@ export const Contact: React.FC = () => {
           setMessageType("error");
           setMessage("Something went wrong. Please try again.");
           console.error(error);
-        }
+        },
       );
   };
 
@@ -95,7 +95,7 @@ export const Contact: React.FC = () => {
                 autoComplete="on"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="What's your name?"
+                placeholder="Name?"
                 className=" py-4 px-6 placeholder:text-taupe  rounded-lg outline-1  font-medium"
               />
             </label>
@@ -108,7 +108,7 @@ export const Contact: React.FC = () => {
                 autoComplete="on"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="What's your email?"
+                placeholder="Email?"
                 className=" py-4 px-6 placeholder:text-taupe  rounded-lg outline-1 font-medium"
               />
             </label>
@@ -134,7 +134,7 @@ export const Contact: React.FC = () => {
                  font-bold font-beckman 
                 items-center py-5 
                 whitespace-nowrap 
-                sm:w-[130px] sm:h-[50px] w-[100px] h-[45px] 
+                sm:w-[130px] sm:h-[50px] w-full h-[45px] 
                 rounded-[10px] bg-night 
                 hover:bg-gray-300 hover:text-zinc-900 
                 transition duration-[0.2s] ease-in-out

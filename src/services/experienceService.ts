@@ -7,6 +7,7 @@ export const fetchExperience = async () => {
       name,
       StartDate,
       EndDate,
+      isCurrent,
       icon,
     }`;
   try {

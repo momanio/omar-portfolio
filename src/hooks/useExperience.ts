@@ -10,6 +10,7 @@ const EXPERIENCE_QUERY = `*[_type == "experience"] | order(StartDate asc){
     name,
     StartDate,
     EndDate,
+    isCurrent,
     "icon": icon.asset->url,
   }`;
 

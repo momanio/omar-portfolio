@@ -26,6 +26,4 @@ Performance Optimization:
 
 Fully optimized for performance and fast load times.
 
-Demo
-
-- 🌐 Visit the live site: [omar-momani.vercel.app](https://omar-momani.vercel.app)
+- 🌐 Visit the live site: [omarmomani.is-a.dev/](https://omarmomani.is-a.dev)

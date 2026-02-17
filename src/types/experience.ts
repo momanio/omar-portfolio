@@ -4,6 +4,7 @@ export interface Experience {
   name: string;
   StartDate: string;
   EndDate: string;
+  isCurrent: boolean;
   icon: string;
 }
 

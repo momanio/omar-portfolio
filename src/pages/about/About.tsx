@@ -21,7 +21,7 @@ export const About: React.FC = () => {
   if (error) {
     return (
       <div className="flex items-center justify-center min-h-screen text-2xl text-red-500">
-        Error loading projects
+        Error loading About
       </div>
     );
   }
