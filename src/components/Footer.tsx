@@ -15,23 +15,17 @@ export const Footer = () => {
           <nav className="mb-6 md:mb-0">
             <ul className="flex flex-col md:flex-row gap-4 text-gray-300 text-lg">
               <li>
-                <Link
-                  to="/projects"
-                  className="hover:text-indigo-400 transition"
-                >
+                <Link to="/#" className="hover:text-indigo-400 transition">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-indigo-400 transition">
+                <Link to="/#" className="hover:text-indigo-400 transition">
                   About
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/contact"
-                  className="hover:text-indigo-400 transition"
-                >
+                <Link to="/#" className="hover:text-indigo-400 transition">
                   Contact
                 </Link>
               </li>
