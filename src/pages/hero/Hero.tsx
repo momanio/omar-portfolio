@@ -1,26 +1,23 @@
-import { useHeroStore } from "@/store/useHeroStore";
 import { useHero } from "@/hooks/useHero";
 import { motion } from "framer-motion";
 import { RiScrollToBottomLine } from "react-icons/ri";
 import { Spinner } from "@/components/Spinner";
 
 export const Hero = () => {
-  const { isLoading, error } = useHero();
-  const hero = useHeroStore((state) => state.hero[0]);
+  const { data, isLoading, error } = useHero();
+  const hero = data?.[0];
 
   if (isLoading) {
     return <Spinner />;
   }
 
-  if (error) {
+  if (error || !hero) {
     return (
       <div className="flex items-center justify-center min-h-screen text-2xl text-red-500">
-        Error loading projects
+        Error loading hero
       </div>
     );
   }
-
-  console.log("Hero: ", hero);
 
   const handleNavLinkClick = (id: string) => {
     const element = document.getElementById(id);

@@ -5,23 +5,18 @@ import { Experience } from "../experience/Experience";
 import { About } from "../about/About";
 import { Footer } from "@/components/Footer";
 import { Spinner } from "@/components/Spinner";
-
-const Hero = lazy(() =>
-  import("../hero/Hero").then(({ Hero }) => ({
-    default: Hero,
-  }))
-);
+import { Hero } from "../hero/Hero";
 
 const Projects = lazy(() =>
   import("../projects/Projects").then(({ Projects }) => ({
     default: Projects,
-  }))
+  })),
 );
 
 const Tech = lazy(() =>
   import("../tech/Tech").then(({ Tech }) => ({
     default: Tech,
-  }))
+  })),
 );
 
 const Home = () => {
