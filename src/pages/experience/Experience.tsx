@@ -18,7 +18,7 @@ export const Experience: React.FC = () => {
     return <Spinner />;
   }
 
-  if (error) {
+  if (error || !experience) {
     return (
       <div className="flex items-center justify-center min-h-screen text-2xl text-red-500">
         Error loading experience
