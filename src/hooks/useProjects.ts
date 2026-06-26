@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import { client } from "../sanity/client";
-import { useProjectsStore } from "../store/useProjectsStore";
 import { Project } from "@/types/project";
 
 const PROJECTS_QUERY = `*[
@@ -18,14 +17,8 @@ const PROJECTS_QUERY = `*[
 }`;
 
 export const useProjects = () => {
-  const setProjects = useProjectsStore((state) => state.setProjects);
-
   return useQuery<Project[]>({
     queryKey: ["projects"],
-    queryFn: async () => {
-      const projects = await client.fetch<Project[]>(PROJECTS_QUERY);
-      setProjects(projects);
-      return projects;
-    },
+    queryFn: async () => client.fetch<Project[]>(PROJECTS_QUERY),
   });
 };

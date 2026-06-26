@@ -1,10 +1,7 @@
 import { useProjects } from "../hooks/useProjects";
-import { useProjectsStore } from "../store/useProjectsStore";
 
 export const ProjectsList = () => {
-  const { isLoading, error } = useProjects();
-  const projects = useProjectsStore((state) => state.projects);
-
+  const { data: projects, isLoading, error } = useProjects();
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-screen text-2xl">
@@ -13,17 +10,16 @@ export const ProjectsList = () => {
     );
   }
 
-  if (error) {
+  if (error || !projects) {
     return (
       <div className="flex items-center justify-center min-h-screen text-2xl text-red-500">
         Error loading projects
       </div>
     );
   }
-  console.log("Projects: ", projects);
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {projects.map((project) => (
+      {projects?.map((project) => (
         <li
           key={project._id}
           className="group overflow-hidden rounded-xl shadow-lg transition hover:shadow-2xl backdrop-blur-md bg-white/10 border border-white/20"
