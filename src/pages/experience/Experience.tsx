@@ -67,7 +67,7 @@ export const Experience: React.FC = () => {
             }
           >
             <a
-              href="https://drive.google.com/file/d/1Ogju2lZ2H5zlVEW936x3lVYmwF8Xa3pK/view"
+              href="https://drive.google.com/file/d/15ng6CdAV2jQ32LIXfnUjJW_l1n-NYPyA/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="
