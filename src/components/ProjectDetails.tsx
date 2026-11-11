@@ -1,38 +1,20 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { fetchProjects } from "../services/ProjectsService";
+import { fetchProjects } from "@/services/ProjectsService";
+import type { Project } from "@/types/project";
 
+// Legacy detail component retained for callers outside the current single-route app.
 const ProjectDetails = () => {
   const { slug } = useParams();
-  const [project, setProject] = useState<any>(null);
-
+  const [project, setProject] = useState<Project | null>(null);
   useEffect(() => {
-    const getProject = async () => {
-      const query = `*[_type == "projects" && slug.current == $slug][0] {
-        title,
-        description,
-        "imageUrl": image.asset->url,
-        body,
-        techStack,
-        projectUrl,
-        repoUrl
-      }`;
-      const data = await fetchProjects();
-      setProject(data);
-    };
-
-    getProject();
+    const controller = new AbortController();
+    void fetchProjects(controller.signal).then((projects) => {
+      setProject(projects.find((item) => item.slug.current === slug) ?? null);
+    }).catch(() => undefined);
+    return () => controller.abort();
   }, [slug]);
-
-  if (!project) return <div>Loading...</div>;
-
-  return (
-    <div className="project-details">
-      <h1>{project.title}</h1>
-      <img src={project.imageUrl} alt={project.title} />
-      <p>{project.description}</p>
-    </div>
-  );
+  if (!project) return <div>Loading…</div>;
+  return <article><h1 dir="auto">{project.title}</h1>{project.thumbnail && <img src={project.thumbnail.url} alt={project.thumbnail.alt} width={project.thumbnail.width} height={project.thumbnail.height} />}{project.summary && <p dir="auto">{project.summary}</p>}</article>;
 };
-
 export default ProjectDetails;

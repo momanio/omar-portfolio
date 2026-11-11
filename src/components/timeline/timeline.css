@@ -1,0 +1,38 @@
+/* The established dark palette and Work Sans are inherited from the portfolio. */
+.career-timeline {
+  --route-accent: var(--color-indigo-400);
+  --route-ground: var(--color-gray-900);
+}
+.career-timeline ::selection { color: var(--color-slate-50); background: var(--color-indigo-600); }
+.timeline-grid { inset: -160px 0; background-image: linear-gradient(to right, var(--color-slate-400) 1px, transparent 1px), linear-gradient(to bottom, var(--color-slate-400) 1px, transparent 1px); background-size: 64px 64px; opacity: 0.055; }
+.timeline-progress { top: 96px; }
+.timeline-route { padding-block: 24px 64px; }
+.timeline-path { color: var(--route-accent); }
+[data-route-track] { stroke: var(--color-slate-600); }
+.timeline-stop { padding: 96px 0 56px 40px; }
+.timeline-node { top: 120px; left: 8px; color: var(--route-accent); }
+.timeline-stop[data-kind="education"] .timeline-node { color: var(--color-slate-200); }
+.timeline-node-shell { fill: var(--route-ground); }
+.timeline-kind-mark { display: inline-block; width: 7px; height: 7px; border: 1px solid var(--color-indigo-300); border-radius: 50%; flex-shrink: 0; }
+.timeline-kind-mark.is-education { border-color: var(--color-slate-200); border-radius: 0; transform: rotate(45deg); }
+.timeline-year { top: 20px; left: 40px; font-size: clamp(4rem, 12vw, 5rem); color: transparent; -webkit-text-stroke: 1px var(--color-slate-400); opacity: 0.35; }
+.timeline-card { padding: 0 0 20px; overflow-wrap: anywhere; }
+.timeline-link { touch-action: manipulation; -webkit-tap-highlight-color: var(--color-indigo-400); scroll-margin-block: 160px 24px; }
+.timeline-link:hover { color: var(--color-indigo-300); text-decoration-color: currentColor; }
+.timeline-link:focus-visible { outline: 2px solid var(--color-indigo-300); outline-offset: 6px; border-radius: 2px; }
+@media (min-width: 1024px) {
+  .timeline-route { padding-block: 56px 72px; }
+  .timeline-stop { min-height: 340px; padding: 40px 0 64px; }
+  .timeline-node { top: 64px; left: 47%; }
+  .timeline-stop:nth-child(even) .timeline-node { left: 53%; }
+  .timeline-card { width: 40%; }
+  .timeline-stop:nth-child(even) .timeline-card { margin-left: 60%; }
+  .timeline-year { top: 0; right: 2%; left: auto; font-size: clamp(6rem, 10vw, 9rem); opacity: 0.24; }
+  .timeline-stop:nth-child(even) .timeline-year { right: auto; left: 2%; }
+  .timeline-card::after { content: ""; position: absolute; top: 24px; left: calc(100% + 16px); width: 24px; height: 1px; background: var(--color-slate-600); }
+  .timeline-stop:nth-child(even) .timeline-card::after { left: auto; right: calc(100% + 16px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .timeline-link { transition: none; }
+  [data-node-fill] { opacity: 1; }
+}

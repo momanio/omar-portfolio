@@ -1,25 +1,26 @@
-import { client } from "../sanity/client";
+import { client } from "@/sanity/client";
+import type { Project, ProjectDocument } from "@/types/project";
+import { normalizeProject, sortProjects } from "@/utils/project";
 
-export const fetchProjects = async () => {
-  const query = `*[_type == "projects"] {
-      _id,
-      title,
-      slug,
-      description,
-      publishedAt,
-      "imageUrl": image.asset->url,
-      body,
-      tags,
-      techStack,
-      projectUrl,
-      repoUrl
-    }`;
+const projectClient = client.withConfig({ maxRetries: 0 });
+const imageProjection = `{
+  "assetId": asset->_id, "url": asset->url, alt,
+  "width": asset->metadata.dimensions.width,
+  "height": asset->metadata.dimensions.height,
+  "lqip": asset->metadata.lqip
+}`;
 
-  try {
-    const projects = await client.fetch(query);
-    return projects;
-  } catch (error) {
-    console.error("Error fetching projects:", error);
-    throw new Error("Failed to fetch projects");
-  }
-};
+export const PROJECTS_QUERY = `*[_type == "projects"] | order(coalesce(order, 999999) asc, featured desc, publishedAt desc){
+  _id, title, slug, year, role, highlights, tags, techStack,
+  accentColor, order, featured, publishedAt,
+  "summary": coalesce(summary, pt::text(body), description),
+  "liveUrl": coalesce(liveUrl, projectUrl), repoUrl,
+  "thumbnail": coalesce(image, mainImage, thumbnail)${imageProjection},
+  "fullPageScreenshot": fullPageScreenshot${imageProjection},
+  "gallery": gallery[]${imageProjection}
+}`;
+
+export async function fetchProjects(signal?: AbortSignal): Promise<Project[]> {
+  const documents = await projectClient.fetch<ProjectDocument[]>(PROJECTS_QUERY, {}, { signal, timeout: 8000 });
+  return sortProjects(documents.map(normalizeProject));
+}

@@ -1,24 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { client } from "../sanity/client";
-import { Project } from "@/types/project";
+import { fetchProjects } from "@/services/ProjectsService";
+import type { Project } from "@/types/project";
 
-const PROJECTS_QUERY = `*[
-  _type == "projects"
-  && defined(slug.current)
-]|order(publishedAt desc)[0...12]{
-  _id,
-  title,
-  body,
-  tags,
-  techStack,
-  slug,
-  "mainImage": image.asset->url, 
-  publishedAt
-}`;
-
-export const useProjects = () => {
-  return useQuery<Project[]>({
-    queryKey: ["projects"],
-    queryFn: async () => client.fetch<Project[]>(PROJECTS_QUERY),
-  });
-};
+export const useProjects = () => useQuery<Project[]>({
+  queryKey: ["projects"],
+  queryFn: ({ signal }) => fetchProjects(signal),
+  retry: false,
+});

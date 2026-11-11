@@ -1,0 +1,32 @@
+/** Portable schema for the external Studio; replace/merge its existing projects registration. */
+const imageFields = [{ name: "alt", title: "Alternative text", type: "string" }];
+export const projectsSchema = {
+  name: "projects",
+  title: "Projects",
+  type: "document",
+  fields: [
+    { name: "title", title: "Project title", type: "string" },
+    { name: "slug", title: "Slug", type: "slug", options: { source: "title", maxLength: 120 }, description: "Unique, stable slug for case-study deep links. Existing documents without one remain visible using their document ID." },
+    { name: "image", title: "Thumbnail", type: "image", options: { hotspot: true }, fields: imageFields },
+    { name: "fullPageScreenshot", title: "Full-page screenshot", type: "image", fields: imageFields, description: "Upload a tall, real screenshot. Short images use a gentle pan/zoom instead." },
+    { name: "gallery", title: "Image gallery", type: "array", of: [{ type: "image", fields: imageFields }] },
+    { name: "year", title: "Project year", type: "number", description: "Actual project year; the portfolio does not assume the publishing year." },
+    { name: "role", title: "Your role", type: "string" },
+    { name: "summary", title: "Summary", type: "text", rows: 4, description: "Optional. The frontend falls back to the existing body text, then description." },
+    { name: "highlights", title: "Key highlights", type: "array", of: [{ type: "string" }], description: "Verified work and results only. Omitted when empty." },
+    { name: "tags", title: "Tags", type: "array", of: [{ type: "string" }], options: { layout: "tags" } },
+    { name: "techStack", title: "Technology stack", type: "array", of: [{ type: "string" }], options: { layout: "tags" } },
+    { name: "accentColor", title: "Accent color", type: "string", description: "Optional six-digit hex color, for a subtle border tint only. The existing indigo is the default." },
+    { name: "order", title: "Display order", type: "number", description: "Lower numbers appear first. Unset entries retain featured/publishing order." },
+    { name: "featured", title: "Featured", type: "boolean", initialValue: false },
+    { name: "liveUrl", title: "Live website URL", type: "url", description: "Optional; falls back to the legacy projectUrl. No button is rendered when absent." },
+    { name: "repoUrl", title: "Repository URL", type: "url" },
+    { name: "body", title: "Legacy project body", type: "array", of: [{ type: "block" }] },
+    { name: "description", title: "Legacy description", type: "text" },
+    { name: "projectUrl", title: "Legacy website URL", type: "url" },
+    { name: "publishedAt", title: "Published at", type: "datetime" },
+    { name: "mainImage", title: "Legacy alternate image", type: "image", fields: imageFields, hidden: true },
+    { name: "thumbnail", title: "Legacy alternate thumbnail", type: "image", fields: imageFields, hidden: true },
+  ],
+  preview: { select: { title: "title", media: "image", subtitle: "role" } },
+};

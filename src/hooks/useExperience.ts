@@ -1,20 +1,11 @@
-import { client } from "../sanity/client";
 import { useQuery } from "@tanstack/react-query";
-import { Experience } from "../types/experience";
-
-const EXPERIENCE_QUERY = `*[_type == "experience"] | order(StartDate asc){
-    _id,
-    title,
-    name,
-    StartDate,
-    EndDate,
-    isCurrent,
-    "icon": icon.asset->url,
-  }`;
+import { fetchExperience } from "@/services/experienceService";
+import type { TimelineEntry } from "@/types/timeline";
 
 export const useExperience = () => {
-  return useQuery<Experience[]>({
+  return useQuery<TimelineEntry[]>({
     queryKey: ["experience"],
-    queryFn: () => client.fetch<Experience[]>(EXPERIENCE_QUERY),
+    queryFn: ({ signal }) => fetchExperience(signal),
+    retry: false,
   });
 };
