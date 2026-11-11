@@ -1,17 +1,11 @@
-import { client } from "../sanity/client";
-import { Hero } from "@/types/hero";
 import { useQuery } from "@tanstack/react-query";
+import type { Hero } from "@/types/hero";
+import { heroFallback } from "@/data/profileFallback";
+import { useIdleQuery } from "./useIdleQuery";
 
-const HERO_QUERY = `*[_type == "hero"]{
-    _id,
-    FirstName,
-    LastName,
-    jobTitle
-  }`;
-
-export const useHero = () => {
-  return useQuery<Hero[]>({
-    queryKey: ["hero"],
-    queryFn: () => client.fetch<Hero[]>(HERO_QUERY),
-  });
-};
+export const useHero = () => useQuery<Hero[]>({
+  queryKey: ["hero"],
+  queryFn: ({ signal }) => import("@/services/ProfileService").then((module) => module.fetchHero(signal)),
+  placeholderData: [heroFallback],
+  enabled: useIdleQuery(),
+});
