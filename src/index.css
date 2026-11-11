@@ -3,6 +3,7 @@
 
 /* Import Tailwind */
 @import "tailwindcss";
+@import "./styles/site.css";
 
 /* Custom Global Styles */
 body {

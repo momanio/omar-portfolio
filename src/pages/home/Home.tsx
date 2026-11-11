@@ -1,9 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Contact } from "../contact/Contact";
-import { Navbar } from "../../components/Navbar";
 import { Experience } from "../experience/Experience";
 import { About } from "../about/About";
-import { Footer } from "@/components/Footer";
 import { Spinner } from "@/components/Spinner";
 import { Hero } from "../hero/Hero";
 
@@ -21,9 +19,8 @@ const Tech = lazy(() =>
 
 const Home = () => {
   return (
-    <div className="relative z-0">
+    <div id="top" className="relative z-0">
       <div>
-        <Navbar />
         <Hero />
       </div>
 
@@ -47,7 +44,6 @@ const Home = () => {
           <Contact />
         </div>
       </Suspense>
-      <Footer />
     </div>
   );
 };
