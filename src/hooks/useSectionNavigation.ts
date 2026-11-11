@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
-import { navLinks } from "@/constants";
+import { navLinks } from "@/constants/navigation";
 
 export function useSectionNavigation() {
   const location = useLocation();

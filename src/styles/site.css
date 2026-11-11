@@ -102,3 +102,18 @@ body { background: var(--color-black); color: var(--color-slate-50); }
 .recovery-page > div { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
 @media(min-width:640px) { .service-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .hero-name-break { display: none; } .hero-content h1 span::before { content: " "; } }
 @media(min-width:1024px) { .service-grid { grid-template-columns: repeat(4,minmax(0,1fr)); } .about-copy { font-size: 18px; } .contact-layout { grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); gap: 64px; } .contact-form { padding: 32px; } }
+/* Measured fallback-sized placeholders keep below-fold code loading out of the first paint. */
+.section-skeleton { max-width: 1280px; margin-inline: auto; padding: 64px 24px; min-height: 760px; }
+.section-skeleton > div { max-width: 1100px; margin-inline: auto; }
+.skeleton-title { width: min(70%,400px); height: 48px; margin: 0 auto 32px; background: var(--color-slate-800); border-radius: 8px; }
+.skeleton-line { width: 90%; height: 18px; margin: 16px auto; background: var(--color-slate-800); border-radius: 4px; }
+.skeleton-line + .skeleton-line { width: 65%; }
+.skeleton-panel { margin-top: 48px; height: 320px; border-radius: 16px; border: 1px solid var(--color-slate-700); background: var(--color-gray-900); }
+.skeleton-about { min-height: 1120px; }
+.skeleton-tech { min-height: 1080px; }
+.skeleton-experience { min-height: 2800px; }
+.skeleton-projects { min-height: 4700px; }
+.skeleton-contact { min-height: 1120px; }
+.hero-content { overflow-wrap: anywhere; }
+@media(min-width:768px) { .skeleton-about { min-height: 800px; } .skeleton-tech { min-height: 650px; } .skeleton-experience { min-height: 2600px; } .skeleton-projects { min-height: 6400px; } .skeleton-contact { min-height: 950px; } }
+@media(min-width:1024px) { .skeleton-about { min-height: 640px; } .skeleton-tech { min-height: 550px; } .skeleton-experience { min-height: 2500px; } .skeleton-projects { min-height: 6000px; } .skeleton-contact { min-height: 850px; } }

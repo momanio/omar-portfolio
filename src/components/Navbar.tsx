@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useLocation } from "react-router";
 import { IoMdMenu, IoIosClose } from "react-icons/io";
-import { navLinks } from "@/constants";
+import { navLinks } from "@/constants/navigation";
 import { useSectionNavigation } from "@/hooks/useSectionNavigation";
 import { SectionLink } from "./navigation/SectionLink";
 

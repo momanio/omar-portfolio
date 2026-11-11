@@ -1,6 +1,6 @@
 import { useAbout } from "@/hooks/useAbout";
 import { aboutFallback } from "@/data/profileFallback";
-import { services } from "@/constants";
+import { services } from "@/constants/services";
 import { Section } from "@/components/Section";
 import ServiceCard from "@/components/ServiceCard";
 
