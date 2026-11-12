@@ -1,0 +1,105 @@
+[
+  {
+    "view": "global-about-1440",
+    "preflight": "passed",
+    "injection": "succeeded",
+    "consoleMessages": [
+      {
+        "type": "startGroup",
+        "text": "%c[impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold",
+        "values": [
+          "%c[impeccable] 1 anti-pattern found",
+          "color: oklch(84% 0.19 80.46); font-weight: bold"
+        ]
+      },
+      {
+        "type": "log",
+        "text": "%ccodex-grid-background%c two-axis grid-line gradient background color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "values": [
+          "%ccodex-grid-background%c two-axis grid-line gradient background",
+          "color: oklch(84% 0.19 80.46); font-weight: bold",
+          "color: inherit",
+          {
+            "tag": "BODY",
+            "id": "",
+            "className": "",
+            "text": "\n    Skip to contentAboutExperienceProjectsContactHire meNavigationAboutExperienceProjectsContactLet’s work togetherOmarmomaniFrontend DeveloperModern, responsive web applications using React and Angu",
+            "color": "oklch(0.984 0.003 247.858)",
+            "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "rect": {
+              "x": 0,
+              "y": -908,
+              "width": 1440,
+              "height": 12015.53125
+            }
+          }
+        ]
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd",
+        "values": [
+          "console.groupEnd"
+        ]
+      }
+    ],
+    "overlayElements": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-overlay impeccable-banner",
+        "text": "decorative grid-line backgroundtwo-axis grid-line gradient background◉×"
+      }
+    ],
+    "screenshot": "/tmp/portfolio-ux-audit/after/global-about-1440-overlay.png"
+  },
+  {
+    "view": "global-contact-390",
+    "preflight": "passed",
+    "injection": "succeeded",
+    "consoleMessages": [
+      {
+        "type": "startGroup",
+        "text": "%c[impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold",
+        "values": [
+          "%c[impeccable] 1 anti-pattern found",
+          "color: oklch(84% 0.19 80.46); font-weight: bold"
+        ]
+      },
+      {
+        "type": "log",
+        "text": "%clow-contrast%c 1.1:1 (need 3:1) — text #1a2232 on #101828 (and 6 more) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit JSHandle@node",
+        "values": [
+          "%clow-contrast%c 1.1:1 (need 3:1) — text #1a2232 on #101828 (and 6 more)",
+          "color: oklch(84% 0.19 80.46); font-weight: bold",
+          "color: inherit",
+          {
+            "excludedSection": "projects"
+          }
+        ]
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd",
+        "values": [
+          "console.groupEnd"
+        ]
+      }
+    ],
+    "overlayElements": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-overlay impeccable-visible",
+        "text": "low contrast text"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-label",
+        "text": "low contrast text"
+      }
+    ],
+    "screenshot": "/tmp/portfolio-ux-audit/after/global-contact-390-overlay.png"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "view": "global-hero-1440",
+    "preflight": "passed",
+    "injection": "succeeded",
+    "consoleMessages": [
+      {
+        "type": "log",
+        "text": "%c[impeccable] No anti-patterns found. color: #22c55e; font-weight: bold"
+      }
+    ],
+    "overlayElements": [],
+    "screenshot": "/tmp/portfolio-ux-audit/after/global-hero-1440-overlay.png"
+  },
+  {
+    "view": "global-about-1440",
+    "preflight": "passed",
+    "injection": "succeeded",
+    "consoleMessages": [
+      {
+        "type": "startGroup",
+        "text": "%c[impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold"
+      }
+    ],
+    "overlayElements": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-overlay impeccable-banner",
+        "text": "decorative grid-line backgroundtwo-axis grid-line gradient background◉×"
+      }
+    ],
+    "screenshot": "/tmp/portfolio-ux-audit/after/global-about-1440-overlay.png"
+  },
+  {
+    "view": "global-contact-390",
+    "preflight": "passed",
+    "injection": "succeeded",
+    "consoleMessages": [
+      {
+        "type": "startGroup",
+        "text": "%c[impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold"
+      }
+    ],
+    "overlayElements": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-overlay impeccable-visible",
+        "text": "low contrast text"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "impeccable-label",
+        "text": "low contrast text"
+      }
+    ],
+    "screenshot": "/tmp/portfolio-ux-audit/after/global-contact-390-overlay.png"
+  }
+]

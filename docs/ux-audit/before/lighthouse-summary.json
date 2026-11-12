@@ -1,0 +1,2273 @@
+[
+  {
+    "mode": "mobile",
+    "scores": {
+      "performance": 51,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 92
+    },
+    "FCP": 2529.1222,
+    "LCP": 4942.76029,
+    "CLS": 0,
+    "TBT": 1461.5,
+    "speedIndex": 4019.434826279048,
+    "bytes": 316647,
+    "resourceSummary": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 12,
+        "transferSize": 316647
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 3,
+        "transferSize": 238767
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 1,
+        "transferSize": 51084
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 4,
+        "transferSize": 13640
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 3,
+        "transferSize": 12278
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 878
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 6,
+        "transferSize": 66282
+      }
+    ],
+    "failed": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.66,
+        "value": "2.5 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.28,
+        "value": "4.9 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.8,
+        "value": "4.0 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.14,
+        "value": "1,460 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.09,
+        "value": "490 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.69,
+        "value": "5.6 s"
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "scriptUrl",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "error"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "sourceMapUrl",
+              "valueType": "url",
+              "label": "Map URL"
+            }
+          ],
+          "items": [
+            {
+              "scriptUrl": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "error": "Large JavaScript file is missing a source map"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,0,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 11700,
+                  "bottom": 11730,
+                  "left": 111,
+                  "right": 141,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://github.com/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,1,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 11700,
+                  "bottom": 11730,
+                  "left": 157,
+                  "right": 187,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://linkedin.com/in/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,2,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 11700,
+                  "bottom": 11730,
+                  "left": 203,
+                  "right": 233,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://web.facebook.com/oamomani\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,3,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 11700,
+                  "bottom": 11730,
+                  "left": 249,
+                  "right": 279,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://www.instagram.com/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag244",
+              "wcag412",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.2.4.4",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-6.2.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "svg-img-alt",
+        "title": "SVG elements with an `img` role do not have an accessible text alternative",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,3,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2594,
+                  "bottom": 2649,
+                  "left": 234,
+                  "right": 289,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,4,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2726,
+                  "bottom": 2781,
+                  "left": 102,
+                  "right": 157,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,6,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2858,
+                  "bottom": 2913,
+                  "left": 102,
+                  "right": 157,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,7,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2858,
+                  "bottom": 2913,
+                  "left": 234,
+                  "right": 289,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,9,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2990,
+                  "bottom": 3045,
+                  "left": 234,
+                  "right": 289,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,11,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 3122,
+                  "bottom": 3177,
+                  "left": 234,
+                  "right": 289,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,13,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 3254,
+                  "bottom": 3309,
+                  "left": 234,
+                  "right": 289,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT7.a",
+              "EN-301-549",
+              "EN-9.1.1.1",
+              "ACT",
+              "RGAAv4",
+              "RGAA-1.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "charset",
+        "title": "Charset declaration is missing or occurs too late in the HTML",
+        "score": 0
+      },
+      {
+        "id": "robots-txt",
+        "title": "robots.txt is not valid",
+        "score": 0,
+        "value": "49 errors found",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "index",
+              "valueType": "text",
+              "label": "Line #"
+            },
+            {
+              "key": "line",
+              "valueType": "code",
+              "label": "Content"
+            },
+            {
+              "key": "message",
+              "valueType": "code",
+              "label": "Error"
+            }
+          ],
+          "items": [
+            {
+              "index": "1",
+              "line": "<!doctype html>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "2",
+              "line": "<html lang=\"en\">",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "3",
+              "line": "  <head>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "4",
+              "line": "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "5",
+              "line": "    <title>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "6",
+              "line": "      Omar Momani — Frontend Developer (React, JavaScript, TypeScript)",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "7",
+              "line": "    </title>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "8",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "9",
+              "line": "      name=\"description\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "10",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "11",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "12",
+              "line": "    <link rel=\"canonical\" href=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "14",
+              "line": "    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "15",
+              "line": "    <meta property=\"og:type\" content=\"website\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "16",
+              "line": "    <meta property=\"og:url\" content=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "17",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "18",
+              "line": "      property=\"og:title\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "19",
+              "line": "      content=\"Omar Momani — Frontend Developer (React, JavaScript, TypeScript)\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "20",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "21",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "22",
+              "line": "      property=\"og:description\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "23",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "24",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "25",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "26",
+              "line": "      property=\"og:image\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "27",
+              "line": "      content=\"https://omarmomani.is-a.dev/og-image.png\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "28",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "30",
+              "line": "    <!-- Twitter -->",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "31",
+              "line": "    <meta name=\"twitter:card\" content=\"summary_large_image\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "32",
+              "line": "    <meta name=\"twitter:url\" content=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "33",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "34",
+              "line": "      name=\"twitter:title\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "35",
+              "line": "      content=\"Omar Momani — Frontend Developer (React, JavaScript, TypeScript)\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "36",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "37",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "38",
+              "line": "      name=\"twitter:description\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "39",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "40",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "41",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "42",
+              "line": "      name=\"twitter:image\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "43",
+              "line": "      content=\"https://omarmomani.is-a.dev/og-image.png\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "44",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "45",
+              "line": "    <script type=\"module\" crossorigin src=\"/assets/index-6JUkDIco.js\"></script>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "46",
+              "line": "    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-4fnQvAqT.css\">",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "47",
+              "line": "  </head>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "48",
+              "line": "  <body>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "49",
+              "line": "    <div id=\"root\"></div>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "50",
+              "line": "  </body>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "51",
+              "line": "</html>",
+              "message": "Syntax not understood"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "score": 0,
+        "value": "2 failure reasons",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "reason",
+              "valueType": "text",
+              "subItemsHeading": {
+                "key": "frameUrl",
+                "valueType": "url"
+              },
+              "label": "Failure reason"
+            },
+            {
+              "key": "failureType",
+              "valueType": "text",
+              "label": "Failure type"
+            }
+          ],
+          "items": [
+            {
+              "reason": "Back/forward cache is disabled by flags. Visit chrome://flags/#back-forward-cache to enable it locally on this device.",
+              "failureType": "Not actionable",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "frameUrl": "http://127.0.0.1:4173/"
+                  }
+                ]
+              },
+              "protocolReason": "BackForwardCacheDisabled"
+            },
+            {
+              "reason": "Back/forward cache is disabled by the command line",
+              "failureType": "Not actionable",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "frameUrl": "http://127.0.0.1:4173/"
+                  }
+                ]
+              },
+              "protocolReason": "BackForwardCacheDisabledByCommandLine"
+            }
+          ]
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Top function call"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 49,
+                    "column": 113335
+                  },
+                  "reflowTime": 172.503
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 35761
+                  },
+                  "reflowTime": 88.527
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 36090
+                  },
+                  "reflowTime": 4.261
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 36166
+                  },
+                  "reflowTime": 14.12
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 93,
+                    "column": 2710
+                  },
+                  "reflowTime": 392.1
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 108,
+                    "column": 1365
+                  },
+                  "reflowTime": 21.628
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                    "urlProvider": "network",
+                    "line": 13,
+                    "column": 10023
+                  },
+                  "reflowTime": 0.869
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 6370
+                  },
+                  "reflowTime": 1.635
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                    "urlProvider": "network",
+                    "line": 13,
+                    "column": 9751
+                  },
+                  "reflowTime": 1.141
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 1260
+                  },
+                  "reflowTime": 29.531
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "E69BC9C36F73ABEB47F1218C5462B70E": {
+                    "url": "http://127.0.0.1:4173/",
+                    "navStartToEndTime": 50,
+                    "transferSize": 878,
+                    "isLongest": true,
+                    "children": {
+                      "339488.2": {
+                        "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                        "navStartToEndTime": 94,
+                        "transferSize": 222875,
+                        "isLongest": true,
+                        "children": {
+                          "339488.78": {
+                            "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                            "navStartToEndTime": 488,
+                            "transferSize": 14656,
+                            "isLongest": true,
+                            "children": {
+                              "339488.120": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+                                "navStartToEndTime": 1866,
+                                "transferSize": 2354,
+                                "isLongest": true,
+                                "children": {}
+                              },
+                              "339488.121": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+                                "navStartToEndTime": 1864,
+                                "transferSize": 10565,
+                                "children": {}
+                              },
+                              "339488.119": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B%0A++++_id%2C%0A++++about%2C%0A++++body%2C%0A++%7D&returnQuery=false",
+                                "navStartToEndTime": 1632,
+                                "transferSize": 463,
+                                "children": {}
+                              }
+                            }
+                          },
+                          "339488.70": {
+                            "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B%0A++++_id%2C%0A++++FirstName%2C%0A++++LastName%2C%0A++++jobTitle%0A++%7D&returnQuery=false",
+                            "navStartToEndTime": 1271,
+                            "transferSize": 258,
+                            "children": {}
+                          },
+                          "339488.79": {
+                            "url": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+                            "navStartToEndTime": 481,
+                            "transferSize": 2879,
+                            "children": {}
+                          },
+                          "339488.68": {
+                            "url": "http://127.0.0.1:4173/assets/Tech-C5s--h-T.js",
+                            "navStartToEndTime": 446,
+                            "transferSize": 1236,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "339488.3": {
+                        "url": "http://127.0.0.1:4173/assets/index-4fnQvAqT.css",
+                        "navStartToEndTime": 61,
+                        "transferSize": 7841,
+                        "children": {
+                          "339488.6": {
+                            "url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&family=Inter:wght@300;400;600;700&family=Manrope:wght@300;400;600;700&display=swap",
+                            "navStartToEndTime": 356,
+                            "transferSize": 1558,
+                            "children": {
+                              "339488.61": {
+                                "url": "https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2",
+                                "navStartToEndTime": 948,
+                                "transferSize": 51084,
+                                "children": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 1866
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "wastedMs",
+                    "valueType": "ms",
+                    "label": "Est LCP savings"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.gstatic.com",
+                    "wastedMs": 543.3122
+                  },
+                  {
+                    "origin": "https://fonts.googleapis.com",
+                    "wastedMs": 240.501
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "environment": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "node",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "version": "13.6.0"
+  },
+  {
+    "mode": "desktop",
+    "scores": {
+      "performance": 85,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 92
+    },
+    "FCP": 618.7824,
+    "LCP": 1214.0902,
+    "CLS": 0.000057,
+    "TBT": 263.5,
+    "speedIndex": 1516.9988684797422,
+    "bytes": 316648,
+    "resourceSummary": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 12,
+        "transferSize": 316648
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 3,
+        "transferSize": 238767
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 1,
+        "transferSize": 51084
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 4,
+        "transferSize": 13641
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 3,
+        "transferSize": 12278
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 878
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 6,
+        "transferSize": 66283
+      }
+    ],
+    "failed": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.99,
+        "value": "0.6 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.89,
+        "value": "1.2 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.82,
+        "value": "1.5 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.66,
+        "value": "260 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.79,
+        "value": "160 ms"
+      },
+      {
+        "id": "valid-source-maps",
+        "title": "Missing source maps for large first-party JavaScript",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "scriptUrl",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "error"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "sourceMapUrl",
+              "valueType": "url",
+              "label": "Map URL"
+            }
+          ],
+          "items": [
+            {
+              "scriptUrl": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "error": "Large JavaScript file is missing a source map"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,0,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 12221,
+                  "bottom": 12251,
+                  "left": 1164,
+                  "right": 1194,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://github.com/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,1,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 12221,
+                  "bottom": 12251,
+                  "left": 1210,
+                  "right": 1240,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://linkedin.com/in/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,2,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 12221,
+                  "bottom": 12251,
+                  "left": 1256,
+                  "right": 1286,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://web.facebook.com/oamomani\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-A",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,6,FOOTER,0,DIV,0,DIV,2,DIV,3,A",
+                "selector": "div.container > div.flex > div.flex > a.text-gray-400",
+                "boundingRect": {
+                  "top": 12221,
+                  "bottom": 12251,
+                  "left": 1302,
+                  "right": 1332,
+                  "width": 30,
+                  "height": 30
+                },
+                "snippet": "<a href=\"https://www.instagram.com/momanio\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-gray-400 hover:text-indigo-400 transition\">",
+                "nodeLabel": "div.container > div.flex > div.flex > a.text-gray-400",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag244",
+              "wcag412",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.2.4.4",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-6.2.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "svg-img-alt",
+        "title": "SVG elements with an `img` role do not have an accessible text alternative",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,3,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 1896,
+                  "bottom": 1951,
+                  "left": 561,
+                  "right": 616,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,4,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 1896,
+                  "bottom": 1951,
+                  "left": 693,
+                  "right": 748,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,6,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 1896,
+                  "bottom": 1951,
+                  "left": 957,
+                  "right": 1012,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-7-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,7,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 1896,
+                  "bottom": 1951,
+                  "left": 1089,
+                  "right": 1144,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,9,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2028,
+                  "bottom": 2083,
+                  "left": 429,
+                  "right": 484,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-9-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,11,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2028,
+                  "bottom": 2083,
+                  "left": 693,
+                  "right": 748,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-svg",
+                "path": "1,HTML,1,BODY,0,DIV,0,DIV,2,DIV,0,SECTION,1,DIV,13,DIV,0,svg",
+                "selector": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "boundingRect": {
+                  "top": 2028,
+                  "bottom": 2083,
+                  "left": 957,
+                  "right": 1012,
+                  "width": 55,
+                  "height": 55
+                },
+                "snippet": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" role=\"img\" viewBox=\"0 0 24 24\" class=\"text-white\" height=\"55\" width=\"55\" xmlns=\"http://www.w3.org/2000/svg\">",
+                "nodeLabel": "section#Tech > div.flex > div.w-23 > svg.text-white",
+                "explanation": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT7.a",
+              "EN-301-549",
+              "EN-9.1.1.1",
+              "ACT",
+              "RGAAv4",
+              "RGAA-1.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "charset",
+        "title": "Charset declaration is missing or occurs too late in the HTML",
+        "score": 0
+      },
+      {
+        "id": "robots-txt",
+        "title": "robots.txt is not valid",
+        "score": 0,
+        "value": "49 errors found",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "index",
+              "valueType": "text",
+              "label": "Line #"
+            },
+            {
+              "key": "line",
+              "valueType": "code",
+              "label": "Content"
+            },
+            {
+              "key": "message",
+              "valueType": "code",
+              "label": "Error"
+            }
+          ],
+          "items": [
+            {
+              "index": "1",
+              "line": "<!doctype html>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "2",
+              "line": "<html lang=\"en\">",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "3",
+              "line": "  <head>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "4",
+              "line": "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "5",
+              "line": "    <title>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "6",
+              "line": "      Omar Momani — Frontend Developer (React, JavaScript, TypeScript)",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "7",
+              "line": "    </title>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "8",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "9",
+              "line": "      name=\"description\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "10",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "11",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "12",
+              "line": "    <link rel=\"canonical\" href=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "14",
+              "line": "    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "15",
+              "line": "    <meta property=\"og:type\" content=\"website\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "16",
+              "line": "    <meta property=\"og:url\" content=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "17",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "18",
+              "line": "      property=\"og:title\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "19",
+              "line": "      content=\"Omar Momani — Frontend Developer (React, JavaScript, TypeScript)\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "20",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "21",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "22",
+              "line": "      property=\"og:description\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "23",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "24",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "25",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "26",
+              "line": "      property=\"og:image\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "27",
+              "line": "      content=\"https://omarmomani.is-a.dev/og-image.png\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "28",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "30",
+              "line": "    <!-- Twitter -->",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "31",
+              "line": "    <meta name=\"twitter:card\" content=\"summary_large_image\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "32",
+              "line": "    <meta name=\"twitter:url\" content=\"https://omarmomani.is-a.dev/\" />",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "33",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "34",
+              "line": "      name=\"twitter:title\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "35",
+              "line": "      content=\"Omar Momani — Frontend Developer (React, JavaScript, TypeScript)\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "36",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "37",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "38",
+              "line": "      name=\"twitter:description\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "39",
+              "line": "      content=\"Omar Momani — Freelance frontend developer specializing in React, JavaScript, and TypeScript. Building modern web apps, AI-powered tools, and open-source packages.\"",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "40",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "41",
+              "line": "    <meta",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "42",
+              "line": "      name=\"twitter:image\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "43",
+              "line": "      content=\"https://omarmomani.is-a.dev/og-image.png\"",
+              "message": "Unknown directive"
+            },
+            {
+              "index": "44",
+              "line": "    />",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "45",
+              "line": "    <script type=\"module\" crossorigin src=\"/assets/index-6JUkDIco.js\"></script>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "46",
+              "line": "    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-4fnQvAqT.css\">",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "47",
+              "line": "  </head>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "48",
+              "line": "  <body>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "49",
+              "line": "    <div id=\"root\"></div>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "50",
+              "line": "  </body>",
+              "message": "Syntax not understood"
+            },
+            {
+              "index": "51",
+              "line": "</html>",
+              "message": "Syntax not understood"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "score": 0,
+        "value": "2 failure reasons",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "reason",
+              "valueType": "text",
+              "subItemsHeading": {
+                "key": "frameUrl",
+                "valueType": "url"
+              },
+              "label": "Failure reason"
+            },
+            {
+              "key": "failureType",
+              "valueType": "text",
+              "label": "Failure type"
+            }
+          ],
+          "items": [
+            {
+              "reason": "Back/forward cache is disabled by flags. Visit chrome://flags/#back-forward-cache to enable it locally on this device.",
+              "failureType": "Not actionable",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "frameUrl": "http://127.0.0.1:4173/"
+                  }
+                ]
+              },
+              "protocolReason": "BackForwardCacheDisabled"
+            },
+            {
+              "reason": "Back/forward cache is disabled by the command line",
+              "failureType": "Not actionable",
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "frameUrl": "http://127.0.0.1:4173/"
+                  }
+                ]
+              },
+              "protocolReason": "BackForwardCacheDisabledByCommandLine"
+            }
+          ]
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Top function call"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 49,
+                    "column": 113335
+                  },
+                  "reflowTime": 192.517
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 35761
+                  },
+                  "reflowTime": 57.242
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 36090
+                  },
+                  "reflowTime": 4.384
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 36166
+                  },
+                  "reflowTime": 14.884
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 93,
+                    "column": 2710
+                  },
+                  "reflowTime": 500.79
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 108,
+                    "column": 1365
+                  },
+                  "reflowTime": 47.208
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                    "urlProvider": "network",
+                    "line": 13,
+                    "column": 10023
+                  },
+                  "reflowTime": 1.404
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 6370
+                  },
+                  "reflowTime": 2.097
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                    "urlProvider": "network",
+                    "line": 13,
+                    "column": 9751
+                  },
+                  "reflowTime": 1.474
+                },
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                    "urlProvider": "network",
+                    "line": 115,
+                    "column": 1260
+                  },
+                  "reflowTime": 50.035
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "label",
+                  "valueType": "text",
+                  "label": "Subpart"
+                },
+                {
+                  "key": "duration",
+                  "valueType": "ms",
+                  "label": "Duration"
+                }
+              ],
+              "items": [
+                {
+                  "subpart": "timeToFirstByte",
+                  "label": "Time to first byte",
+                  "duration": 6.951000030517578
+                },
+                {
+                  "subpart": "elementRenderDelay",
+                  "label": "Element render delay",
+                  "duration": 2513.7029999694823
+                }
+              ]
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-H1",
+              "path": "1,HTML,1,BODY,0,DIV,0,DIV,0,DIV,1,SECTION,2,DIV,0,H1",
+              "selector": "div > section.relative > div.sm:px-16 > h1.text-5xl",
+              "boundingRect": {
+                "top": 337,
+                "bottom": 427,
+                "left": 439,
+                "right": 1001,
+                "width": 562,
+                "height": 90
+              },
+              "snippet": "<h1 class=\"text-5xl sm:text-7xl uppercase font-extrabold leading-tight tracking-wide\" style=\"opacity: 1; transform: none;\">",
+              "nodeLabel": "OMAR MOMANI"
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "36530BA85D02B5C9A1D97F705F79A9DE": {
+                    "url": "http://127.0.0.1:4173/",
+                    "navStartToEndTime": 53,
+                    "transferSize": 878,
+                    "isLongest": true,
+                    "children": {
+                      "339672.2": {
+                        "url": "http://127.0.0.1:4173/assets/index-6JUkDIco.js",
+                        "navStartToEndTime": 91,
+                        "transferSize": 222875,
+                        "isLongest": true,
+                        "children": {
+                          "339672.72": {
+                            "url": "http://127.0.0.1:4173/assets/Projects-Ds65YOMw.js",
+                            "navStartToEndTime": 439,
+                            "transferSize": 14656,
+                            "isLongest": true,
+                            "children": {
+                              "339672.121": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+                                "navStartToEndTime": 2079,
+                                "transferSize": 10566,
+                                "isLongest": true,
+                                "children": {}
+                              },
+                              "339672.120": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+                                "navStartToEndTime": 1850,
+                                "transferSize": 2354,
+                                "children": {}
+                              },
+                              "339672.119": {
+                                "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B%0A++++_id%2C%0A++++about%2C%0A++++body%2C%0A++%7D&returnQuery=false",
+                                "navStartToEndTime": 1665,
+                                "transferSize": 463,
+                                "children": {}
+                              }
+                            }
+                          },
+                          "339672.70": {
+                            "url": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B%0A++++_id%2C%0A++++FirstName%2C%0A++++LastName%2C%0A++++jobTitle%0A++%7D&returnQuery=false",
+                            "navStartToEndTime": 1188,
+                            "transferSize": 258,
+                            "children": {}
+                          },
+                          "339672.73": {
+                            "url": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+                            "navStartToEndTime": 438,
+                            "transferSize": 2879,
+                            "children": {}
+                          },
+                          "339672.68": {
+                            "url": "http://127.0.0.1:4173/assets/Tech-C5s--h-T.js",
+                            "navStartToEndTime": 409,
+                            "transferSize": 1236,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "339672.3": {
+                        "url": "http://127.0.0.1:4173/assets/index-4fnQvAqT.css",
+                        "navStartToEndTime": 63,
+                        "transferSize": 7841,
+                        "children": {
+                          "339672.6": {
+                            "url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&family=Inter:wght@300;400;600;700&family=Manrope:wght@300;400;600;700&display=swap",
+                            "navStartToEndTime": 309,
+                            "transferSize": 1558,
+                            "children": {
+                              "339672.61": {
+                                "url": "https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2",
+                                "navStartToEndTime": 530,
+                                "transferSize": 51084,
+                                "children": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 2079
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "No origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "wastedMs",
+                    "valueType": "ms",
+                    "label": "Est LCP savings"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.gstatic.com",
+                    "wastedMs": 183.0254
+                  },
+                  {
+                    "origin": "https://fonts.googleapis.com",
+                    "wastedMs": 151.8094
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "environment": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "node",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "version": "13.6.0"
+  }
+]

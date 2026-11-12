@@ -1,0 +1,97 @@
+{
+  "menu": {
+    "stillOpen": true,
+    "focus": "View Projects",
+    "bodyOverflow": "",
+    "ariaExpanded": null,
+    "dialogs": 0
+  },
+  "type": {
+    "footerColor": [
+      106,
+      114,
+      130
+    ],
+    "surface": [
+      30,
+      41,
+      57
+    ],
+    "inputWidths": [
+      196.00001525878906,
+      196.00001525878906,
+      196.00001525878906
+    ],
+    "bodyTextSizes": [
+      "18px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px",
+      "14px"
+    ],
+    "footerContrast": 3.033335873460179
+  },
+  "images": [
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 1704
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 6707
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 1276
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 4167
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 1131
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+      "bytes": 2302
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=480&q=82&fit=max&auto=format",
+      "bytes": 7027
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=480&q=82&fit=max&auto=format",
+      "bytes": 11423
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=480&q=82&fit=max&auto=format",
+      "bytes": 7679
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=480&q=82&fit=max&auto=format",
+      "bytes": 6408
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=480&q=82&fit=max&auto=format",
+      "bytes": 9580
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=480&q=82&fit=max&auto=format",
+      "bytes": 4692
+    },
+    {
+      "url": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=480&q=82&fit=max&auto=format",
+      "bytes": 8758
+    }
+  ],
+  "imageBytes": 72854
+}
