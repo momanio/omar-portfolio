@@ -6,4 +6,3 @@ export const services = [
   { title: "UI/UX Design", icon: FaPencilRuler },
   { title: "Software Prototyping", icon: FaRocket },
 ];
-
