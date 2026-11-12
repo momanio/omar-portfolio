@@ -1,0 +1,49 @@
+{
+  "name": "omar-portfolio-studio",
+  "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity preview",
+    "preview": "sanity preview",
+    "build": "sanity build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/vision": "^6.23.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sanity": "^6.23.0",
+    "styled-components": "^6.6.0"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^7.0.0",
+    "@types/react": "^19.3.0",
+    "eslint": "^10.14.0",
+    "prettier": "^3.10.1",
+    "typescript": "~5.9.3"
+  },
+  "overrides": {
+    "@vercel/frameworks": {
+      "js-yaml": "^3.15.2",
+      "smol-toml": "^1.9.1"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  }
+}
