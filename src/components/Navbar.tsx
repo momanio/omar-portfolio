@@ -1,124 +1,59 @@
-import { useState, useEffect } from "react";
-import { navLinks } from "../constants";
-import logo from "../assets/logo/omar-logo.svg";
-import { motion } from "framer-motion";
-import { IoIosClose, IoMdMenu } from "react-icons/io";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useLocation } from "react-router";
+import { IoMdMenu, IoIosClose } from "react-icons/io";
+import { navLinks } from "@/constants/navigation";
+import { useSectionNavigation } from "@/hooks/useSectionNavigation";
+import { SectionLink } from "./navigation/SectionLink";
 
 export const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
+  const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const { active, scrolled } = useSectionNavigation();
+  const dialog = useRef<HTMLDialogElement>(null);
+  const trigger = useRef<HTMLButtonElement>(null);
+  const closeButton = useRef<HTMLButtonElement>(null);
+  useEffect(() => { setOpen(false); }, [location.pathname, location.hash]);
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    const media = matchMedia("(min-width: 768px)");
+    const resize = () => { if (media.matches) setOpen(false); };
+    media.addEventListener("change", resize);
+    return () => media.removeEventListener("change", resize);
   }, []);
-
-  const handleNavLinkClick = (id: string) => {
-    setActive(id);
-    setToggle(false);
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+  useLayoutEffect(() => {
+    const element = dialog.current;
+    if (!open || !element) return;
+    const body = document.body.style.overflow;
+    const html = document.documentElement.style.overflow;
+    const returnFocus = trigger.current;
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+    element.showModal();
+    closeButton.current?.focus({ preventScroll: true });
+    return () => {
+      element.close(); document.body.style.overflow = body; document.documentElement.style.overflow = html;
+      returnFocus?.focus({ preventScroll: true });
+    };
+  }, [open]);
   return (
-    <nav
-      className={`fixed top-0 z-30 w-full transition-all duration-300 ${
-        isScrolled
-          ? "bg-gradient-to-b from-gray-900 to-black opacity-95 shadow-md"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="flex justify-between items-center px-6 sm:px-16 max-w-7xl mx-auto">
-        <motion.a
-          href="#"
-          className="flex items-center"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-          whileHover={{ scale: 1.1 }}
-          aria-label="Home"
-        >
-          <img
-            src={logo}
-            alt="Logo"
-            className={`transition-all duration-300 ${
-              isScrolled ? "w-[5rem] h-[5rem]" : "w-[7rem] h-[7rem]"
-            } object-contain`}
-          />
-        </motion.a>
-
-        <ul className="hidden sm:flex items-center gap-8">
-          {navLinks.map((nav) => (
-            <motion.li
-              key={nav.id}
-              className={`text-lg sm:text-base font-semibold uppercase tracking-wide ${
-                active === nav.id
-                  ? "text-zinc-400 border-b-2 border-gray-text-gray-300"
-                  : "text-[#F8FAFC] hover:text-gray-950"
-              } cursor-pointer transition duration-300`}
-              onClick={() => handleNavLinkClick(nav.id)}
-              whileHover={{ scale: 1.5 }}
-            >
-              {nav.title}
-            </motion.li>
-          ))}
-        </ul>
-
-        <div className="sm:hidden">
-          <button
-            onClick={() => setToggle(!toggle)}
-            className="text-gray-300 text-3xl"
-            aria-label="Toggle Menu"
-          >
-            {toggle ? <IoIosClose /> : <IoMdMenu />}
-          </button>
-        </div>
-      </div>
-
-      {toggle && (
-        <motion.div
-          initial={{ x: "100%" }}
-          animate={{ x: "0%" }}
-          exit={{ x: "100%" }}
-          transition={{ duration: 0.3 }}
-          className="fixed inset-0 bg-zinc-400 z-20 flex flex-col items-center justify-center"
-        >
-          <button
-            onClick={() => setToggle(false)}
-            className="absolute top-4 right-4 text-gray-800 text-2xl"
-            aria-label="Close Menu"
-          >
-            <IoIosClose />
-          </button>
-
-          <ul className="flex flex-col gap-6 items-center">
-            {navLinks.map((nav) => (
-              <li
-                key={nav.id}
-                className={`text-lg font-semibold uppercase ${
-                  active === nav.id
-                    ? "text-gray-600 border-b-2 border-gray-600"
-                    : "text-gray-900 hover:text-gray-600"
-                } cursor-pointer transition duration-300`}
-                onClick={() => handleNavLinkClick(nav.id)}
-              >
-                {nav.title}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-      )}
-    </nav>
+    <header className="site-header" data-scrolled={scrolled}>
+      <a className="skip-link" href="#main-content">Skip to content</a>
+      <nav className="site-nav" aria-label="Main navigation">
+        <SectionLink id="top" className="brand-link" aria-label="Home — Omar Momani"><img src="/brand.svg" width="48" height="48" alt="" /></SectionLink>
+        <ul className="desktop-nav">{navLinks.map(({ id, title }) => <li key={id}><SectionLink id={id} aria-current={active === id ? "location" : undefined}>{title}</SectionLink></li>)}</ul>
+        <SectionLink id="contact" className="button-primary header-cta">Hire me</SectionLink>
+        <button ref={trigger} type="button" className="menu-toggle" aria-label="Open navigation menu" aria-controls="mobile-navigation" aria-expanded={open} onClick={() => setOpen(true)}><IoMdMenu aria-hidden="true" /></button>
+      </nav>
+      <dialog ref={dialog} id="mobile-navigation" className="mobile-navigation" aria-modal="true" aria-labelledby="mobile-navigation-title" onCancel={(event) => { event.preventDefault(); setOpen(false); }} onKeyDown={(event) => {
+        if (event.key !== "Tab") return;
+        const controls = Array.from(event.currentTarget.querySelectorAll<HTMLElement>("button,a[href]"));
+        const first = controls[0]; const last = controls[controls.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }}>
+        <div className="mobile-menu-top"><h2 id="mobile-navigation-title">Navigation</h2><button ref={closeButton} type="button" className="icon-button" onClick={() => setOpen(false)} aria-label="Close navigation menu"><IoIosClose aria-hidden="true" /></button></div>
+        <nav aria-label="Mobile navigation"><ul>{navLinks.map(({ id, title }) => <li key={id}><SectionLink id={id} aria-current={active === id ? "location" : undefined} onClick={() => setOpen(false)}>{title}</SectionLink></li>)}</ul></nav>
+        <SectionLink id="contact" className="button-primary" onClick={() => setOpen(false)}>Let’s work together</SectionLink>
+      </dialog>
+    </header>
   );
 };

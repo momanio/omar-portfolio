@@ -1,0 +1,228 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "small": []
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "small": []
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "small": []
+    },
+    {
+      "width": 428,
+      "documentWidth": 428,
+      "small": []
+    },
+    {
+      "width": 640,
+      "documentWidth": 640,
+      "small": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "small": []
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "small": []
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "small": []
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "small": []
+    },
+    {
+      "width": 1600,
+      "documentWidth": 1600,
+      "small": []
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "small": []
+    }
+  ],
+  "navigation": [
+    {
+      "id": "experience",
+      "top": 91.515625
+    },
+    {
+      "id": "projects",
+      "top": 95.515625
+    },
+    {
+      "id": "contact",
+      "top": 92.046875
+    },
+    {
+      "id": "about",
+      "top": 92
+    }
+  ],
+  "runtime": [],
+  "errors": [],
+  "lifecycle": [
+    {
+      "before": 33,
+      "away": 0,
+      "after": 33
+    },
+    {
+      "before": 33,
+      "away": 0,
+      "after": 33
+    },
+    {
+      "before": 33,
+      "away": 0,
+      "after": 33
+    }
+  ],
+  "assets": {
+    "/og-image.png": {
+      "status": 200,
+      "type": "image/png",
+      "bytes": 35639
+    },
+    "/robots.txt": {
+      "status": 200,
+      "type": "text/plain",
+      "bytes": 72
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "type": "text/xml",
+      "bytes": 159
+    },
+    "/site.webmanifest": {
+      "status": 200,
+      "type": "application/manifest+json",
+      "bytes": 359
+    },
+    "/favicon.ico": {
+      "status": 200,
+      "type": "image/x-icon",
+      "bytes": 635
+    },
+    "/apple-touch-icon.png": {
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3295
+    },
+    "/404.html": {
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "bytes": 5665
+    }
+  },
+  "skipLink": true,
+  "menu": {
+    "trap": true,
+    "esc": true,
+    "scrollLocked": true
+  },
+  "hero-360": {
+    "ctaBottom": 472.28125,
+    "viewportHeight": 740
+  },
+  "hero-390": {
+    "ctaBottom": 524.28125,
+    "viewportHeight": 844
+  },
+  "copyEmail": true,
+  "unconfiguredForm": "Direct email offered instead of an unusable form",
+  "projectTitle": "Xitmnt — Omar Momani",
+  "projectBack": true,
+  "reduced": {
+    "animations": 0,
+    "transforms": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "staticShell": true,
+  "ogDimensions": [
+    1200,
+    630
+  ]
+}

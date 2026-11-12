@@ -1,0 +1,4967 @@
+{
+  "phase": "after",
+  "date": "2026-11-11T23:47:07.205Z",
+  "viewports": [
+    {
+      "width": 360,
+      "overflow": false,
+      "documentWidth": 360,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 740
+        },
+        {
+          "id": "about",
+          "top": 740,
+          "height": 1190
+        },
+        {
+          "id": "Tech",
+          "top": 1930.125,
+          "height": 1225
+        },
+        {
+          "id": "experience",
+          "top": 3195.515625,
+          "height": 2791
+        },
+        {
+          "id": "projects",
+          "top": 5986.515625,
+          "height": 4401
+        },
+        {
+          "id": "contact",
+          "top": 10387.296875,
+          "height": 723
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Open navigation menu",
+          "w": 48,
+          "h": 48,
+          "font": "28px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Résumé (opens in a new tab)",
+          "w": 67.046875,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "A",
+          "label": "View my résumé (opens in a new tab)",
+          "w": 139.34375,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Barqya",
+          "w": 310,
+          "h": 527.90625,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Badil",
+          "w": 310,
+          "h": 519.40625,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Xitmnt",
+          "w": 310,
+          "h": 585.78125,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Herbal Home",
+          "w": 310,
+          "h": 551.09375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Elham",
+          "w": 310,
+          "h": 551.09375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Bandar Coatch",
+          "w": 310,
+          "h": 553.09375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Baslex",
+          "w": 310,
+          "h": 578.28125,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "o.a.momani@gmail.com",
+          "w": 213.203125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Copy email",
+          "w": 158.625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "LinkedIn (opens in a new tab)",
+          "w": 114.265625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "GitHub (opens in a new tab)",
+          "w": 102.078125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Write an email",
+          "w": 158.859375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact me",
+          "w": 135.65625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Back to top",
+          "w": 48,
+          "h": 48,
+          "font": "22px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        },
+        {
+          "tag": "H2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "H2",
+          "text": "A path inthe making."
+        },
+        {
+          "tag": "H3",
+          "text": "Bachelor of Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Freelance Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H2",
+          "text": "Projects,in perspective."
+        },
+        {
+          "tag": "H3",
+          "text": "Barqya"
+        },
+        {
+          "tag": "H3",
+          "text": "Badil"
+        },
+        {
+          "tag": "H3",
+          "text": "Xitmnt"
+        },
+        {
+          "tag": "H3",
+          "text": "Herbal Home"
+        },
+        {
+          "tag": "H3",
+          "text": "Elham"
+        },
+        {
+          "tag": "H3",
+          "text": "Bandar Coatch"
+        },
+        {
+          "tag": "H3",
+          "text": "Baslex"
+        },
+        {
+          "tag": "H2",
+          "text": "Let’s work together."
+        },
+        {
+          "tag": "H3",
+          "text": "Send an email."
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 13.200000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 22.200000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 12.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 12.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 14.799999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 4
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 7.700000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 6.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 4.5999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 7.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 912.9000000059605
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 619.4000000059605
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Tech-C9qpF4dQ.js",
+          "type": "script",
+          "transfer": 1303,
+          "encoded": 1003,
+          "decoded": 1003,
+          "duration": 4.9000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-ZmnDTVhL.js",
+          "type": "script",
+          "transfer": 6559,
+          "encoded": 6259,
+          "decoded": 16229,
+          "duration": 7.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-BhkNNy4L.js",
+          "type": "script",
+          "transfer": 5356,
+          "encoded": 5056,
+          "decoded": 15152,
+          "duration": 7.299999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/experienceService-zt0EWNU4.js",
+          "type": "script",
+          "transfer": 1649,
+          "encoded": 1349,
+          "decoded": 2658,
+          "duration": 11.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ScrollTrigger-BYkCUlNp.js",
+          "type": "script",
+          "transfer": 46380,
+          "encoded": 46080,
+          "decoded": 116440,
+          "duration": 12.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-UgALdj-3.css",
+          "type": "link",
+          "transfer": 1193,
+          "encoded": 893,
+          "decoded": 2341,
+          "duration": 8.299999982118607
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 234.59999999403954
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/just.webp",
+          "type": "img",
+          "transfer": 21705,
+          "encoded": 21405,
+          "decoded": 21405,
+          "duration": 4.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/axion-hub.webp",
+          "type": "img",
+          "transfer": 1802,
+          "encoded": 1502,
+          "decoded": 1502,
+          "duration": 4.5999999940395355
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 324.7000000178814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 326.7000000178814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 287.89999997615814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 293.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 281.59999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 293.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-zrSq7zy8.js",
+          "type": "script",
+          "transfer": 13646,
+          "encoded": 13346,
+          "decoded": 35410,
+          "duration": 8
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProjectsService-CkXUrrLz.js",
+          "type": "script",
+          "transfer": 1684,
+          "encoded": 1384,
+          "decoded": 2850,
+          "duration": 4.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+          "type": "link",
+          "transfer": 2815,
+          "encoded": 2515,
+          "decoded": 10313,
+          "duration": 5.700000017881393
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 204.09999999403954
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/badil.webp",
+          "type": "img",
+          "transfer": 49924,
+          "encoded": 49624,
+          "decoded": 49624,
+          "duration": 10
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/xitmnt.webp",
+          "type": "img",
+          "transfer": 46052,
+          "encoded": 45752,
+          "decoded": 45752,
+          "duration": 10.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/herbal-home.webp",
+          "type": "img",
+          "transfer": 35464,
+          "encoded": 35164,
+          "decoded": 35164,
+          "duration": 10.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/elham.webp",
+          "type": "img",
+          "transfer": 50770,
+          "encoded": 50470,
+          "decoded": 50470,
+          "duration": 11.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/bandar-coatch.webp",
+          "type": "img",
+          "transfer": 16244,
+          "encoded": 15944,
+          "decoded": 15944,
+          "duration": 12.800000011920929
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 64.30000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 60.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 72.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 75.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 87.09999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 160.90000000596046
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Contact-BvRmdL0s.js",
+          "type": "script",
+          "transfer": 2098,
+          "encoded": 1798,
+          "decoded": 4801,
+          "duration": 4.299999982118607
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Jordan University of Science and Technology logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 108,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Axion Hub logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Nixpend logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Sitech logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Self Employed logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "PrimeTag logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "",
+          "alt": "Barqya interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=480&q=82&fit=max&auto=format",
+          "alt": "Badil interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Xitmnt interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Herbal Home interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Elham interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Bandar Coatch interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=480&q=82&fit=max&auto=format",
+          "alt": "Baslex interface screenshot",
+          "w": 268,
+          "h": 151,
+          "naturalWidth": 360,
+          "loading": "lazy"
+        }
+      ],
+      "bodyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\nTechnologies\nHTML 5\nCSS 3\nJavaScript\nTypeScript\nAngular\nReact JS\nIonic\nRedux Toolkit\nBootstrap\nTailwind CSS\nNode JS\nGraphQL\nGit\nFigma\nA path in\nthe making.\n\nEducation & experience. The places, people, and work along the way.\n\nWork\nEducation\nRésumé\n(opens in a new tab)\n\nCareer timeline loaded.\n\n2025\n/\nwork\n\nMilestone\n06 / \nof\n06\n\n2013\nEDUCATION\n\nSep 2013 — \nto\nJun 2018\n\nBachelor of Software Engineering\n\nJordan University of Science and Technology\n\nTODO: Add a description in Sanity.\n\n2018\nWORK\n\nJun 2018 — \nto\nDec 2019\n\nSoftware Developer\n\nAxion Hub\n\nTODO: Add a description in Sanity.\n\n2020\nWORK\n\nJan 2020 — \nto\nMay 2021\n\nSoftware Developer\n\nNixpend\n\nTODO: Add a de",
+      "animations": 0,
+      "axe": [],
+      "smallTargets": [],
+      "routes": [
+        {
+          "hash": "#projects/barqya",
+          "title": "Barqya"
+        },
+        {
+          "hash": "#projects/badil",
+          "title": "Badil"
+        },
+        {
+          "hash": "#projects/xitmnt",
+          "title": "Xitmnt"
+        },
+        {
+          "hash": "#projects/herbal-home",
+          "title": "Herbal Home"
+        },
+        {
+          "hash": "#projects/elham",
+          "title": "Elham"
+        },
+        {
+          "hash": "#projects/bandar-coatch",
+          "title": "Bandar Coatch"
+        },
+        {
+          "hash": "#projects/baslex-project",
+          "title": "Baslex"
+        }
+      ],
+      "notFound": "Skip to content\nHire me\nPage not found.\n\nThis address doesn’t lead to a page in my portfolio.\n\nBack to the portfolio\nEmail Omar\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "documentWidth": 390,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 844
+        },
+        {
+          "id": "about",
+          "top": 844,
+          "height": 1190
+        },
+        {
+          "id": "Tech",
+          "top": 2034.125,
+          "height": 1225
+        },
+        {
+          "id": "experience",
+          "top": 3299.515625,
+          "height": 2791
+        },
+        {
+          "id": "projects",
+          "top": 6090.515625,
+          "height": 4454
+        },
+        {
+          "id": "contact",
+          "top": 10544.046875,
+          "height": 723
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Open navigation menu",
+          "w": 48,
+          "h": 48,
+          "font": "28px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Résumé (opens in a new tab)",
+          "w": 67.046875,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "A",
+          "label": "View my résumé (opens in a new tab)",
+          "w": 139.34375,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Barqya",
+          "w": 340,
+          "h": 544.78125,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Badil",
+          "w": 340,
+          "h": 503.59375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Xitmnt",
+          "w": 340,
+          "h": 569.96875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Herbal Home",
+          "w": 340,
+          "h": 567.96875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Elham",
+          "w": 340,
+          "h": 567.96875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Bandar Coatch",
+          "w": 340,
+          "h": 569.96875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Baslex",
+          "w": 340,
+          "h": 595.15625,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "o.a.momani@gmail.com",
+          "w": 213.203125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Copy email",
+          "w": 158.625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "LinkedIn (opens in a new tab)",
+          "w": 114.265625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "GitHub (opens in a new tab)",
+          "w": 102.078125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Write an email",
+          "w": 158.859375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact me",
+          "w": 135.65625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Back to top",
+          "w": 48,
+          "h": 48,
+          "font": "22px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        },
+        {
+          "tag": "H2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "H2",
+          "text": "A path inthe making."
+        },
+        {
+          "tag": "H3",
+          "text": "Bachelor of Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Freelance Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H2",
+          "text": "Projects,in perspective."
+        },
+        {
+          "tag": "H3",
+          "text": "Barqya"
+        },
+        {
+          "tag": "H3",
+          "text": "Badil"
+        },
+        {
+          "tag": "H3",
+          "text": "Xitmnt"
+        },
+        {
+          "tag": "H3",
+          "text": "Herbal Home"
+        },
+        {
+          "tag": "H3",
+          "text": "Elham"
+        },
+        {
+          "tag": "H3",
+          "text": "Bandar Coatch"
+        },
+        {
+          "tag": "H3",
+          "text": "Baslex"
+        },
+        {
+          "tag": "H2",
+          "text": "Let’s work together."
+        },
+        {
+          "tag": "H3",
+          "text": "Send an email."
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 7.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 17.19999998807907
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 8.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 13.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 16.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 3.9000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 6.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 6.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 4.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 6.300000011920929
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Tech-C9qpF4dQ.js",
+          "type": "script",
+          "transfer": 1303,
+          "encoded": 1003,
+          "decoded": 1003,
+          "duration": 5.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-ZmnDTVhL.js",
+          "type": "script",
+          "transfer": 6559,
+          "encoded": 6259,
+          "decoded": 16229,
+          "duration": 7.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-BhkNNy4L.js",
+          "type": "script",
+          "transfer": 5356,
+          "encoded": 5056,
+          "decoded": 15152,
+          "duration": 11.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/experienceService-zt0EWNU4.js",
+          "type": "script",
+          "transfer": 1649,
+          "encoded": 1349,
+          "decoded": 2658,
+          "duration": 8.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ScrollTrigger-BYkCUlNp.js",
+          "type": "script",
+          "transfer": 46380,
+          "encoded": 46080,
+          "decoded": 116440,
+          "duration": 12.299999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-UgALdj-3.css",
+          "type": "link",
+          "transfer": 1193,
+          "encoded": 893,
+          "decoded": 2341,
+          "duration": 6.299999982118607
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/just.webp",
+          "type": "img",
+          "transfer": 21705,
+          "encoded": 21405,
+          "decoded": 21405,
+          "duration": 4.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/axion-hub.webp",
+          "type": "img",
+          "transfer": 1802,
+          "encoded": 1502,
+          "decoded": 1502,
+          "duration": 4.5999999940395355
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 164
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 165.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 44.20000001788139
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 56.900000005960464
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 45.89999997615814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 55
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-zrSq7zy8.js",
+          "type": "script",
+          "transfer": 13646,
+          "encoded": 13346,
+          "decoded": 35410,
+          "duration": 8.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProjectsService-CkXUrrLz.js",
+          "type": "script",
+          "transfer": 1684,
+          "encoded": 1384,
+          "decoded": 2850,
+          "duration": 4.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+          "type": "link",
+          "transfer": 2815,
+          "encoded": 2515,
+          "decoded": 10313,
+          "duration": 6.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 7.899999976158142
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/badil.webp",
+          "type": "img",
+          "transfer": 49924,
+          "encoded": 49624,
+          "decoded": 49624,
+          "duration": 13.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/xitmnt.webp",
+          "type": "img",
+          "transfer": 46052,
+          "encoded": 45752,
+          "decoded": 45752,
+          "duration": 16.69999998807907
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/herbal-home.webp",
+          "type": "img",
+          "transfer": 35464,
+          "encoded": 35164,
+          "decoded": 35164,
+          "duration": 17.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/elham.webp",
+          "type": "img",
+          "transfer": 50770,
+          "encoded": 50470,
+          "decoded": 50470,
+          "duration": 17.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/bandar-coatch.webp",
+          "type": "img",
+          "transfer": 16244,
+          "encoded": 15944,
+          "decoded": 15944,
+          "duration": 19.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 51.20000001788139
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 59.30000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 60.79999998211861
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 68.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 88.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=480&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 52.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Contact-BvRmdL0s.js",
+          "type": "script",
+          "transfer": 2098,
+          "encoded": 1798,
+          "decoded": 4801,
+          "duration": 4.199999988079071
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Jordan University of Science and Technology logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 108,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Axion Hub logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Nixpend logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Sitech logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Self Employed logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "PrimeTag logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "",
+          "alt": "Barqya interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=480&q=82&fit=max&auto=format",
+          "alt": "Badil interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Xitmnt interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Herbal Home interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Elham interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=480&q=82&fit=max&auto=format",
+          "alt": "Bandar Coatch interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=480&q=82&fit=max&auto=format",
+          "alt": "Baslex interface screenshot",
+          "w": 298,
+          "h": 168,
+          "naturalWidth": 389,
+          "loading": "lazy"
+        }
+      ],
+      "bodyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\nTechnologies\nHTML 5\nCSS 3\nJavaScript\nTypeScript\nAngular\nReact JS\nIonic\nRedux Toolkit\nBootstrap\nTailwind CSS\nNode JS\nGraphQL\nGit\nFigma\nA path in\nthe making.\n\nEducation & experience. The places, people, and work along the way.\n\nWork\nEducation\nRésumé\n(opens in a new tab)\n\nCareer timeline loaded.\n\n2025\n/\nwork\n\nMilestone\n06 / \nof\n06\n\n2013\nEDUCATION\n\nSep 2013 — \nto\nJun 2018\n\nBachelor of Software Engineering\n\nJordan University of Science and Technology\n\nTODO: Add a description in Sanity.\n\n2018\nWORK\n\nJun 2018 — \nto\nDec 2019\n\nSoftware Developer\n\nAxion Hub\n\nTODO: Add a description in Sanity.\n\n2020\nWORK\n\nJan 2020 — \nto\nMay 2021\n\nSoftware Developer\n\nNixpend\n\nTODO: Add a de",
+      "animations": 0,
+      "axe": [],
+      "smallTargets": [],
+      "routes": [
+        {
+          "hash": "#projects/barqya",
+          "title": "Barqya"
+        },
+        {
+          "hash": "#projects/badil",
+          "title": "Badil"
+        },
+        {
+          "hash": "#projects/xitmnt",
+          "title": "Xitmnt"
+        },
+        {
+          "hash": "#projects/herbal-home",
+          "title": "Herbal Home"
+        },
+        {
+          "hash": "#projects/elham",
+          "title": "Elham"
+        },
+        {
+          "hash": "#projects/bandar-coatch",
+          "title": "Bandar Coatch"
+        },
+        {
+          "hash": "#projects/baslex-project",
+          "title": "Baslex"
+        }
+      ],
+      "notFound": "Skip to content\nHire me\nPage not found.\n\nThis address doesn’t lead to a page in my portfolio.\n\nBack to the portfolio\nEmail Omar\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "documentWidth": 768,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 1024
+        },
+        {
+          "id": "about",
+          "top": 1024,
+          "height": 750
+        },
+        {
+          "id": "Tech",
+          "top": 1773.71875,
+          "height": 652
+        },
+        {
+          "id": "experience",
+          "top": 2465.875,
+          "height": 2793
+        },
+        {
+          "id": "projects",
+          "top": 5259.03125,
+          "height": 6431
+        },
+        {
+          "id": "contact",
+          "top": 11689.5625,
+          "height": 704
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 67.1875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Experience",
+          "w": 106.203125,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 92.109375,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 84.46875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Résumé (opens in a new tab)",
+          "w": 67.046875,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "A",
+          "label": "View my résumé (opens in a new tab)",
+          "w": 139.34375,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Barqya",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Badil",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Xitmnt",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Herbal Home",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Elham",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Bandar Coatch",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Baslex",
+          "w": 132,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Barqya",
+          "w": 457.9000244140625,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Badil",
+          "w": 457.9000244140625,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Xitmnt",
+          "w": 457.9000244140625,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Herbal Home",
+          "w": 462.9128112792969,
+          "h": 631.943115234375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Elham",
+          "w": 482,
+          "h": 658,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Bandar Coatch",
+          "w": 482,
+          "h": 658,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Baslex",
+          "w": 482,
+          "h": 658,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "o.a.momani@gmail.com",
+          "w": 213.203125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Copy email",
+          "w": 158.625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "LinkedIn (opens in a new tab)",
+          "w": 114.265625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "GitHub (opens in a new tab)",
+          "w": 102.078125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Write an email",
+          "w": 158.859375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Back to top",
+          "w": 48,
+          "h": 48,
+          "font": "22px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        },
+        {
+          "tag": "H2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "H2",
+          "text": "A path inthe making."
+        },
+        {
+          "tag": "H3",
+          "text": "Bachelor of Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Freelance Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H2",
+          "text": "Projects,in perspective."
+        },
+        {
+          "tag": "H3",
+          "text": "Barqya"
+        },
+        {
+          "tag": "H3",
+          "text": "Badil"
+        },
+        {
+          "tag": "H3",
+          "text": "Xitmnt"
+        },
+        {
+          "tag": "H3",
+          "text": "Herbal Home"
+        },
+        {
+          "tag": "H3",
+          "text": "Elham"
+        },
+        {
+          "tag": "H3",
+          "text": "Bandar Coatch"
+        },
+        {
+          "tag": "H3",
+          "text": "Baslex"
+        },
+        {
+          "tag": "H2",
+          "text": "Let’s work together."
+        },
+        {
+          "tag": "H3",
+          "text": "Send an email."
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 10.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 13.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 21.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 11.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 16
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 3.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 11.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 9.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 4.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 6.100000023841858
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.5999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Tech-C9qpF4dQ.js",
+          "type": "script",
+          "transfer": 1303,
+          "encoded": 1003,
+          "decoded": 1003,
+          "duration": 4.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-ZmnDTVhL.js",
+          "type": "script",
+          "transfer": 6559,
+          "encoded": 6259,
+          "decoded": 16229,
+          "duration": 5.799999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-BhkNNy4L.js",
+          "type": "script",
+          "transfer": 5356,
+          "encoded": 5056,
+          "decoded": 15152,
+          "duration": 11.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/experienceService-zt0EWNU4.js",
+          "type": "script",
+          "transfer": 1649,
+          "encoded": 1349,
+          "decoded": 2658,
+          "duration": 7.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ScrollTrigger-BYkCUlNp.js",
+          "type": "script",
+          "transfer": 46380,
+          "encoded": 46080,
+          "decoded": 116440,
+          "duration": 12.100000023841858
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-UgALdj-3.css",
+          "type": "link",
+          "transfer": 1193,
+          "encoded": 893,
+          "decoded": 2341,
+          "duration": 5.799999982118607
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.7000000178813934
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/just.webp",
+          "type": "img",
+          "transfer": 21705,
+          "encoded": 21405,
+          "decoded": 21405,
+          "duration": 6.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/axion-hub.webp",
+          "type": "img",
+          "transfer": 1802,
+          "encoded": 1502,
+          "decoded": 1502,
+          "duration": 6.200000017881393
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 350.59999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 356.09999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 151.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 151.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 151.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 151.40000000596046
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-zrSq7zy8.js",
+          "type": "script",
+          "transfer": 13646,
+          "encoded": 13346,
+          "decoded": 35410,
+          "duration": 8.200000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProjectsService-CkXUrrLz.js",
+          "type": "script",
+          "transfer": 1684,
+          "encoded": 1384,
+          "decoded": 2850,
+          "duration": 6
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+          "type": "link",
+          "transfer": 2815,
+          "encoded": 2515,
+          "decoded": 10313,
+          "duration": 5.399999976158142
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 5.100000023841858
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/barqya.webp",
+          "type": "img",
+          "transfer": 30002,
+          "encoded": 29702,
+          "decoded": 29702,
+          "duration": 5.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/badil.webp",
+          "type": "img",
+          "transfer": 49924,
+          "encoded": 49624,
+          "decoded": 49624,
+          "duration": 9.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/xitmnt.webp",
+          "type": "img",
+          "transfer": 46052,
+          "encoded": 45752,
+          "decoded": 45752,
+          "duration": 12
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/herbal-home.webp",
+          "type": "img",
+          "transfer": 35464,
+          "encoded": 35164,
+          "decoded": 35164,
+          "duration": 17.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/elham.webp",
+          "type": "img",
+          "transfer": 50770,
+          "encoded": 50470,
+          "decoded": 50470,
+          "duration": 18.19999998807907
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/bandar-coatch.webp",
+          "type": "img",
+          "transfer": 16244,
+          "encoded": 15944,
+          "decoded": 15944,
+          "duration": 21.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 160
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 113.39999997615814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 170.39999997615814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 177.7999999821186
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 144.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 193
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 109.7000000178814
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Contact-BvRmdL0s.js",
+          "type": "script",
+          "transfer": 2098,
+          "encoded": 1798,
+          "decoded": 4801,
+          "duration": 3.9000000059604645
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Jordan University of Science and Technology logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 108,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Axion Hub logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Nixpend logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Sitech logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Self Employed logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "PrimeTag logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Barqya interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Badil interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Xitmnt interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Herbal Home interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Elham interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Bandar Coatch interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Baslex interface screenshot",
+          "w": 424,
+          "h": 239,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        }
+      ],
+      "bodyText": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nOMARMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\nTechnologies\nHTML 5\nCSS 3\nJavaScript\nTypeScript\nAngular\nReact JS\nIonic\nRedux Toolkit\nBootstrap\nTailwind CSS\nNode JS\nGraphQL\nGit\nFigma\nA path in\nthe making.\n\nEducation & experience. The places, people, and work along the way.\n\nWork\nEducation\nRésumé\n(opens in a new tab)\n\nCareer timeline loaded.\n\nFollowing the path\n2025\n/\nwork\n\nMilestone\n06 / \nof\n06\n\n2013\nEDUCATION\n\nSep 2013 — \nto\nJun 2018\n\nBachelor of Software Engineering\n\nJordan University of Science and Technology\n\nTODO: Add a description in Sanity.\n\n2018\nWORK\n\nJun 2018 — \nto\nDec 2019\n\nSoftware Developer\n\nAxion Hub\n\nTODO: Add a description in Sanity.\n\n2020\nWORK\n\nJan 2020 — \nto\nM",
+      "animations": 0,
+      "axe": [],
+      "smallTargets": [],
+      "routes": [
+        {
+          "hash": "#projects/barqya",
+          "title": "Barqya"
+        },
+        {
+          "hash": "#projects/badil",
+          "title": "Badil"
+        },
+        {
+          "hash": "#projects/xitmnt",
+          "title": "Xitmnt"
+        },
+        {
+          "hash": "#projects/herbal-home",
+          "title": "Herbal Home"
+        },
+        {
+          "hash": "#projects/elham",
+          "title": "Elham"
+        },
+        {
+          "hash": "#projects/bandar-coatch",
+          "title": "Bandar Coatch"
+        },
+        {
+          "hash": "#projects/baslex-project",
+          "title": "Baslex"
+        }
+      ],
+      "notFound": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nPage not found.\n\nThis address doesn’t lead to a page in my portfolio.\n\nBack to the portfolio\nEmail Omar\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "documentWidth": 1280,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 800
+        },
+        {
+          "id": "about",
+          "top": 800,
+          "height": 590
+        },
+        {
+          "id": "Tech",
+          "top": 1389.75,
+          "height": 521
+        },
+        {
+          "id": "experience",
+          "top": 1950.75,
+          "height": 2749
+        },
+        {
+          "id": "projects",
+          "top": 4699.34375,
+          "height": 5818
+        },
+        {
+          "id": "contact",
+          "top": 10516.9375,
+          "height": 490
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 67.1875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Experience",
+          "w": 106.203125,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 92.109375,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 84.46875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Résumé (opens in a new tab)",
+          "w": 67.046875,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "A",
+          "label": "View my résumé (opens in a new tab)",
+          "w": 139.34375,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Barqya",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Badil",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Xitmnt",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Herbal Home",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Elham",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Bandar Coatch",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Baslex",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Barqya",
+          "w": 913.89990234375,
+          "h": 575.699951171875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Badil",
+          "w": 913.89990234375,
+          "h": 575.699951171875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Xitmnt",
+          "w": 913.89990234375,
+          "h": 575.699951171875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Herbal Home",
+          "w": 913.89990234375,
+          "h": 575.699951171875,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Elham",
+          "w": 956.03564453125,
+          "h": 602.2427978515625,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Bandar Coatch",
+          "w": 962,
+          "h": 606,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Baslex",
+          "w": 962,
+          "h": 606,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "o.a.momani@gmail.com",
+          "w": 213.203125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Copy email",
+          "w": 158.625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "LinkedIn (opens in a new tab)",
+          "w": 114.265625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "GitHub (opens in a new tab)",
+          "w": 102.078125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Write an email",
+          "w": 158.859375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Back to top",
+          "w": 48,
+          "h": 48,
+          "font": "22px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        },
+        {
+          "tag": "H2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "H2",
+          "text": "A path inthe making."
+        },
+        {
+          "tag": "H3",
+          "text": "Bachelor of Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Freelance Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H2",
+          "text": "Projects,in perspective."
+        },
+        {
+          "tag": "H3",
+          "text": "Barqya"
+        },
+        {
+          "tag": "H3",
+          "text": "Badil"
+        },
+        {
+          "tag": "H3",
+          "text": "Xitmnt"
+        },
+        {
+          "tag": "H3",
+          "text": "Herbal Home"
+        },
+        {
+          "tag": "H3",
+          "text": "Elham"
+        },
+        {
+          "tag": "H3",
+          "text": "Bandar Coatch"
+        },
+        {
+          "tag": "H3",
+          "text": "Baslex"
+        },
+        {
+          "tag": "H2",
+          "text": "Let’s work together."
+        },
+        {
+          "tag": "H3",
+          "text": "Send an email."
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 8.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 18.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 10.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 11.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 16.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 6.5999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 8
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 6.799999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 0.9000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 5.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 7.699999988079071
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.5999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.7999999821186066
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Tech-C9qpF4dQ.js",
+          "type": "script",
+          "transfer": 1303,
+          "encoded": 1003,
+          "decoded": 1003,
+          "duration": 5.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-ZmnDTVhL.js",
+          "type": "script",
+          "transfer": 6559,
+          "encoded": 6259,
+          "decoded": 16229,
+          "duration": 7.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-BhkNNy4L.js",
+          "type": "script",
+          "transfer": 5356,
+          "encoded": 5056,
+          "decoded": 15152,
+          "duration": 9.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/experienceService-zt0EWNU4.js",
+          "type": "script",
+          "transfer": 1649,
+          "encoded": 1349,
+          "decoded": 2658,
+          "duration": 9.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ScrollTrigger-BYkCUlNp.js",
+          "type": "script",
+          "transfer": 46380,
+          "encoded": 46080,
+          "decoded": 116440,
+          "duration": 13.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-UgALdj-3.css",
+          "type": "link",
+          "transfer": 1193,
+          "encoded": 893,
+          "decoded": 2341,
+          "duration": 7.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.100000023841858
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/just.webp",
+          "type": "img",
+          "transfer": 21705,
+          "encoded": 21405,
+          "decoded": 21405,
+          "duration": 11.200000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/axion-hub.webp",
+          "type": "img",
+          "transfer": 1802,
+          "encoded": 1502,
+          "decoded": 1502,
+          "duration": 10.899999976158142
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/nixpend.webp",
+          "type": "img",
+          "transfer": 2334,
+          "encoded": 2034,
+          "decoded": 2034,
+          "duration": 17.099999994039536
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 143.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 182
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 143.90000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 49.099999994039536
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 65.60000002384186
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 53.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-zrSq7zy8.js",
+          "type": "script",
+          "transfer": 13646,
+          "encoded": 13346,
+          "decoded": 35410,
+          "duration": 10.799999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProjectsService-CkXUrrLz.js",
+          "type": "script",
+          "transfer": 1684,
+          "encoded": 1384,
+          "decoded": 2850,
+          "duration": 8.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+          "type": "link",
+          "transfer": 2815,
+          "encoded": 2515,
+          "decoded": 10313,
+          "duration": 6.0999999940395355
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 4.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/barqya.webp",
+          "type": "img",
+          "transfer": 30002,
+          "encoded": 29702,
+          "decoded": 29702,
+          "duration": 27
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/badil.webp",
+          "type": "img",
+          "transfer": 49924,
+          "encoded": 49624,
+          "decoded": 49624,
+          "duration": 27.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/xitmnt.webp",
+          "type": "img",
+          "transfer": 46052,
+          "encoded": 45752,
+          "decoded": 45752,
+          "duration": 27.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/herbal-home.webp",
+          "type": "img",
+          "transfer": 35464,
+          "encoded": 35164,
+          "decoded": 35164,
+          "duration": 27.69999998807907
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/elham.webp",
+          "type": "img",
+          "transfer": 50770,
+          "encoded": 50470,
+          "decoded": 50470,
+          "duration": 27.700000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/bandar-coatch.webp",
+          "type": "img",
+          "transfer": 16244,
+          "encoded": 15944,
+          "decoded": 15944,
+          "duration": 27.700000017881393
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 66.39999997615814
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 67
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 120.2999999821186
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 77.09999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 105.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 111.60000002384186
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 63.80000001192093
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Contact-BvRmdL0s.js",
+          "type": "script",
+          "transfer": 2098,
+          "encoded": 1798,
+          "decoded": 4801,
+          "duration": 6.799999982118607
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Jordan University of Science and Technology logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 108,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Axion Hub logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Nixpend logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Sitech logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Self Employed logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "PrimeTag logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Barqya interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Badil interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Xitmnt interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Herbal Home interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Elham interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=768&q=82&fit=max&auto=format",
+          "alt": "Bandar Coatch interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=768&q=82&fit=max&auto=format",
+          "alt": "Baslex interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 768,
+          "loading": "lazy"
+        }
+      ],
+      "bodyText": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nOMARMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\nTechnologies\nHTML 5\nCSS 3\nJavaScript\nTypeScript\nAngular\nReact JS\nIonic\nRedux Toolkit\nBootstrap\nTailwind CSS\nNode JS\nGraphQL\nGit\nFigma\nA path in\nthe making.\n\nEducation & experience. The places, people, and work along the way.\n\nWork\nEducation\nRésumé\n(opens in a new tab)\n\nCareer timeline loaded.\n\nFollowing the path\n2025\n/\nwork\n\nMilestone\n06 / \nof\n06\n\n2013\nEDUCATION\n\nSep 2013 — \nto\nJun 2018\n\nBachelor of Software Engineering\n\nJordan University of Science and Technology\n\nTODO: Add a description in Sanity.\n\n2018\nWORK\n\nJun 2018 — \nto\nDec 2019\n\nSoftware Developer\n\nAxion Hub\n\nTODO: Add a description in Sanity.\n\n2020\nWORK\n\nJan 2020 — \nto\nM",
+      "animations": 0,
+      "axe": [],
+      "smallTargets": [],
+      "routes": [
+        {
+          "hash": "#projects/barqya",
+          "title": "Barqya"
+        },
+        {
+          "hash": "#projects/badil",
+          "title": "Badil"
+        },
+        {
+          "hash": "#projects/xitmnt",
+          "title": "Xitmnt"
+        },
+        {
+          "hash": "#projects/herbal-home",
+          "title": "Herbal Home"
+        },
+        {
+          "hash": "#projects/elham",
+          "title": "Elham"
+        },
+        {
+          "hash": "#projects/bandar-coatch",
+          "title": "Bandar Coatch"
+        },
+        {
+          "hash": "#projects/baslex-project",
+          "title": "Baslex"
+        }
+      ],
+      "notFound": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nPage not found.\n\nThis address doesn’t lead to a page in my portfolio.\n\nBack to the portfolio\nEmail Omar\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "documentWidth": 1440,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 900
+        },
+        {
+          "id": "about",
+          "top": 900,
+          "height": 590
+        },
+        {
+          "id": "Tech",
+          "top": 1489.75,
+          "height": 521
+        },
+        {
+          "id": "experience",
+          "top": 2050.75,
+          "height": 2749
+        },
+        {
+          "id": "projects",
+          "top": 4799.34375,
+          "height": 6314
+        },
+        {
+          "id": "contact",
+          "top": 11112.9375,
+          "height": 490
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 67.1875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Experience",
+          "w": 106.203125,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 92.109375,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 84.46875,
+          "h": 48,
+          "font": "13px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Résumé (opens in a new tab)",
+          "w": 67.046875,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "A",
+          "label": "View my résumé (opens in a new tab)",
+          "w": 139.34375,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Barqya",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Badil",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Xitmnt",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Herbal Home",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Elham",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Bandar Coatch",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Baslex",
+          "w": 156,
+          "h": 44,
+          "font": "12px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Barqya",
+          "w": 913.89990234375,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Badil",
+          "w": 913.89990234375,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Xitmnt",
+          "w": 913.89990234375,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Herbal Home",
+          "w": 913.89990234375,
+          "h": 625.0999755859375,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Elham",
+          "w": 953.245849609375,
+          "h": 652.01220703125,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Bandar Coatch",
+          "w": 962,
+          "h": 658,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Explore Baslex",
+          "w": 962,
+          "h": 658,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "o.a.momani@gmail.com",
+          "w": 213.203125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Copy email",
+          "w": 158.625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "LinkedIn (opens in a new tab)",
+          "w": 114.265625,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "GitHub (opens in a new tab)",
+          "w": 102.078125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Write an email",
+          "w": 158.859375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Back to top",
+          "w": 48,
+          "h": 48,
+          "font": "22px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        },
+        {
+          "tag": "H2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "H2",
+          "text": "A path inthe making."
+        },
+        {
+          "tag": "H3",
+          "text": "Bachelor of Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Freelance Frontend Developer"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Developer"
+        },
+        {
+          "tag": "H2",
+          "text": "Projects,in perspective."
+        },
+        {
+          "tag": "H3",
+          "text": "Barqya"
+        },
+        {
+          "tag": "H3",
+          "text": "Badil"
+        },
+        {
+          "tag": "H3",
+          "text": "Xitmnt"
+        },
+        {
+          "tag": "H3",
+          "text": "Herbal Home"
+        },
+        {
+          "tag": "H3",
+          "text": "Elham"
+        },
+        {
+          "tag": "H3",
+          "text": "Bandar Coatch"
+        },
+        {
+          "tag": "H3",
+          "text": "Baslex"
+        },
+        {
+          "tag": "H2",
+          "text": "Let’s work together."
+        },
+        {
+          "tag": "H3",
+          "text": "Send an email."
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 27.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 30.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 25.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 25.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 18.700000017881393
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 7.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 9.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 11.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 4.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 9.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 11.5
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.199999988079071
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.4000000059604645
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Tech-C9qpF4dQ.js",
+          "type": "script",
+          "transfer": 1303,
+          "encoded": 1003,
+          "decoded": 1003,
+          "duration": 4.0999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-ZmnDTVhL.js",
+          "type": "script",
+          "transfer": 6559,
+          "encoded": 6259,
+          "decoded": 16229,
+          "duration": 6
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-BhkNNy4L.js",
+          "type": "script",
+          "transfer": 5356,
+          "encoded": 5056,
+          "decoded": 15152,
+          "duration": 9.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/experienceService-zt0EWNU4.js",
+          "type": "script",
+          "transfer": 1649,
+          "encoded": 1349,
+          "decoded": 2658,
+          "duration": 7.299999982118607
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ScrollTrigger-BYkCUlNp.js",
+          "type": "script",
+          "transfer": 46380,
+          "encoded": 46080,
+          "decoded": 116440,
+          "duration": 10
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Experience-UgALdj-3.css",
+          "type": "link",
+          "transfer": 1193,
+          "encoded": 893,
+          "decoded": 2341,
+          "duration": 5.5
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22experience%22%5D+%7C+order%28coalesce%28startDate%2C+StartDate%29+asc%29%7B%0A++_id%2C+type%2C+title%2C+name%2C+isCurrent%2C%0A++%22startDate%22%3A+coalesce%28startDate%2C+StartDate%29%2C%0A++%22endDate%22%3A+coalesce%28endDate%2C+EndDate%29%2C%0A++%22logoUrl%22%3A+coalesce%28logo.asset-%3Eurl%2C+icon.asset-%3Eurl%29%2C%0A++%22logoAlt%22%3A+coalesce%28logo.alt%2C+icon.alt%29%2C%0A++%22description%22%3A+select%28description%5B0%5D._type+%3D%3D+%22block%22+%3D%3E+pt%3A%3Atext%28description%29%2C+description%29%2C%0A++%22techTags%22%3A+coalesce%28techTags%2C+%5B%5D%29%2C%0A++link%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.7999999821186066
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/just.webp",
+          "type": "img",
+          "transfer": 21705,
+          "encoded": 21405,
+          "decoded": 21405,
+          "duration": 6.5999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/axion-hub.webp",
+          "type": "img",
+          "transfer": 1802,
+          "encoded": 1502,
+          "decoded": 1502,
+          "duration": 6
+        },
+        {
+          "name": "http://127.0.0.1:4173/timeline/nixpend.webp",
+          "type": "img",
+          "transfer": 2334,
+          "encoded": 2034,
+          "decoded": 2034,
+          "duration": 6.199999988079071
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 269
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 269.5
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 269.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 118.59999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 118.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 119.10000002384186
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-zrSq7zy8.js",
+          "type": "script",
+          "transfer": 13646,
+          "encoded": 13346,
+          "decoded": 35410,
+          "duration": 15.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProjectsService-CkXUrrLz.js",
+          "type": "script",
+          "transfer": 1684,
+          "encoded": 1384,
+          "decoded": 2850,
+          "duration": 12.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Projects-DJb8JoWb.css",
+          "type": "link",
+          "transfer": 2815,
+          "encoded": 2515,
+          "decoded": 10313,
+          "duration": 10.099999994039536
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22projects%22%5D+%7C+order%28coalesce%28order%2C+999999%29+asc%2C+featured+desc%2C+publishedAt+desc%29%7B%0A++_id%2C+title%2C+slug%2C+year%2C+role%2C+highlights%2C+tags%2C+techStack%2C%0A++accentColor%2C+order%2C+featured%2C+publishedAt%2C%0A++%22summary%22%3A+coalesce%28summary%2C+pt%3A%3Atext%28body%29%2C+description%29%2C%0A++%22liveUrl%22%3A+coalesce%28liveUrl%2C+projectUrl%29%2C+repoUrl%2C%0A++%22thumbnail%22%3A+coalesce%28image%2C+mainImage%2C+thumbnail%29%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22fullPageScreenshot%22%3A+fullPageScreenshot%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%2C%0A++%22gallery%22%3A+gallery%5B%5D%7B%0A++%22assetId%22%3A+asset-%3E_id%2C+%22url%22%3A+asset-%3Eurl%2C+alt%2C%0A++%22width%22%3A+asset-%3Emetadata.dimensions.width%2C%0A++%22height%22%3A+asset-%3Emetadata.dimensions.height%2C%0A++%22lqip%22%3A+asset-%3Emetadata.lqip%0A%7D%0A%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 4.699999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/barqya.webp",
+          "type": "img",
+          "transfer": 30002,
+          "encoded": 29702,
+          "decoded": 29702,
+          "duration": 11
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/badil.webp",
+          "type": "img",
+          "transfer": 49924,
+          "encoded": 49624,
+          "decoded": 49624,
+          "duration": 11
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/xitmnt.webp",
+          "type": "img",
+          "transfer": 46052,
+          "encoded": 45752,
+          "decoded": 45752,
+          "duration": 11.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/herbal-home.webp",
+          "type": "img",
+          "transfer": 35464,
+          "encoded": 35164,
+          "decoded": 35164,
+          "duration": 11.099999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/projects/elham.webp",
+          "type": "img",
+          "transfer": 50770,
+          "encoded": 50470,
+          "decoded": 50470,
+          "duration": 13.700000017881393
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 68.59999999403954
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 99.80000001192093
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 159.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 132.90000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 159.40000000596046
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 82.69999998807907
+        },
+        {
+          "name": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=1024&q=82&fit=max&auto=format",
+          "type": "img",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 52.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Contact-BvRmdL0s.js",
+          "type": "script",
+          "transfer": 2098,
+          "encoded": 1798,
+          "decoded": 4801,
+          "duration": 4.0999999940395355
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/04908c175b6f474808ecf6656a3c7a20a77a6729-491x508.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Jordan University of Science and Technology logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 108,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/4e56c511ecd4e77a7ac6f2289b622655333fa0cd-400x400.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Axion Hub logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/63d03f8011479d1d4a3b4f92b38801d947801b7c-300x300.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Nixpend logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/79728c9984d22eb4b2eb6bdf9ff4cc155e1f7408-404x125.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Sitech logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/badbd6138e795823833d042fe50aece352014021-4000x4000.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "Self Employed logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/df3ac0b0d2afe4625ec2979d3d5678b65262ad79-512x512.webp?w=112&h=112&fit=max&auto=format",
+          "alt": "PrimeTag logo",
+          "w": 44,
+          "h": 44,
+          "naturalWidth": 112,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/9bf45e6dc600f35f42c2748d73891fc4c0b664a2-1352x643.png?w=1024&q=82&fit=max&auto=format",
+          "alt": "Barqya interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/1df6e2d3080c2116f799ff1af9119ad2d75f913f-1350x649.png?w=1024&q=82&fit=max&auto=format",
+          "alt": "Badil interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/6e26e5914faef41b5254d77a068ba833aad52d99-1919x996.webp?w=1024&q=82&fit=max&auto=format",
+          "alt": "Xitmnt interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/854d35391af5afb3d1c9854a60df01017559e239-1919x996.webp?w=1024&q=82&fit=max&auto=format",
+          "alt": "Herbal Home interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/ec30248d1d72b19aaaf7174d96b63610598a20e8-1288x804.webp?w=1024&q=82&fit=max&auto=format",
+          "alt": "Elham interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/88b8083f7a0beb939faf21e6e40868bec4567455-1920x1080.webp?w=1024&q=82&fit=max&auto=format",
+          "alt": "Bandar Coatch interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://cdn.sanity.io/images/cnwn4pjq/production/773ca9a00aaa55a43b8ac6856b8253f968724382-1352x643.png?w=1024&q=82&fit=max&auto=format",
+          "alt": "Baslex interface screenshot",
+          "w": 555,
+          "h": 312,
+          "naturalWidth": 864,
+          "loading": "lazy"
+        }
+      ],
+      "bodyText": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nOMARMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\nTechnologies\nHTML 5\nCSS 3\nJavaScript\nTypeScript\nAngular\nReact JS\nIonic\nRedux Toolkit\nBootstrap\nTailwind CSS\nNode JS\nGraphQL\nGit\nFigma\nA path in\nthe making.\n\nEducation & experience. The places, people, and work along the way.\n\nWork\nEducation\nRésumé\n(opens in a new tab)\n\nCareer timeline loaded.\n\nFollowing the path\n2025\n/\nwork\n\nMilestone\n06 / \nof\n06\n\n2013\nEDUCATION\n\nSep 2013 — \nto\nJun 2018\n\nBachelor of Software Engineering\n\nJordan University of Science and Technology\n\nTODO: Add a description in Sanity.\n\n2018\nWORK\n\nJun 2018 — \nto\nDec 2019\n\nSoftware Developer\n\nAxion Hub\n\nTODO: Add a description in Sanity.\n\n2020\nWORK\n\nJan 2020 — \nto\nM",
+      "animations": 0,
+      "axe": [],
+      "smallTargets": [],
+      "routes": [
+        {
+          "hash": "#projects/barqya",
+          "title": "Barqya"
+        },
+        {
+          "hash": "#projects/badil",
+          "title": "Badil"
+        },
+        {
+          "hash": "#projects/xitmnt",
+          "title": "Xitmnt"
+        },
+        {
+          "hash": "#projects/herbal-home",
+          "title": "Herbal Home"
+        },
+        {
+          "hash": "#projects/elham",
+          "title": "Elham"
+        },
+        {
+          "hash": "#projects/bandar-coatch",
+          "title": "Bandar Coatch"
+        },
+        {
+          "hash": "#projects/baslex-project",
+          "title": "Baslex"
+        }
+      ],
+      "notFound": "Skip to content\nABOUT\nEXPERIENCE\nPROJECTS\nCONTACT\nHire me\nPage not found.\n\nThis address doesn’t lead to a page in my portfolio.\n\nBack to the portfolio\nEmail Omar\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    }
+  ],
+  "scenarios": {
+    "raw": {
+      "earlyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved.",
+      "settledText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nShowing the saved profile while live content is unavailable.\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nShowing saved background information. Retry live content\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    "slow": {
+      "earlyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved.",
+      "settledText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    "failure": {
+      "earlyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved.",
+      "settledText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nShowing the saved profile while live content is unavailable.\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nShowing saved background information. Retry live content\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    "4g": {
+      "earlyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved.",
+      "settledText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved."
+    },
+    "reduced": {
+      "width": 390,
+      "overflow": false,
+      "documentWidth": 390,
+      "sections": [
+        {
+          "id": "top",
+          "top": 0,
+          "height": 844
+        },
+        {
+          "id": "about",
+          "top": 844,
+          "height": 1190
+        },
+        {
+          "id": "Tech",
+          "top": 2034.125,
+          "height": 1080
+        },
+        {
+          "id": "experience",
+          "top": 3154.125,
+          "height": 2800
+        },
+        {
+          "id": "projects",
+          "top": 5954.125,
+          "height": 4700
+        },
+        {
+          "id": "contact",
+          "top": 10654.125,
+          "height": 1120
+        }
+      ],
+      "targets": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "w": 157.296875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Home — Omar Momani",
+          "w": 48,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 85.796875,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "label": "Open navigation menu",
+          "w": 48,
+          "h": 48,
+          "font": "28px"
+        },
+        {
+          "tag": "A",
+          "label": "Hire me",
+          "w": 105.484375,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "View projects",
+          "w": 153.25,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Explore my background",
+          "w": 184.890625,
+          "h": 44,
+          "font": "14px"
+        },
+        {
+          "tag": "A",
+          "label": "Projects",
+          "w": 87.21875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "About",
+          "w": 70.78125,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Contact",
+          "w": 85.796875,
+          "h": 48,
+          "font": "16px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on GitHub (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on LinkedIn (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Facebook (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        },
+        {
+          "tag": "A",
+          "label": "Omar on Instagram (opens in a new tab)",
+          "w": 48,
+          "h": 48,
+          "font": "24px"
+        }
+      ],
+      "h1": [
+        "Omarmomani"
+      ],
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Navigation"
+        },
+        {
+          "tag": "H1",
+          "text": "Omarmomani"
+        },
+        {
+          "tag": "H2",
+          "text": "About Me"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend Development"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Engineering"
+        },
+        {
+          "tag": "H3",
+          "text": "UI/UX Design"
+        },
+        {
+          "tag": "H3",
+          "text": "Software Prototyping"
+        }
+      ],
+      "main": 1,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/fonts/work-sans-latin.woff2",
+          "type": "link",
+          "transfer": 50616,
+          "encoded": 50316,
+          "decoded": 50316,
+          "duration": 11.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BpJ7W4P4.js",
+          "type": "script",
+          "transfer": 99642,
+          "encoded": 99342,
+          "decoded": 308398,
+          "duration": 18
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-DicB5LXc.css",
+          "type": "link",
+          "transfer": 7517,
+          "encoded": 7217,
+          "decoded": 30498,
+          "duration": 9.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "link",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 12.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/brand.svg",
+          "type": "img",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 15
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.svg",
+          "type": "other",
+          "transfer": 2235,
+          "encoded": 1935,
+          "decoded": 3884,
+          "duration": 3.800000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/About-Cx9VchhV.js",
+          "type": "script",
+          "transfer": 1103,
+          "encoded": 803,
+          "decoded": 1473,
+          "duration": 7.5999999940395355
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/Section-C1NDr0J9.js",
+          "type": "script",
+          "transfer": 545,
+          "encoded": 245,
+          "decoded": 245,
+          "duration": 5.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/favicon.ico",
+          "type": "other",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2.699999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/ProfileService-Jk2oVgz4.js",
+          "type": "script",
+          "transfer": 811,
+          "encoded": 511,
+          "decoded": 511,
+          "duration": 4.199999988079071
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/client-0LmIscoO.js",
+          "type": "script",
+          "transfer": 24755,
+          "encoded": 24455,
+          "decoded": 73572,
+          "duration": 6.300000011920929
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22hero%22%5D%7B_id%2CFirstName%2CLastName%2CjobTitle%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.800000011920929
+        },
+        {
+          "name": "https://cnwn4pjq.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22about%22%5D%7B_id%2Cabout%2Cbody%7D&returnQuery=false",
+          "type": "xmlhttprequest",
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 1.5999999940395355
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/brand.svg",
+          "alt": "",
+          "w": 48,
+          "h": 48,
+          "naturalWidth": 2048,
+          "loading": "auto"
+        }
+      ],
+      "bodyText": "Skip to content\nHire me\nOMAR\nMOMANI\n\nFrontend Developer\n\nModern, responsive web applications using React and Angular.\n\nHire me\nView projects\n\nReact · Angular · Headless CMS\n\nExplore my background\nAbout Me\n\nFrontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.\n\nFrontend Development\nSoftware Engineering\nUI/UX Design\nSoftware Prototyping\n\nLoading Technologies…\n\nLoading Experience…\n\nLoading Projects…\n\nLoading Contact…\n\nOmar Momani\n\nProjects\nAbout\nContact\n\n© 2026 Omar Momani. All rights reserved.",
+      "animations": 0
+    },
+    "keyboard": [
+      {
+        "tag": "A",
+        "label": "Skip to content",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Home — Omar Momani",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "About",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Experience",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Projects",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Contact",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Hire me",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Hire me",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "View projects",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Explore my background",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Projects",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "About",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Contact",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Omar on GitHub (opens in a new tab)",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Omar on LinkedIn (opens in a new tab)",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "label": "Omar on Facebook (opens in a new tab)",
+        "outline": "solid"
+      }
+    ]
+  },
+  "seo": {
+    "assets": {
+      "/og-image.png": {
+        "status": 200,
+        "type": "image/png",
+        "size": 35639
+      },
+      "/robots.txt": {
+        "status": 200,
+        "type": "text/plain",
+        "size": 72
+      },
+      "/sitemap.xml": {
+        "status": 200,
+        "type": "text/xml",
+        "size": 159
+      },
+      "/site.webmanifest": {
+        "status": 200,
+        "type": "application/manifest+json",
+        "size": 359
+      },
+      "/favicon.ico": {
+        "status": 200,
+        "type": "image/x-icon",
+        "size": 635
+      },
+      "/apple-touch-icon.png": {
+        "status": 200,
+        "type": "image/png",
+        "size": 3295
+      }
+    },
+    "initialHTML": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" />\n    <title>Omar Momani — Frontend Developer</title>\n    <meta name=\"description\" content=\"Frontend developer building modern, responsive web applications with React and Angular. Explore Omar Momani’s work and get in touch.\" />\n    <meta name=\"robots\" content=\"index,follow\" />\n    <meta name=\"theme-color\" content=\"#111827\" />\n    <meta name=\"color-scheme\" content=\"dark\" />\n    <link rel=\"canonical\" href=\"https://omarmomani.is-a.dev/\" />\n    <link rel=\"preload\" href=\"/fonts/work-sans-latin.woff2\" as=\"font\" type=\"font/woff2\" crossorigin />\n    <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32\" />\n    <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />\n    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\" />\n    <link rel=\"manifest\" href=\"/site.webmanifest\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:site_name\" content=\"Omar Momani\" />\n    <meta property=\"og:url\" content=\"https://omarmomani.is-a.dev/\" />\n    <meta property=\"og:title\" content=\"Omar Momani — Frontend Developer\" />\n    <meta property=\"og:description\" content=\"Modern, responsive web applications with React and Angular. Explore my work and get in touch.\" />\n    <meta property=\"og:image\" content=\"https://omarmomani.is-a.dev/og-image.png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:alt\" content=\"Omar Momani — Frontend Developer. React, Angular, TypeScript.\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:url\" content=\"https://omarmomani.is-a.dev/\" />\n    <meta name=\"twitter:title\" content=\"Omar Momani — Frontend Developer\" />\n    <meta name=\"twitter:description\" content=\"Modern, responsive web applications with React and Angular. Explore my work and get in touch.\" />\n    <meta name=\"twitter:image\" content=\"https://omarmomani.is-a.dev/og-image.png\" />\n    <meta name=\"twitter:image:alt\" content=\"Omar Momani — Frontend Developer. React, Angular, TypeScript.\" />\n    <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://omarmomani.is-a.dev/#person\",\"name\":\"Omar Momani\",\"url\":\"https://omarmomani.is-a.dev/\",\"jobTitle\":\"Frontend Developer\",\"email\":\"o.a.momani@gmail.com\",\"sameAs\":[\"https://github.com/momanio\",\"https://linkedin.com/in/momanio\"],\"knowsAbout\":[\"React\",\"Angular\",\"TypeScript\",\"Headless CMS\"]}</script>\n    <script type=\"module\" crossorigin src=\"/assets/index-BpJ7W4P4.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DicB5LXc.css\">\n  </head>\n  <body>\n    <div id=\"root\"><link rel=\"preload\" as=\"image\" href=\"/brand.svg\"/><header class=\"site-header\" data-scrolled=\"false\"><a class=\"skip-link\" href=\"#main-content\">Skip to content</a><nav class=\"site-nav\" aria-label=\"Main navigation\"><a class=\"brand-link\" aria-label=\"Home — Omar Momani\" href=\"/#top\" data-discover=\"true\"><img src=\"/brand.svg\" width=\"48\" height=\"48\" alt=\"\"/></a><ul class=\"desktop-nav\"><li><a href=\"/#about\" data-discover=\"true\">About</a></li><li><a href=\"/#experience\" data-discover=\"true\">Experience</a></li><li><a href=\"/#projects\" data-discover=\"true\">Projects</a></li><li><a href=\"/#contact\" data-discover=\"true\">Contact</a></li></ul><a class=\"button-primary header-cta\" href=\"/#contact\" data-discover=\"true\">Hire me</a><button type=\"button\" class=\"menu-toggle\" aria-label=\"Open navigation menu\" aria-controls=\"mobile-navigation\" aria-expanded=\"false\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" aria-hidden=\"true\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 384h384v-42.666H64V384zm0-106.666h384v-42.667H64v42.667zM64 128v42.665h384V128H64z\"></path></svg></button></nav><dialog id=\"mobile-navigation\" class=\"mobile-navigation\" aria-modal=\"true\" aria-labelledby=\"mobile-navigation-title\"><div class=\"mobile-menu-top\"><h2 id=\"mobile-navigation-title\">Navigation</h2><button type=\"button\" class=\"icon-button\" aria-label=\"Close navigation menu\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" aria-hidden=\"true\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z\"></path></svg></button></div><nav aria-label=\"Mobile navigation\"><ul><li><a href=\"/#about\" data-discover=\"true\">About</a></li><li><a href=\"/#experience\" data-discover=\"true\">Experience</a></li><li><a href=\"/#projects\" data-discover=\"true\">Projects</a></li><li><a href=\"/#contact\" data-discover=\"true\">Contact</a></li></ul></nav><a class=\"button-primary\" href=\"/#contact\" data-discover=\"true\">Let’s work together</a></dialog></header><main id=\"main-content\" tabindex=\"-1\"><section id=\"top\" class=\"hero-section\" aria-labelledby=\"hero-heading\"><div class=\"hero-content\"><h1 id=\"hero-heading\" dir=\"auto\">Omar<br class=\"hero-name-break\"/><span>momani</span></h1><p class=\"hero-role\" dir=\"auto\">Frontend Developer</p><p class=\"hero-intro\" dir=\"auto\">Modern, responsive web applications using React and Angular.</p><div class=\"hero-actions\"><a class=\"button-primary\" href=\"/#contact\" data-discover=\"true\">Hire me</a><a class=\"button-secondary\" href=\"/#projects\" data-discover=\"true\">View projects</a></div><p class=\"hero-proof\">React · Angular · Headless CMS</p><p class=\"hero-status\" role=\"status\"></p><a class=\"hero-scroll\" href=\"/#about\" data-discover=\"true\">Explore my background<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line><polyline points=\"19 12 12 19 5 12\"></polyline></svg></a></div></section><noscript><section id=\"about\" class=\"recovery-page\" aria-labelledby=\"static-about-heading\"><h2 id=\"static-about-heading\">About Me</h2><p dir=\"auto\">Frontend Developer specializing in building modern, responsive web applications using React and Angular. I focus on clean architecture, scalable solutions, and seamless user experiences, with hands-on experience integrating Headless CMS platforms.</p></section><section id=\"projects\" class=\"recovery-page\" aria-labelledby=\"static-projects-heading\"><h2 id=\"static-projects-heading\">Selected projects</h2><ul><li dir=\"auto\"><strong>Barqya</strong><p>Barqya is </p><p>PHP · Laravel · Inertia · React · Tailwindcss</p></li><li dir=\"auto\"><strong>Badil</strong><p>PHP · Laravel · Inertia · React · Tailwindcss</p></li><li dir=\"auto\"><strong>Xitmnt</strong><p>A single-page application for gaming services in saudi arabia.</p><p>JavaScript · HTML5 · CSS3 · Vanilla JS</p></li><li dir=\"auto\"><strong>Herbal Home</strong><p>Herbal Home provides Natural Herbal Medications, allowing users to search for product ratings and details.</p><p>JavaScript · HTML5 · CSS3</p></li><li dir=\"auto\"><strong>Elham</strong><p>A single-page application that allows users to know more about Elham Company and its services.</p><p>React · Jsx · Tailwindcss</p></li><li dir=\"auto\"><strong>Bandar Coatch</strong><p>Admin Dashboard for a Gym and Fitness Center.</p><p>React · TypeScript · Tailwindcss · MUI · SPA</p></li><li dir=\"auto\"><strong>Baslex</strong><p>Admin dashboard to manage photographers and clients orders and more.</p><p>React · TypeScript · Vite · Tailwindcss · tasStack</p></li></ul><p>Interactive case studies require JavaScript.</p></section><section id=\"contact\" class=\"recovery-page\" aria-labelledby=\"static-contact-heading\"><h2 id=\"static-contact-heading\">Get in touch</h2><a class=\"button-primary\" href=\"mailto:o.a.momani@gmail.com\">Email <!-- -->o.a.momani@gmail.com</a><a class=\"button-secondary\" href=\"https://linkedin.com/in/momanio\">LinkedIn</a><a class=\"button-secondary\" href=\"https://github.com/momanio\">GitHub</a></section></noscript></main></div>\n  </body>\n</html>\n"
+  },
+  "console": [],
+  "errors": []
+}

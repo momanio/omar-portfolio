@@ -1,0 +1,10 @@
+{
+  "inlineValidation": true,
+  "focusFirstError": true,
+  "failurePreservesDraft": true,
+  "successClearsForm": true,
+  "honeypotPreventsRequest": true,
+  "inputFontSize": 16,
+  "allEmailRequestsMocked": true,
+  "realEmailsSent": 0
+}

@@ -1,55 +1,18 @@
-import { lazy, Suspense } from "react";
-import { Contact } from "../contact/Contact";
-import { Navbar } from "../../components/Navbar";
-import { Experience } from "../experience/Experience";
-import { About } from "../about/About";
-import { Footer } from "@/components/Footer";
-import { Spinner } from "@/components/Spinner";
+import { lazy } from "react";
 import { Hero } from "../hero/Hero";
+import { DeferredSection } from "@/components/DeferredSection";
 
-const Projects = lazy(() =>
-  import("../projects/Projects").then(({ Projects }) => ({
-    default: Projects,
-  })),
-);
+const About = lazy(() => import("../about/About").then(({ About }) => ({ default: About })));
+const Tech = lazy(() => import("../tech/Tech").then(({ Tech }) => ({ default: Tech })));
+const Experience = lazy(() => import("../experience/Experience").then(({ Experience }) => ({ default: Experience })));
+const Projects = lazy(() => import("../projects/Projects").then(({ Projects }) => ({ default: Projects })));
+const Contact = lazy(() => import("../contact/Contact").then(({ Contact }) => ({ default: Contact })));
 
-const Tech = lazy(() =>
-  import("../tech/Tech").then(({ Tech }) => ({
-    default: Tech,
-  })),
-);
-
-const Home = () => {
-  return (
-    <div className="relative z-0">
-      <div>
-        <Navbar />
-        <Hero />
-      </div>
-
-      <Suspense fallback={<Spinner />}>
-        <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat">
-          <About />
-        </div>
-
-        <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat pb-10">
-          <Tech />
-        </div>
-
-        <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat">
-          <Experience />
-        </div>
-
-        <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat">
-          <Projects />
-        </div>
-        <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 bg-cover bg-center bg-no-repeat text-white">
-          <Contact />
-        </div>
-      </Suspense>
-      <Footer />
-    </div>
-  );
-};
-
+const Home = () => <div className="relative"><Hero />
+  <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800"><DeferredSection id="about" title="About" kind="about"><About /></DeferredSection></div>
+  <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 pb-10"><DeferredSection id="Tech" title="Technologies" kind="tech"><Tech /></DeferredSection></div>
+  <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800"><DeferredSection id="experience" title="Experience" kind="experience"><Experience /></DeferredSection></div>
+  <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800"><DeferredSection id="projects" title="Projects" kind="projects"><Projects /></DeferredSection></div>
+  <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800"><DeferredSection id="contact" title="Contact" kind="contact"><Contact /></DeferredSection></div>
+</div>;
 export default Home;
