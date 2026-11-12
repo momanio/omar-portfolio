@@ -7,7 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "studio:dev": "npm --prefix studio run dev --",
+    "studio:build": "npm --prefix studio run build --",
+    "studio:preview": "npm --prefix studio run preview --",
+    "studio:lint": "npm --prefix studio run lint --",
+    "studio:typecheck": "npm --prefix studio run typecheck --"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

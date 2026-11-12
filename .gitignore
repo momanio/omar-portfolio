@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 .env
+.env.*
+!.env.example
+*.tsbuildinfo
+studio/.sanity/
 
 # Ignore TypeScript declaration files
 *.d.ts
