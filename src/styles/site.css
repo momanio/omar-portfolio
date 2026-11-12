@@ -117,3 +117,5 @@ body { background: var(--color-black); color: var(--color-slate-50); }
 .hero-content { overflow-wrap: anywhere; }
 @media(min-width:768px) { .skeleton-about { min-height: 800px; } .skeleton-tech { min-height: 650px; } .skeleton-experience { min-height: 2600px; } .skeleton-projects { min-height: 6400px; } .skeleton-contact { min-height: 950px; } }
 @media(min-width:1024px) { .skeleton-about { min-height: 640px; } .skeleton-tech { min-height: 550px; } .skeleton-experience { min-height: 2500px; } .skeleton-projects { min-height: 6000px; } .skeleton-contact { min-height: 850px; } }
+.contact-direct h3 { font-size: 24px; font-weight: 600; margin-bottom: 16px; }
+.contact-direct p { color: var(--color-slate-300); font-size: 16px; line-height: 1.8; margin-bottom: 24px; }

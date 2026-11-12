@@ -5,6 +5,7 @@ import { contact } from "@/constants/contact";
 
 type Field = "name" | "email" | "message";
 type Errors = Partial<Record<Field, string>>;
+const formConfigured = Boolean(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID && import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID && import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
 const emptyForm = { name: "", email: "", message: "" };
 
 export const Contact = () => {
@@ -58,7 +59,7 @@ export const Contact = () => {
         {copyFeedback && <p className="copy-toast" role="status">{copyFeedback}</p>}
         <div className="contact-socials"><a href={contact.linkedin} target="_blank" rel="noopener noreferrer"><FiLinkedin aria-hidden="true" />LinkedIn<span className="sr-only"> (opens in a new tab)</span></a><a href={contact.github} target="_blank" rel="noopener noreferrer"><FiGithub aria-hidden="true" />GitHub<span className="sr-only"> (opens in a new tab)</span></a>{contact.phone && <a href={`tel:${contact.phone}`}>Call me</a>}{contact.whatsapp && <a href={`https://wa.me/${contact.whatsapp.replace(/\D/g, "")}`} target="_blank" rel="noopener noreferrer">WhatsApp<span className="sr-only"> (opens in a new tab)</span></a>}</div>
       </div>
-      <form ref={formRef} onSubmit={(event) => void send(event)} noValidate className="contact-form" aria-busy={sending}>
+      {formConfigured ? <form ref={formRef} onSubmit={(event) => void send(event)} noValidate className="contact-form" aria-busy={sending}>
         <p className="form-required-note">All fields are required.</p>
         <label htmlFor="contact-name">Your name</label><input id="contact-name" disabled={sending} name="name" autoComplete="name" required maxLength={80} value={form.name} dir="auto" onChange={(event) => setForm({ ...form, name: event.target.value })} aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? "name-error" : undefined} />{errors.name && <p id="name-error" className="field-error">{errors.name}</p>}
         <label htmlFor="contact-email">Your email</label><input id="contact-email" disabled={sending} name="email" type="email" inputMode="email" autoComplete="email" required maxLength={254} spellCheck={false} dir="ltr" value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} aria-invalid={Boolean(errors.email)} aria-describedby={errors.email ? "email-error" : undefined} />{errors.email && <p id="email-error" className="field-error">{errors.email}</p>}
@@ -66,7 +67,7 @@ export const Contact = () => {
         <div className="form-honeypot" aria-hidden="true"><label htmlFor="contact-website">Leave this field empty</label><input id="contact-website" name="company_website" tabIndex={-1} autoComplete="off" /></div>
         <button className="button-primary" type="submit" disabled={sending}>{sending ? "Sending…" : "Send message"}</button>
         <p className="form-feedback" role="status">{feedback}</p>
-      </form>
+      </form> : <div className="contact-form contact-direct"><h3>Send an email.</h3><p>Tell me about your project using your email app.</p><a className="button-primary" href={`mailto:${contact.email}`}>Write an email</a></div>}
     </div>
   </Section>;
 };
