@@ -53,7 +53,11 @@ body { background: var(--color-black); color: var(--color-slate-50); }
   .footer-content { flex-direction: row; justify-content: space-between; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
-@media(max-width:767px) { .project-card-summary,.timeline-card [data-card-detail] > p { font-size: 16px; } }
+@media(max-width:767px) {
+  .project-card-summary,.timeline-card [data-card-detail] > p { font-size: 16px; }
+  /* The header's Hire me link stays available while shelf controls use the thumb zone. */
+  .page-actions[data-section="projects"] { display: none; }
+}
 .hero-section { min-height: 100svh; display: grid; place-items: center; padding: calc(var(--header-height) + 28px) 24px 40px; background: linear-gradient(to bottom,var(--color-gray-900),var(--color-black)); }
 .hero-content { width: 100%; max-width: 800px; margin-inline: auto; text-align: center; }
 .hero-content h1 { font-size: clamp(2.5rem,6vw,4.5rem); font-weight: 700; line-height: 1.06; text-transform: uppercase; letter-spacing: .015em; text-wrap: balance; }
@@ -112,7 +116,7 @@ body { background: var(--color-black); color: var(--color-slate-50); }
 .skeleton-about { min-height: 1120px; }
 .skeleton-tech { min-height: 1080px; }
 .skeleton-experience { min-height: 2800px; }
-.skeleton-projects { min-height: 4700px; }
+.skeleton-projects { min-height: 780px; }
 .skeleton-contact { min-height: 1120px; }
 .hero-content { overflow-wrap: anywhere; }
 @media(min-width:768px) { .skeleton-about { min-height: 800px; } .skeleton-tech { min-height: 650px; } .skeleton-experience { min-height: 2600px; } .skeleton-projects { min-height: 6400px; } .skeleton-contact { min-height: 950px; } }

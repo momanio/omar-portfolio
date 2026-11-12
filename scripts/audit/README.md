@@ -34,3 +34,7 @@ npm run preview -- --outDir /tmp/portfolio-contact-fixture --port 4175 --strictP
 Then `node scripts/audit/contact.mjs`. All EmailJS requests are intercepted. It asserts validation/focus, success/failure, retained drafts, honeypot and input sizing. Stop both preview processes with Ctrl+C when finished.
 
 See `docs/ux-audit/before.md` and `after.md` for methods, screenshots and known limits. Baseline-only scripts and full machine evidence are also included in the local artifact archive.
+
+## Mobile project shelf follow-up
+
+Run `node scripts/audit/mobile-project-shelf.mjs` against the production preview on 4173. It checks compact/desktop widths, accessibility, navigation controls, case-study history/focus, reduced motion, breakpoint cleanup, and synthesized horizontal/vertical touch gestures. See `docs/mobile-project-shelf/README.md` for results. Physical Safari remains separate device QA.
