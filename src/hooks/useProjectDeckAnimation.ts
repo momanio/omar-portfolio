@@ -5,11 +5,22 @@ import { gsap, ScrollTrigger, useGSAP } from "@/components/projects/projectMotio
 export function useProjectDeckAnimation(container: RefObject<HTMLElement | null>, projects: Project[], onActiveChange: (index: number) => void) {
   const positions = useRef<number[]>([]);
   const stickyTop = useRef(128);
+  const activeSlide = useRef(0);
   const jumpTo = useCallback((index: number, immediate = false) => {
+    const behavior = immediate || window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth";
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      const list = container.current?.querySelector<HTMLOListElement>("[data-project-list]");
+      const slot = list?.querySelectorAll<HTMLElement>("[data-project-slot]")[index];
+      if (list && slot) {
+        const padding = parseFloat(getComputedStyle(list).paddingLeft) || 0;
+        list.scrollTo({ left: list.scrollLeft + slot.getBoundingClientRect().left - list.getBoundingClientRect().left - padding, behavior });
+      }
+      return;
+    }
     const top = positions.current[index];
     if (top === undefined) return;
-    window.scrollTo({ top: Math.max(0, top - stickyTop.current + 1), behavior: immediate || window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
-  }, []);
+    window.scrollTo({ top: Math.max(0, top - stickyTop.current + 1), behavior });
+  }, [container]);
 
   useGSAP(() => {
     const root = container.current;
@@ -34,12 +45,13 @@ export function useProjectDeckAnimation(container: RefObject<HTMLElement | null>
       const threshold = window.scrollY + Math.min(window.innerHeight * 0.5, stickyTop.current + 120);
       let active = 0;
       positions.current.forEach((position, index) => { if (position <= threshold) active = index; });
-      if (active !== lastIndex) { lastIndex = active; onActiveChange(active); }
+      if (active !== lastIndex) { lastIndex = active; activeSlide.current = active; onActiveChange(active); }
     };
     const media = gsap.matchMedia();
     media.add({
       desktop: "(min-width: 768px) and (min-height: 740px)",
       mobile: "(max-width: 767px), (max-height: 739px)",
+      shelf: "(max-width: 767px)",
       reduce: "(prefers-reduced-motion: reduce)",
       pointer: "(hover: hover) and (pointer: fine)",
     }, (context) => {
@@ -48,6 +60,32 @@ export function useProjectDeckAnimation(container: RefObject<HTMLElement | null>
       const reduced = Boolean(context.conditions?.reduce);
       const pointer = desktop && Boolean(context.conditions?.pointer) && !reduced;
       const listeners: Array<() => void> = [];
+      if (context.conditions?.shelf) {
+        // Native horizontal scrolling leaves the page's vertical scroll completely free.
+        // No scrub, pinning or offscreen card transforms on phones.
+        let scrollFrame = 0;
+        const selectSlide = () => {
+          const start = list.getBoundingClientRect().left + (parseFloat(getComputedStyle(list).paddingLeft) || 0);
+          const distances = slots.map((slot) => Math.abs(slot.getBoundingClientRect().left - start));
+          const active = distances.indexOf(Math.min(...distances));
+          activeSlide.current = active;
+          if (active !== lastIndex) { lastIndex = active; onActiveChange(active); }
+        };
+        const onScroll = () => { cancelAnimationFrame(scrollFrame); scrollFrame = requestAnimationFrame(selectSlide); };
+        const onKeyDown = (event: KeyboardEvent) => {
+          if (event.altKey || event.ctrlKey || event.metaKey || !["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+          event.preventDefault();
+          const next = event.key === "Home" ? 0 : event.key === "End" ? slots.length - 1 : Math.max(0, Math.min(slots.length - 1, activeSlide.current + (event.key === "ArrowRight" ? 1 : -1)));
+          jumpTo(next, true);
+          slots[next].querySelector<HTMLButtonElement>("[data-project-open]")?.focus({ preventScroll: true });
+          selectSlide();
+        };
+        list.addEventListener("scroll", onScroll, { passive: true });
+        list.addEventListener("keydown", onKeyDown);
+        jumpTo(Math.min(activeSlide.current, slots.length - 1), true);
+        selectSlide();
+        return () => { cancelAnimationFrame(scrollFrame); list.removeEventListener("scroll", onScroll); list.removeEventListener("keydown", onKeyDown); };
+      }
       ScrollTrigger.create({ id: "project-deck-index", trigger: list, start: "top bottom", end: "bottom top", onUpdate: selectActive, onRefresh: selectActive });
       if (reduced) {
         // Invalidated hover tweens can retain an identity transform after a media switch.
@@ -145,6 +183,6 @@ export function useProjectDeckAnimation(container: RefObject<HTMLElement | null>
       root.removeEventListener("load", refresh, true); root.removeEventListener("error", refresh, true);
       window.removeEventListener("resize", refresh); document.fonts.removeEventListener("loadingdone", refresh);
     };
-  }, { scope: container, dependencies: [projects, onActiveChange], revertOnUpdate: true });
+  }, { scope: container, dependencies: [projects, onActiveChange, jumpTo], revertOnUpdate: true });
   return { jumpTo };
 }
