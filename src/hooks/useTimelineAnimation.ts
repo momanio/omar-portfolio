@@ -112,11 +112,15 @@ export function useTimelineAnimation(
         });
         stops.forEach((stop, index) => {
           const scroll = { trigger: stop, start: "top bottom", end: "bottom top", scrub: true, invalidateOnRefresh: true };
-          gsap.timeline({ defaults: { ease: "none", duration: 1 }, scrollTrigger: { ...scroll, id: `career-parallax-${index}` } })
-            .fromTo(stop.querySelector("[data-timeline-year]"), { y: desktop ? 32 : 8 }, { y: desktop ? -48 : -8 }, 0)
-            .fromTo(stop.querySelector("[data-card-title]"), { y: desktop ? 14 : 4 }, { y: desktop ? -14 : -4 }, 0)
-            .fromTo(stop.querySelector("[data-card-detail]"), { y: desktop ? 22 : 6 }, { y: desktop ? -22 : -6 }, 0)
-            .fromTo(stop.querySelector("[data-card-logo]"), { y: desktop ? 8 : 2, scale: 0.94 }, { y: desktop ? -8 : -2, scale: 1 }, 0);
+          const parallax = gsap.timeline({ defaults: { ease: "none", duration: 1 }, scrollTrigger: { ...scroll, id: `career-parallax-${index}` } });
+          const year = stop.querySelector("[data-timeline-year]");
+          const title = stop.querySelector("[data-card-title]");
+          const detail = stop.querySelector("[data-card-detail]");
+          const logo = stop.querySelector("[data-card-logo]");
+          if (year) parallax.fromTo(year, { y: desktop ? 32 : 8 }, { y: desktop ? -48 : -8 }, 0);
+          if (title) parallax.fromTo(title, { y: desktop ? 14 : 4 }, { y: desktop ? -14 : -4 }, 0);
+          if (detail) parallax.fromTo(detail, { y: desktop ? 22 : 6 }, { y: desktop ? -22 : -6 }, 0);
+          if (logo) parallax.fromTo(logo, { y: desktop ? 8 : 2, scale: 0.94 }, { y: desktop ? -8 : -2, scale: 1 }, 0);
           // Build the complete activation up front so callbacks create no untracked tweens.
           const activation = gsap.timeline({ paused: true });
           activation.to(stop.querySelector("[data-node-shape]"), { scale: 1.2, svgOrigin: "0 0", duration: 0.25, ease: "power2.out" }, 0)

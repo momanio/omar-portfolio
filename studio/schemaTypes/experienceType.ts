@@ -92,6 +92,14 @@ export const experienceType = defineType({
       name: 'description',
       type: 'text',
       rows: 4,
+      description: 'Optional summary. Leave blank to omit it from the timeline.',
+    }),
+    defineField({
+      name: 'highlight',
+      title: 'Highlight',
+      type: 'string',
+      description: 'Optional short highlight, displayed on one line (up to 100 characters).',
+      validation: (rule) => rule.max(100),
     }),
     defineField({
       name: 'techTags',

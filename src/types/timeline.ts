@@ -7,7 +7,8 @@ export interface TimelineEntry {
   endDate: string | null;
   isCurrent: boolean;
   logo: { src: string; alt: string } | null;
-  description: string | null;
+  description?: string | null;
+  highlight?: string | null;
   techTags: string[];
   link: string | null;
 }
@@ -24,6 +25,7 @@ export interface TimelineDocument {
   logoUrl?: string | null;
   logoAlt?: string | null;
   description?: string | null;
+  highlight?: string | null;
   techTags?: string[] | null;
   link?: string | null;
 }
