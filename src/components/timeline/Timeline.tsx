@@ -36,7 +36,7 @@ export function Timeline({ entries, usingFallback, isLoading }: { entries: Timel
       </header>
       <p className="sr-only" role="status">{isLoading ? "Loading career entries. Showing the saved timeline." : usingFallback ? "Showing the saved career timeline. Live entries are unavailable." : "Career timeline loaded."}</p>
       {usingFallback && !isLoading && <p className="mb-5 text-xs leading-6 text-slate-400">Showing the saved timeline while live entries are unavailable.</p>}
-      {sorted.length > 0 ? (
+      {sorted.length > 0 && (
         <>
           <TimelineProgress entries={sorted} activeIndex={currentIndex} />
           <div data-timeline-route className="timeline-route relative">
@@ -44,7 +44,7 @@ export function Timeline({ entries, usingFallback, isLoading }: { entries: Timel
             <ol className="relative m-0 list-none p-0" aria-label="Career milestones, earliest first">
               {sorted.map((entry, index) => (
                 <li key={entry.id} data-timeline-stop data-kind={entry.type ?? "unknown"} data-active={index === currentIndex} className="timeline-stop relative" aria-current={index === currentIndex ? "step" : undefined}>
-                  <span data-timeline-year className="timeline-year pointer-events-none absolute select-none font-semibold leading-none tabular-nums" aria-hidden="true">{timelineYear(entry.startDate)}</span>
+                  {entry.startDate && <span data-timeline-year className="timeline-year pointer-events-none absolute select-none font-semibold leading-none tabular-nums" aria-hidden="true">{timelineYear(entry.startDate)}</span>}
                   <TimelineNode type={entry.type} />
                   <TimelineCard entry={entry} />
                 </li>
@@ -52,7 +52,7 @@ export function Timeline({ entries, usingFallback, isLoading }: { entries: Timel
             </ol>
           </div>
         </>
-      ) : <p className="border-y border-slate-700 py-10 text-slate-300">TODO: Add your first career milestone in Sanity.</p>}
+      )}
       <footer className="relative mt-4 flex flex-col justify-between gap-6 border-t border-slate-700 pt-7 sm:flex-row sm:items-center">
         <p className="text-sm text-slate-400">{sorted.some((entry) => entry.isCurrent) ? "The path continues." : "Every step, part of the story."}</p>
         <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="timeline-link inline-flex min-h-11 items-center gap-3 self-start text-sm font-semibold text-slate-50 underline decoration-slate-500 underline-offset-8">

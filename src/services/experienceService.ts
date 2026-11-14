@@ -5,7 +5,7 @@ import { normalizeTimelineEntry, sortTimelineEntries } from "@/utils/timeline";
 const experienceClient = client.withConfig({ maxRetries: 0 });
 
 export const EXPERIENCE_QUERY = `*[_type == "experience"] | order(coalesce(startDate, StartDate) asc){
-  _id, type, title, name, isCurrent,
+  _id, type, title, name, isCurrent, highlight,
   "startDate": coalesce(startDate, StartDate),
   "endDate": coalesce(endDate, EndDate),
   "logoUrl": coalesce(logo.asset->url, icon.asset->url),

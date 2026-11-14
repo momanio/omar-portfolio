@@ -4,15 +4,17 @@ The original public experience collection is used without a content migration. T
 
 ## Sanity Studio integration
 
-This repo has a Sanity client but no Sanity Studio or deployed schema source. The portable `src/sanity/schemaTypes/experience.ts` exports `experienceSchema`; copy/import it into the Studio that manages this dataset and replace its existing `experience` schema registration. Do not register a second document type with the same name. Merge any extra fields in the external schema before replacing it.
+The local Sanity Studio registers `studio/schemaTypes/experienceType.ts`. The portable `src/sanity/schemaTypes/experience.ts` also exports `experienceSchema` for external Studios. Keep these definitions in sync; do not register a second document type with the same name. Merge any extra fields in an external schema before replacing it.
 
-All new fields are optional. Existing `StartDate`, `EndDate`, and `icon` data remains readable. New `startDate`, `endDate`, and `logo` fields take precedence. `isCurrent` takes precedence over an end date. An explicit `Present` legacy end string is also recognized; a missing end date alone is not assumed current. Recognizable legacy degree/role titles infer education/work until the category is set explicitly. Unknown types, missing dates, titles, organization names, logos, and descriptions show TODOs. Optional technologies/links remain absent until supplied. Text and legacy Portable Text descriptions are supported by the query.
+All new fields are optional. Existing `StartDate`, `EndDate`, and `icon` data remains readable. New `startDate`, `endDate`, and `logo` fields take precedence. `isCurrent` takes precedence over an end date. An explicit `Present` legacy end string is also recognized; a missing end date alone is not assumed current. Recognizable legacy degree/role titles infer education/work until the category is set explicitly. Missing types, dates, titles, organizations, logos, and descriptions are omitted. Broken logos are removed, and date separators appear only when both ends are present. Text and legacy Portable Text descriptions are supported by the query.
+
+`description` may be omitted, null, empty, or whitespace-only. Its paragraph is rendered only when it contains text, and the details wrapper is omitted when no description, highlight, tags, or link exists. `highlight` is an optional string validated to at most 100 characters in both schemas; the frontend normalizes it to one line and truncates it visually where needed. Optional `techTags` are trimmed, deduplicated, and rendered as small chips. Existing documents need no migration.
 
 ## Content to finish
 
-- Add factual descriptions for all six entries. No achievements or technology claims were invented.
+- Add factual descriptions where useful; entries are complete without them. No achievements or technology claims were invented.
 - Set the explicit work/education category on the legacy records.
-- Add optional technology tags and organization/project links.
+- Add optional highlights, technology tags, and organization/project links.
 - Verify PrimeTag's `isCurrent: true` is intentional: its existing end date is 2026-02-01, but the UI correctly displays Present because the current flag wins.
 - Review the overlapping freelance and PrimeTag dates; they were retained exactly.
 - Update `src/data/timelineFallback.ts` and its local logo snapshots when you change the career content.
@@ -40,9 +42,11 @@ Fixes completed in the polish pass:
 - Requested 112px CMS logos, preserved fixed image dimensions, and supplied small local logo copies for failure/offline rendering.
 - Reduced each stop's four parallax effects to one scrubbed timeline, alongside its activation trigger.
 
-The missing descriptions remain visible TODOs because their factual content requires the owner. No jobs, dates, achievements, or technologies were invented.
+Missing descriptions render no text, wrapper, or margin. No jobs, dates, achievements, or technologies were invented.
 
-## Verification
+The November 14 spacing pass removed the desktop 340px minimum entry height, reduced inter-entry padding, and removed trailing card padding. Entries now grow with their content. The mobile year clearance and the alternating desktop years remain intact; nodes retain their 24px offset from the card rule. The existing ResizeObserver still remeasures the route and calls `ScrollTrigger.refresh()` when content or viewport size changes. Parallax only targets elements that are present.
+
+## Initial implementation verification
 
 - `npm run build`: passed, including strict TypeScript project checks. Vite reports a non-blocking main-chunk size advisory.
 - `npm run lint`: passed. The unused legacy ProjectDetails component had two pre-existing lint errors; its local model is now typed and the unused query was removed.
@@ -56,3 +60,19 @@ The missing descriptions remain visible TODOs because their factual content requ
 - Local preview note: the existing Sanity CORS settings reject this local origin. Successful CMS browser tests proxied public responses inside the test; failure tests used an unavailable CMS response. No Sanity CORS, access, or content settings were changed.
 
 The independent detector's temporary overlay server was stopped and its browser contexts closed. Screenshots and browser evidence were retained in `/tmp` for this session. No real mid-range phone profiling was performed.
+
+## Optional content and spacing verification — 2026-11-14
+
+Portfolio build (including strict TypeScript checks) and lint passed. Studio type checks, lint, and build passed; the Studio build retained its auto-update configuration and reported non-blocking appId/CDN version-check warnings. The scoped layout detector and `git diff --check` passed.
+
+Chromium checked 360px, 768px, and 1440px with normal and reduced motion. Tests used the six saved entries with live requests unavailable, plus mocked Sanity projections for missing, null, empty, whitespace-only, and populated descriptions; highlight-only, tags-only, and link-only details; missing metadata; broken logos; long text/tags; and empty/single-entry collections. Only source comments retain development reminders; no user-visible fallback strings remain.
+
+| Viewport | Previous route height | Updated route height | Reduction |
+| --- | ---: | ---: | ---: |
+| 360px | 2,206px | 1,542px | 30% |
+| 768px | 2,163px | 1,499px | 31% |
+| 1440px | 2,168px | 1,235px | 43% |
+
+The six saved entries render zero detail wrappers. Node/path error stayed below 1px, with card rules and year numerals retaining their alignment. No page or content overflow occurred. Growing a populated card by 300px changed the measured path and increased ScrollTrigger's end position by 300px. Live resizing across all three widths preserved alignment. Centering successive nodes selected the correct active milestone. Reduced motion applied no parallax transforms. No timeline page errors or GSAP target warnings occurred.
+
+Screenshots: [360px](career-timeline/360.png), [768px](career-timeline/768.png), [1440px](career-timeline/1440.png).

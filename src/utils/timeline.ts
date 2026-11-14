@@ -9,8 +9,8 @@ export function validTimelineDate(value: string | null | undefined): string | nu
     : null;
 }
 
-export function timelineYear(date: string | null): string {
-  return date?.slice(0, 4) ?? "TODO";
+export function timelineYear(date: string | null): string | null {
+  return date?.slice(0, 4) ?? null;
 }
 
 export function formatTimelineDate(date: string): string {
@@ -42,7 +42,7 @@ export function normalizeTimelineEntry(document: TimelineDocument): TimelineEntr
   const type = document.type === "work" || document.type === "education" ? document.type
     : /bachelor|master|degree|diploma|ph\.?d/i.test(document.title ?? "") ? "education"
     : /developer|engineer|designer|freelanc/i.test(document.title ?? "") ? "work" : null;
-  const organization = document.name?.trim() || "TODO: organization";
+  const organization = document.name?.trim() || "";
   const logoUrl = safeTimelineLink(document.logoUrl);
   const image = logoUrl ? new URL(logoUrl) : null;
   if (image?.hostname === "cdn.sanity.io") {
@@ -54,13 +54,14 @@ export function normalizeTimelineEntry(document: TimelineDocument): TimelineEntr
   return {
     id: document._id,
     type,
-    title: document.title?.trim() || "TODO: title",
+    title: document.title?.trim() || "",
     organization,
     startDate: validTimelineDate(document.startDate),
     endDate: validTimelineDate(document.endDate),
     isCurrent: document.isCurrent === true || /^present$/i.test(document.endDate ?? ""),
-    logo: image ? { src: image.href, alt: document.logoAlt?.trim() || `${organization} logo` } : null,
+    logo: image ? { src: image.href, alt: document.logoAlt?.trim() || (organization ? `${organization} logo` : "") } : null,
     description: document.description?.trim() || null,
+    highlight: document.highlight?.replace(/\s+/g, " ").trim().slice(0, 100) || null,
     techTags: [...new Set(document.techTags?.filter((tag) => typeof tag === "string" && tag.trim()).map((tag) => tag.trim()) ?? [])],
     link: safeTimelineLink(document.link),
   };
