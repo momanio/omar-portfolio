@@ -53,10 +53,10 @@
 .project-archive summary svg { margin-inline-start: auto; }
 .project-archive[open] summary svg { transform: rotate(180deg); }
 .project-archive li { border-top: 1px solid #ffffff20; }
-.project-archive button { display: grid; grid-template-columns: 1fr auto; gap: 3px 15px; align-items: center; width: 100%; padding-block: 14px; text-align: start; cursor: pointer; overflow-wrap: anywhere; }
-.project-archive button span { grid-area: 2 / 1; font-size: .86rem; color: var(--color-slate-300); }
-.project-archive button svg { grid-area: 1 / 2 / span 2; }
-.project-archive button:hover strong { text-decoration: underline; }
+.project-archive :is(button,a) { display: grid; grid-template-columns: 1fr auto; gap: 3px 15px; align-items: center; width: 100%; padding-block: 14px; text-align: start; cursor: pointer; overflow-wrap: anywhere; }
+.project-archive :is(button,a) span { grid-area: 2 / 1; font-size: .86rem; color: var(--color-slate-300); }
+.project-archive :is(button,a) svg { grid-area: 1 / 2 / span 2; }
+.project-archive :is(button,a):hover strong { text-decoration: underline; }
 .project-invitation { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px; padding: 24px; margin-top: 30px; border-radius: 14px; background: #252b4c; }
 .project-invitation h3 { font-weight: 600; font-size: clamp(1.4rem, 3vw, 2rem); letter-spacing: -.04em; line-height: 1.16; }
 .project-deck :is(button,summary,ol[tabindex]):focus-visible, .project-overlay :is(button,a):focus-visible { outline: 2px solid var(--color-indigo-300); outline-offset: 3px; }
@@ -80,10 +80,10 @@
 .project-study-close { display: inline-flex; align-items: center; gap: 12px; min-width: 76px; min-height: 44px; flex-shrink: 0; cursor: pointer; font-size: 13px; touch-action: manipulation; }
 .project-study-close:hover { color: var(--color-indigo-300); }
 .project-study-content { padding: 28px 20px; }
-.project-study-content > h2 { font-size: clamp(2rem, 5vw, 3.75rem); line-height: 1.1; letter-spacing: -0.025em; font-weight: 600; text-wrap: balance; }
+.project-study-content > :is(h1,h2) { font-size: clamp(2rem, 5vw, 3.75rem); line-height: 1.1; letter-spacing: -0.025em; font-weight: 600; text-wrap: balance; }
 .project-study-hero { position: relative; margin-top: 32px; border-radius: 8px; overflow: hidden; background: var(--color-slate-800); }
 .project-study-block { margin-top: 36px; }
-.project-study-block > h3 { font-size: 20px; font-weight: 600; margin-bottom: 18px; }
+.project-study-block > :is(h2,h3) { font-size: 20px; font-weight: 600; margin-bottom: 18px; }
 .project-highlights { padding-inline-start: 20px; list-style: disc; color: var(--color-slate-300); font-size: 15px; line-height: 1.9; }
 .project-highlights li + li { margin-top: 10px; }
 .project-gallery { display: grid; gap: 24px; }
@@ -96,8 +96,8 @@
   .project-card-copy { padding: 28px; }
   .project-facts { gap: 14px; }
   .project-facts dd { font-size: 1rem; }
-  .project-archive button { grid-template-columns: minmax(10rem, 1fr) 3fr auto; }
-  .project-archive button span, .project-archive button svg { grid-area: auto; }
+  .project-archive :is(button,a) { grid-template-columns: minmax(10rem, 1fr) 3fr auto; }
+  .project-archive :is(button,a) span, .project-archive :is(button,a) svg { grid-area: auto; }
   .project-study-content { padding: 40px; }
   .project-study-toolbar { padding-inline: 40px; }
 }
@@ -106,4 +106,19 @@
   .project-preview-stage { grid-column: 2; grid-row: 1; }
   .project-card-copy { grid-column: 1; grid-row: 1; align-self: center; padding: clamp(24px, 3vw, 44px); }
   .project-deck-header { margin-bottom: 26px; }
+}
+
+.study-page { margin-inline: auto; max-width: 1120px; padding: calc(var(--header-height) + 24px) max(20px, 3vw) 48px; }
+.study-page .project-study-content { padding-inline: 0; }
+.study-back { display: inline-flex; align-items: center; min-height: 44px; color: #c7d2fe; text-decoration: underline; text-underline-offset: 4px; }
+.study-sequence { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 24px; padding: 0; }
+.study-sequence figure { max-width: 390px; margin-inline: auto; }
+.study-sequence img, .study-detail img { width: 100%; height: auto; border-radius: 8px; }
+.project-study-content figcaption { margin-top: 10px; max-width: 72ch; color: #cbd5e1; line-height: 1.55; }
+.study-sequence { counter-reset: step; }
+.study-sequence li { counter-increment: step; }
+.study-sequence figcaption::before { content: counter(step) ". "; font-weight: 600; }
+.study-detail { margin-top: 20px; max-width: 48rem; }
+@media (max-width: 480px) {
+  .project-facts div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
 }

@@ -7,7 +7,7 @@ import { SectionLink } from "@/components/navigation/SectionLink";
 import { ProjectCard } from "./ProjectCard";
 import { ProjectOverlay } from "./ProjectOverlay";
 import { ProjectShelfControls } from "./ProjectShelfControls";
-import "./projects.css";
+import { studyPath } from "@/utils/projectRoutes";
 
 export function ProjectDeck({ projects, isLoading = false, usingFallback = false }: { projects: Project[]; isLoading?: boolean; usingFallback?: boolean }) {
   const list = useRef<HTMLOListElement>(null);
@@ -52,9 +52,11 @@ export function ProjectDeck({ projects, isLoading = false, usingFallback = false
       </div>
       {more.length > 0 && <details className="project-archive">
         <summary>More work <span>{more.length}</span><FiChevronDown aria-hidden="true" /></summary>
-        <ul>{more.map((project) => <li key={project._id}><button type="button" aria-haspopup="dialog" onClick={(event) => open(project, event.currentTarget)}>
-          <strong dir="auto">{project.title}</strong><span dir="auto">{project.problem || project.summary || project.techStack.join(", ")}</span><FiArrowUpRight aria-hidden="true" />
-        </button></li>)}</ul>
+        <ul>{more.map((project) => {
+          const path = studyPath(project.slug.current);
+          const content = <><strong dir="auto">{project.title}</strong><span dir="auto">{project.problem || project.summary || project.techStack.join(", ")}</span><FiArrowUpRight aria-hidden="true" /></>;
+          return <li key={project._id}>{path ? <a href={path}>{content}</a> : <button type="button" aria-haspopup="dialog" onClick={(event) => open(project, event.currentTarget)}>{content}</button>}</li>;
+        })}</ul>
       </details>}
       <div className="project-invitation"><h3>Have a similar project in mind?</h3><SectionLink id="contact" className="button-primary">Tell me about your project</SectionLink></div>
       <ProjectOverlay project={selected} origin={origin} onClose={close} />

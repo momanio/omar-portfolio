@@ -64,7 +64,7 @@ body { background: var(--color-black); color: var(--color-slate-50); }
 .hero-content h1 { font-size: clamp(2.5rem,6vw,4.5rem); font-weight: 700; line-height: 1.06; text-transform: uppercase; letter-spacing: .015em; text-wrap: balance; }
 .hero-content h1 span { color: var(--color-slate-400); }
 .hero-role { margin-top: 20px; font-size: clamp(1.25rem,3vw,1.75rem); font-weight: 600; }
-.hero-intro { max-width: 48ch; margin: 16px auto 0; font-size: 16px; line-height: 1.8; color: var(--color-slate-300); text-wrap: pretty; }
+.hero-intro { max-width: 48ch; margin: 16px auto 0; font-size: 16px; line-height: 1.8; color: var(--color-slate-300); text-wrap: balance; }
 .hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
 .hero-proof { margin-top: 24px; font-size: 14px; line-height: 1.7; color: var(--color-slate-300); }
 .hero-status { min-height: 40px; margin-top: 8px; color: var(--color-slate-400); font-size: 12px; line-height: 1.6; }
@@ -134,3 +134,10 @@ body { background: var(--color-black); color: var(--color-slate-50); }
 @media(min-width:1024px) { .skeleton-about { min-height: 640px; } .skeleton-tech { min-height: 550px; } .skeleton-experience { min-height: 2500px; } .skeleton-projects { min-height: 850px; } .skeleton-contact { min-height: 850px; } }
 .contact-direct h3 { font-size: 24px; font-weight: 600; margin-bottom: 16px; }
 .contact-direct p { color: var(--color-slate-300); font-size: 16px; line-height: 1.8; margin-bottom: 24px; }
+
+@media (max-width: 639px) {
+  .service-grid { gap: 0; margin-top: 24px; }
+  .service-card { min-height: 48px; flex-direction: row; justify-content: flex-start; gap: 14px; padding: 10px 0; background: transparent; border-bottom: 1px solid var(--color-slate-700); border-radius: 0; }
+  .service-card svg { width: 22px; height: 22px; }
+  .service-card h3 { text-align: start; font-size: 1rem; }
+}
