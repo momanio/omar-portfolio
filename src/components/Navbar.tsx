@@ -4,6 +4,7 @@ import { IoMdMenu, IoIosClose } from "react-icons/io";
 import { navLinks } from "@/constants/navigation";
 import { useSectionNavigation } from "@/hooks/useSectionNavigation";
 import { SectionLink } from "./navigation/SectionLink";
+import { PageActions } from "./navigation/PageActions";
 
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -40,6 +41,7 @@ export const Navbar = () => {
       <nav className="site-nav" aria-label="Main navigation">
         <SectionLink id="top" className="brand-link" aria-label="Home — Omar Momani"><img src="/brand.svg" width="48" height="48" alt="" /></SectionLink>
         <ul className="desktop-nav">{navLinks.map(({ id, title }) => <li key={id}><SectionLink id={id} aria-current={active === id ? "location" : undefined}>{title}</SectionLink></li>)}</ul>
+        <PageActions />
         <SectionLink id="contact" className="button-primary header-cta">Hire me</SectionLink>
         <button ref={trigger} type="button" className="menu-toggle" aria-label="Open navigation menu" aria-controls="mobile-navigation" aria-expanded={open} onClick={() => setOpen(true)}><IoMdMenu aria-hidden="true" /></button>
       </nav>

@@ -16,6 +16,8 @@ export interface Project {
   gallery: ProjectImage[];
   year: number | null;
   role: string | null;
+  problem?: string | null;
+  result?: string | null;
   summary: string | null;
   highlights: string[];
   tags: string[];
@@ -26,6 +28,11 @@ export interface Project {
   liveUrl: string | null;
   repoUrl: string | null;
   publishedAt: string | null;
+}
+
+export interface ProjectSnapshot extends Project {
+  /** Original CMS body when the saved case study has more complete copy. */
+  legacyBody?: string;
 }
 
 export interface ProjectImageDocument {
@@ -46,6 +53,9 @@ export interface ProjectDocument {
   gallery?: ProjectImageDocument[] | null;
   year?: number | null;
   role?: string | null;
+  problem?: string | null;
+  result?: string | null;
+  legacySummary?: string | null;
   summary?: string | null;
   highlights?: string[] | null;
   tags?: string[] | null;
