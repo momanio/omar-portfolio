@@ -15,7 +15,7 @@ export const PROJECTS_QUERY = `*[_type == "projects"] | order(coalesce(order, 99
   _id, title, slug, year, role, problem, summary, result, highlights, tags, techStack,
   accentColor, order, featured, publishedAt,
   "legacySummary": coalesce(pt::text(body), description),
-  "liveUrl": coalesce(liveUrl, projectUrl), repoUrl,
+  "liveUrl": coalesce(liveUrl, projectUrl), "repoUrl": coalesce(repositoryUrl, repoUrl),
   "thumbnail": coalesce(image, mainImage, thumbnail)${imageProjection},
   "fullPageScreenshot": fullPageScreenshot${imageProjection},
   "gallery": gallery[]${imageProjection}
@@ -27,10 +27,8 @@ export async function fetchProjects(signal?: AbortSignal): Promise<Project[]> {
     const snapshot = projectFallback.find((item) => item._id === document._id || item.slug.current === document.slug?.current);
     return normalizeProject(document, snapshot);
   });
-  // A Studio document with this slug takes over from the bundled npm case study.
-  const openSource = projectFallback.find((item) => item.slug.current === "react-router-activity");
-  if (openSource && !projects.some((item) => item._id === openSource._id || item.slug.current === openSource.slug.current)) {
-    projects.push(openSource);
-  }
+  // The clinic was added in this release. Prefer its CMS record when the editor publishes it.
+  const clinic = projectFallback.find((item) => item.slug.current === "nawa-clinic");
+  if (clinic && !projects.some((project) => project.slug.current === clinic.slug.current)) projects.push(clinic);
   return sortProjects(projects);
 }

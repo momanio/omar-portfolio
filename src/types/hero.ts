@@ -4,3 +4,8 @@ export interface Hero {
   LastName: string;
   jobTitle: string;
 }
+
+export interface HeroCopy {
+  description: string;
+  skills: readonly string[];
+}

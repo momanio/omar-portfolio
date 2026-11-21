@@ -14,6 +14,7 @@ const resumeUrl = "https://drive.google.com/file/d/15ng6CdAV2jQ32LIXfnUjJW_l1n-N
 export function Timeline({ entries, usingFallback, isLoading }: { entries: TimelineEntry[]; usingFallback: boolean; isLoading: boolean }) {
   const container = useRef<HTMLElement>(null);
   const sorted = useMemo(() => sortTimelineEntries(entries), [entries]);
+  const latestRole = [...sorted].reverse().find((entry) => entry.type === "work");
   const [activeIndex, setActiveIndex] = useState(0);
   useTimelineAnimation(container, sorted, setActiveIndex);
   const currentIndex = Math.min(activeIndex, Math.max(0, sorted.length - 1));
@@ -34,6 +35,14 @@ export function Timeline({ entries, usingFallback, isLoading }: { entries: Timel
           </a>
         </div>
       </header>
+      {latestRole && <section aria-label="Recent role" className="role-spotlight">
+        <h3>{latestRole.title} at {latestRole.organization}</h3>
+        {latestRole.id === "e16d76e8-856b-43a9-9fa2-2f393434435e" ? <dl>
+          <div><dt>Shipped</dt><dd>Product screens built from PrimeTag’s Figma design system.</dd></div>
+          <div><dt>Technical decision</dt><dd>I connected core frontend data flows to REST APIs.</dd></div>
+          <div><dt>Outcome</dt><dd>Those screens relied less on hardcoded and mock data.</dd></div>
+        </dl> : <p>{latestRole.highlight || latestRole.description}</p>}
+      </section>}
       <p className="sr-only" role="status">{isLoading ? "Loading career entries. Showing the saved timeline." : usingFallback ? "Showing the saved career timeline. Live entries are unavailable." : "Career timeline loaded."}</p>
       {usingFallback && !isLoading && <p className="mb-5 text-xs leading-6 text-slate-400">Showing the saved timeline while live entries are unavailable.</p>}
       {sorted.length > 0 && (

@@ -41,6 +41,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "techStack": [
       "React",
       "TypeScript",
+      "Vite",
       "Tailwind CSS",
       "Sanity"
     ],
@@ -52,51 +53,52 @@ export const projectFallback: ProjectSnapshot[] = [
     "publishedAt": "2026-11-12T15:19:47.609Z"
   },
   {
-    "_id": "react-router-activity",
-    "title": "react-router-activity",
+    "_id": "nawa-clinic",
+    "title": "Nawa Clinic",
     "slug": {
-      "current": "react-router-activity"
+      "current": "nawa-clinic"
     },
     "thumbnail": {
       "assetId": null,
-      "url": "/projects/react-router-activity.webp",
-      "alt": "The package README describing how ActivityOutlet preserves route state.",
-      "width": 790,
-      "height": 490,
+      "url": "/projects/nawa-clinic.webp",
+      "alt": "Arabic Nawa Clinic demo with a medical illustration and appointment request link.",
+      "width": 960,
+      "height": 600,
       "lqip": null
     },
     "fullPageScreenshot": {
       "assetId": null,
-      "url": "/projects/react-router-activity-full.webp",
-      "alt": "The public README with installation, ActivityOutlet usage, and the visibility hook.",
-      "width": 790,
-      "height": 1878,
+      "url": "/projects/nawa-clinic-full.webp",
+      "alt": "Arabic clinic demo from its home page through services, appointment requests, and opening hours.",
+      "width": 960,
+      "height": 4515,
       "lqip": null
     },
     "gallery": [],
     "year": null,
-    "role": "Package author",
-    "problem": "Navigating away from a route discards its component state.",
-    "summary": "I built a drop-in outlet for React Router that keeps visited routes mounted with React Activity.",
-    "result": "Returning to a cached route restores its existing form state.",
+    "role": "Frontend developer",
+    "problem": "How can a clinic visitor request an appointment in Arabic or English?",
+    "summary": "I built a bilingual clinic demo that turns an appointment request into a WhatsApp message for the visitor to review.",
+    "result": "The page remembers the selected language on a return visit.",
     "highlights": [
-      "A configurable cache evicts the least recently used route when it reaches its limit.",
-      "The useOnActivity hook exposes when a route becomes visible or hidden."
+      "I kept clinic details in one configuration and used typed translation keys to keep the Arabic and English interfaces in sync.",
+      "The form accepts Arabic digits and prepares a localized appointment request. The demo uses fictional clinic details."
     ],
     "tags": [
-      "Open source",
-      "npm"
+      "Bilingual",
+      "Demo"
     ],
     "techStack": [
-      "TypeScript",
       "React",
-      "React Router"
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS"
     ],
-    "accentColor": "#87BCDC",
+    "accentColor": "#80B6A0",
     "order": null,
     "featured": false,
-    "liveUrl": "https://www.npmjs.com/package/react-router-activity",
-    "repoUrl": "https://github.com/momanio/react-router-activity",
+    "liveUrl": "https://clinic-project.o-a-momani.workers.dev/",
+    "repoUrl": "https://github.com/momanio/clinic-project",
     "publishedAt": null
   },
   {
@@ -129,7 +131,7 @@ export const projectFallback: ProjectSnapshot[] = [
       "Laravel",
       "Inertia",
       "React",
-      "Tailwindcss"
+      "Tailwind CSS"
     ],
     "accentColor": null,
     "order": null,
@@ -149,7 +151,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "thumbnail": {
       "assetId": null,
       "url": "/projects/badil.webp",
-      "alt": "Badil interface screenshot",
+      "alt": "Badil’s Arabic landing page with links to browse products and register a laboratory.",
       "width": 1350,
       "height": 649,
       "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKHRFWHRDcmVhdGlvbgAxNiDZhtmK2LPYp9mGLCAyMDI1IDA4OjE4OjI1INmFv0XrVQAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAKZSURBVHicTc1LTxMBFIbh+T8a3ZiYuFCXxERX6grFaETBIFojolKpUhDaFAFpocCABaH3Cy2UkZlh2qFTgcIALXSUS4iXxJ/xGtGFizdfzrM5wt0Rg/tjq9T06Jx6rnCiVebEs8X/+nP/s5a/dvI/O/mv0y9kzthVhEB+j0n9EE/2C/ZoGXtkG0eswpvkLh3JKs5U9Xj/9Dqxe5wjvkN7fIdXsQr22C72uEV70sKRshBU02K5fIC0UkFMyLyfShHM6sdW+vqDFesbhZ0jlrYPkM19JPOA+fU94kaZad1k0qgyvXpIZOOIiHmEIGYUoqpBWMrh6B+lzvaKlh4vEdlgybSQViukjE1C+RKh3Dqh5TIBzaQvqdITlXCndbzKBjMrFglzH8H5IY0nKOFLLNE9mabJPU5j9xjdU1mmlA0+aluMflpj5NMaAW2TkFFlYmmLjhmZzplFvJkCH3NbZDcP0ao/EJ760rSJWdzRPMPSOkMLJRwBidbhFIOzRQJaBe/8GkPZEuPqNlN6Fb+8TWc4T19i+fhpslhFKX9H//IL4dbbCC3iIq7ECmNqhcm8hStaoGU4Tce0Rn+6hCv+me6oQVesiCNSpG2mgDNcwDdXYkLeIqhXmTOPWCz/RLjUKtLgzdIeLNKbNunPmLR9UGjwRLjrDvNgYJZmv4RNVHgsqtR7JW73ZXjsX6AzVMCVWKV3dh2/XEFULYRzTT4uO4LU9S/QOKrROKJR60pS88THxQfvuPJyghueNPU+mftDCjd7M1xzhrnuDFE/kKV5LMcjUccWMGgOGAhnmkY4a5vg3PMg51+nqOlZ4HLXLBdtfi489HGtM8atQYV7ozoPxws0DKnUeua42pWk1j3PnQGVusEctYM5rg5o/AbcsELMpKUu9QAAAABJRU5ErkJggg=="
@@ -158,7 +160,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "A responsive laboratory platform with a public landing page and an admin dashboard.",
+    "summary": "An Arabic marketplace with product listings, laboratory registration, and an admin dashboard.",
     "highlights": [],
     "tags": [
       "Admin",
@@ -171,7 +173,7 @@ export const projectFallback: ProjectSnapshot[] = [
       "Laravel",
       "Inertia",
       "React",
-      "Tailwindcss"
+      "Tailwind CSS"
     ],
     "accentColor": null,
     "order": null,
@@ -179,7 +181,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "liveUrl": null,
     "repoUrl": null,
     "publishedAt": "2025-02-16T00:53:01.294Z",
-    "problem": "Connect medical laboratories through one platform."
+    "problem": "Help medical laboratories find equipment to buy or exchange."
   },
   {
     "_id": "a5ea5660-7b93-489c-8d9a-4a07f5136378",
@@ -199,27 +201,25 @@ export const projectFallback: ProjectSnapshot[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "A single-page application for gaming services in saudi arabia.",
+    "summary": "A single-page site introducing gaming and virtual reality services in Saudi Arabia.",
     "highlights": [],
     "tags": [
-      "Games",
-      "Excitement",
       "Gaming",
-      "VR Games"
+      "Virtual reality"
     ],
     "techStack": [
       "JavaScript",
       "HTML5",
-      "CSS3",
-      "Vanilla JS"
+      "CSS3"
     ],
     "accentColor": null,
     "order": null,
     "featured": false,
-    "liveUrl": "https://xitmnt.sa/",
+    "liveUrl": null,
     "repoUrl": null,
     "publishedAt": "2025-01-23T13:47:07.054Z",
-    "problem": "Introduce gaming and VR services to visitors in Saudi Arabia."
+    "problem": "Introduce gaming and VR services to visitors in Saudi Arabia.",
+    "legacyBody": "A single-page application for gaming services in saudi arabia."
   },
   {
     "_id": "c1217f80-2837-4278-bc28-c970b774833b",
@@ -239,7 +239,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "Herbal Home provides Natural Herbal Medications, allowing users to search for product ratings and details.",
+    "summary": "A searchable catalog of herbal products with ratings and product details.",
     "highlights": [],
     "tags": [
       "Admin",
@@ -257,7 +257,8 @@ export const projectFallback: ProjectSnapshot[] = [
     "liveUrl": null,
     "repoUrl": null,
     "publishedAt": "2025-01-23T13:45:20.210Z",
-    "problem": "Find ratings and details for herbal products."
+    "problem": "Find ratings and details for herbal products.",
+    "legacyBody": "Herbal Home provides Natural Herbal Medications, allowing users to search for product ratings and details."
   },
   {
     "_id": "0670fe83-1057-4668-a573-44c18fdc94ca",
@@ -285,7 +286,11 @@ export const projectFallback: ProjectSnapshot[] = [
     "year": null,
     "role": "Frontend developer",
     "summary": "I built a single-page site that walks visitors through the agency’s process, services, and contact form.",
-    "highlights": [],
+    "highlights": [
+      "I separated the agency’s process from its service examples. Visitors can see how the team works before choosing a service.",
+      "I built the service slider around a single list. Each entry supplies its own name, description, and artwork, so editing one service updates its slide.",
+      "On desktop, the previous and next controls wrap at either end of the list. The contact link stays below the slider as visitors browse."
+    ],
     "tags": [
       "Landing",
       "Responsive",
@@ -293,8 +298,8 @@ export const projectFallback: ProjectSnapshot[] = [
     ],
     "techStack": [
       "React",
-      "Jsx",
-      "Tailwindcss"
+      "JSX",
+      "Tailwind CSS"
     ],
     "accentColor": "#A998EB",
     "order": null,
@@ -303,7 +308,8 @@ export const projectFallback: ProjectSnapshot[] = [
     "repoUrl": "https://github.com/momanio/Elham-Frontend",
     "publishedAt": "2025-01-23T13:43:08.671Z",
     "problem": "Help potential clients understand Elham’s services and how the team works.",
-    "legacyBody": "A single-page application that allows users to know more about Elham Company and its services."
+    "legacyBody": "A single-page application that allows users to know more about Elham Company and its services.",
+    "result": "Visitors can browse service examples and reach the contact form from the same page."
   },
   {
     "_id": "ef3e66ef-968f-4776-9977-ce430f01c503",
@@ -323,7 +329,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "Admin Dashboard for a Gym and Fitness Center.",
+    "summary": "An Arabic admin dashboard for managing trainees and their exercise and nutrition plans.",
     "highlights": [],
     "tags": [
       "Admin",
@@ -334,17 +340,17 @@ export const projectFallback: ProjectSnapshot[] = [
     "techStack": [
       "React",
       "TypeScript",
-      "Tailwindcss",
-      "MUI",
-      "SPA"
+      "Tailwind CSS",
+      "MUI"
     ],
     "accentColor": null,
     "order": null,
     "featured": false,
-    "liveUrl": "https://baslex.vercel.app/",
-    "repoUrl": "https://baslex.vercel.app/",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/momanio/bandar-app",
     "publishedAt": "2025-01-18T14:37:09.988Z",
-    "problem": "Manage the day-to-day work of a fitness center."
+    "problem": "Manage the day-to-day work of a fitness center.",
+    "legacyBody": "Admin Dashboard for a Gym and Fitness Center."
   },
   {
     "_id": "2474de3f-651f-4e23-abcf-822e8d04b47b",
@@ -364,7 +370,7 @@ export const projectFallback: ProjectSnapshot[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "Admin dashboard to manage photographers and clients orders and more.",
+    "summary": "A dashboard for managing photographers and their clients’ orders.",
     "highlights": [],
     "tags": [
       "Admin",
@@ -375,15 +381,15 @@ export const projectFallback: ProjectSnapshot[] = [
       "React",
       "TypeScript",
       "Vite",
-      "Tailwindcss",
-      "tasStack"
+      "Tailwind CSS"
     ],
     "accentColor": null,
     "order": null,
     "featured": false,
-    "liveUrl": "https://baslex.vercel.app/",
-    "repoUrl": "https://baslex.vercel.app/",
+    "liveUrl": null,
+    "repoUrl": null,
     "publishedAt": "2025-01-18T14:17:23.290Z",
-    "problem": "Manage photographers and client orders in one place."
+    "problem": "Manage photographers and client orders in one place.",
+    "legacyBody": "Admin dashboard to manage photographers and clients orders and more."
   }
 ];

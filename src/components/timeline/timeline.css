@@ -36,3 +36,10 @@
   .timeline-link { transition: none; }
   [data-node-fill] { opacity: 1; }
 }
+
+.role-spotlight { margin-bottom: 2rem; padding-block: 1.35rem; border-block: 1px solid #465368; }
+.role-spotlight h3 { font-size: clamp(1.25rem, 3vw, 2rem); font-weight: 600; }
+.role-spotlight dl { display: grid; gap: 1rem; margin-top: 1rem; }
+.role-spotlight dt { font-weight: 600; color: #c7d2fe; font-size: .85rem; }
+.role-spotlight dd { margin-top: .25rem; max-width: 48ch; color: #e2e8f0; }
+@media (min-width: 768px) { .role-spotlight dl { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; } }

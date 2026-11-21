@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://omarmomani.is-a.dev/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://omarmomani.is-a.dev/</loc></url>
+  <url><loc>https://omarmomani.is-a.dev/projects/beebites/</loc></url>
+  <url><loc>https://omarmomani.is-a.dev/projects/nawa-clinic/</loc></url>
+  <url><loc>https://omarmomani.is-a.dev/projects/elham/</loc></url>
+</urlset>
