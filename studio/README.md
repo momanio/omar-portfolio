@@ -21,12 +21,12 @@ project. Run the portfolio separately with `npm run dev`.
 - **Experience:** work or education, organization, dates, current status, logo,
   description, technologies, and link.
 - **Projects:** title, slug, publication date, thumbnail, full-page screenshot,
-  gallery, summary, year, role, highlights, body, tags, technologies, URLs, accent
+  gallery, problem, summary, result, year, role, highlights, body, tags, technologies, URLs, accent
   color, display order, and featured status.
 
 Existing field names (`StartDate`, `EndDate`, `icon`, `image`, and `projectUrl`) are
 retained so existing content and the portfolio queries continue working. Newly
-added fields are optional. If Summary is empty, the portfolio uses Body.
+added fields are optional. The [case-study guide](../docs/project-deck.md) includes the package entry, featured-project settings, screenshot files, and fallback behavior.
 
 The portfolio's `VITE_SANITY_*` environment variables configure only the portfolio.
 If you change its project or dataset, also update `sanity.config.ts` and

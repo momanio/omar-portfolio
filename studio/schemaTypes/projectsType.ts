@@ -46,11 +46,13 @@ export const projectsType = defineType({
         },
       ],
     }),
+    defineField({name: 'problem', title: 'Problem', type: 'string', description: 'What did the user or team need to do? Use one sentence.'}),
+    defineField({name: 'result', title: 'Result', type: 'string', description: 'A verified outcome. Include a metric only when documented.'}),
     defineField({
       name: 'summary',
       type: 'text',
       rows: 3,
-      description: 'Short project description. The website falls back to Body when empty.',
+      description: 'What you built. Describe the implementation in one or two sentences.',
     }),
     defineField({
       name: 'year',

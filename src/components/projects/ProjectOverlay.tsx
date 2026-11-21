@@ -3,8 +3,11 @@ import { createPortal } from "react-dom";
 import { FiArrowUpRight, FiX } from "react-icons/fi";
 import type { Project } from "@/types/project";
 import type { ProjectOrigin } from "@/hooks/useProjectOverlay";
-import { gsap, useGSAP } from "./projectMotion";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ProjectImage } from "./ProjectImage";
+import { BrowserFrame } from "./BrowserFrame";
+import { ProjectFacts } from "./ProjectFacts";
 import { TechChips } from "./TechChips";
 
 export function ProjectOverlay({ project, origin, onClose }: { project: Project | null; origin: RefObject<ProjectOrigin | null>; onClose: () => void }) {
@@ -54,7 +57,7 @@ export function ProjectOverlay({ project, origin, onClose }: { project: Project 
       gsap.fromTo(dialog.querySelector("[data-study-scrim]"), { opacity: 0 }, { opacity: 1, duration });
       gsap.fromTo(panel, { opacity: 0 }, { opacity: 1, duration: reduced ? 0.15 : 0.3 });
       const image = dialog.querySelector<HTMLElement>("[data-study-image]");
-      if (image && !reduced && origin.current?.element.isConnected) {
+      if (image && !reduced && origin.current?.element.isConnected && origin.current.frame) {
         const from = origin.current.frame;
         const to = image.getBoundingClientRect();
         gsap.fromTo(image, {
@@ -71,7 +74,7 @@ export function ProjectOverlay({ project, origin, onClose }: { project: Project 
   const gallery = [
     ...(visible.fullPageScreenshot ? [visible.fullPageScreenshot] : []),
     ...visible.gallery,
-  ].filter((image, index, images) => image.url !== hero?.url && images.findIndex((candidate) => candidate.url === image.url) === index);
+  ].filter((image, index, images) => (visible.fullPageScreenshot || image.url !== hero?.url) && images.findIndex((candidate) => candidate.url === image.url) === index);
   return createPortal(
     <dialog ref={dialogRef} id="project-case-study" className="project-overlay" aria-modal="true" aria-labelledby="project-study-title" onCancel={(event) => { event.preventDefault(); if (!closing) onClose(); }} onKeyDown={(event) => {
       if (event.key !== "Tab") return;
@@ -85,13 +88,15 @@ export function ProjectOverlay({ project, origin, onClose }: { project: Project 
         <div className="project-study-toolbar"><span dir="auto">{visible.title}</span><button ref={closeRef} type="button" onClick={() => { if (!closing) onClose(); }} className="project-study-close">Close<FiX aria-hidden="true" /></button></div>
         <div className="project-study-content">
           <h2 id="project-study-title" dir="auto">{visible.title}</h2>
-          {(visible.year || visible.role) && <dl className="project-study-meta">{visible.year && <div><dt>Year</dt><dd><time dateTime={String(visible.year)}>{visible.year}</time></dd></div>}{visible.role && <div><dt>Role</dt><dd dir="auto">{visible.role}</dd></div>}</dl>}
-          {visible.summary && <p className="project-study-summary" dir="auto">{visible.summary}</p>}
-          {hero && <div data-study-image className="project-study-hero"><ProjectImage key={hero.url} image={hero} className="h-auto w-full" sizes="(min-width: 1152px) 1056px, 94vw" /></div>}
+          {visible.year && <time className="project-year" dateTime={String(visible.year)}>{visible.year}</time>}
+          <ProjectFacts project={visible} />
+          {hero && <div data-study-image className="project-study-hero">
+            {visible.fullPageScreenshot ? <BrowserFrame project={visible} sizes="(min-width: 1152px) 1056px, 94vw" /> : <ProjectImage key={hero.url} image={hero} className="h-auto w-full" sizes="(min-width: 1152px) 1056px, 94vw" />}
+          </div>}
           {visible.highlights.length > 0 && <section className="project-study-block" aria-labelledby="project-highlights-heading"><h3 id="project-highlights-heading">Highlights</h3><ul className="project-highlights">{visible.highlights.map((highlight) => <li key={highlight} dir="auto">{highlight}</li>)}</ul></section>}
           {(visible.techStack.length > 0 || visible.tags.length > 0) && <section className="project-study-block" aria-labelledby="project-stack-heading"><h3 id="project-stack-heading">{visible.techStack.length ? "Built with" : "Project tags"}</h3><TechChips technologies={visible.techStack} tags={visible.tags} /></section>}
           {gallery.length > 0 && <section className="project-study-block" aria-labelledby="project-gallery-heading"><h3 id="project-gallery-heading">A closer look</h3><div className="project-gallery">{gallery.map((image) => <figure key={image.url}><ProjectImage image={image} className="h-auto w-full" sizes="(min-width: 1152px) 1056px, 94vw" /></figure>)}</div></section>}
-          {(visible.liveUrl || visible.repoUrl) && <div className="project-study-links">{visible.liveUrl && <a href={visible.liveUrl} target="_blank" rel="noopener noreferrer">Visit live site<FiArrowUpRight aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a>}{visible.repoUrl && <a href={visible.repoUrl} target="_blank" rel="noopener noreferrer">View repository<FiArrowUpRight aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a>}</div>}
+          {(visible.liveUrl || visible.repoUrl) && <div className="project-study-links">{visible.liveUrl && <a href={visible.liveUrl} target="_blank" rel="noopener noreferrer">{new URL(visible.liveUrl).hostname === "www.npmjs.com" ? "View on npm" : "Visit live site"}<FiArrowUpRight aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a>}{visible.repoUrl && <a href={visible.repoUrl} target="_blank" rel="noopener noreferrer">View repository<FiArrowUpRight aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a>}</div>}
         </div>
       </div>
     </dialog>, document.body,

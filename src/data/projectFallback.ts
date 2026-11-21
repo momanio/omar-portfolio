@@ -1,8 +1,104 @@
-import type { Project } from "@/types/project";
+import type { ProjectSnapshot } from "@/types/project";
 
-// Verified snapshot of the seven existing public Sanity projects, 2026-11-12.
-// Missing case-study facts stay absent; publishing dates are not project years.
-export const projectFallback: Project[] = [
+// Local case-study copy and captures also serve visitors when the CMS is unavailable.
+export const projectFallback: ProjectSnapshot[] = [
+  {
+    "_id": "d2145e93-997f-4a13-a14c-93e98b9dc198",
+    "title": "BeeBites",
+    "slug": {
+      "current": "beebites"
+    },
+    "thumbnail": {
+      "assetId": null,
+      "url": "/projects/beebites.webp",
+      "alt": "Arabic BeeBites storefront showing the featured bakery menu.",
+      "width": 960,
+      "height": 595,
+      "lqip": null
+    },
+    "fullPageScreenshot": {
+      "assetId": null,
+      "url": "/projects/beebites-full.webp",
+      "alt": "BeeBites’ Arabic storefront, from the featured item through the menu and ordering instructions.",
+      "width": 960,
+      "height": 6698,
+      "lqip": null
+    },
+    "gallery": [],
+    "year": null,
+    "role": "Storefront and CMS development",
+    "legacyBody": "Full Stack bakery website",
+    "problem": "How can customers build a pastry box in Arabic or English and send it to the bakery?",
+    "summary": "I built a bilingual menu, a box builder, and a WhatsApp order handoff for a home bakery in Jordan.",
+    "result": "Switching languages keeps the selected items and quantities in the box.",
+    "highlights": [
+      "The bakery can edit categories, products, and translations in Sanity.",
+      "The order opens in WhatsApp in the customer’s chosen language."
+    ],
+    "tags": [
+      "Storefront"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Sanity"
+    ],
+    "accentColor": "#EAB867",
+    "order": null,
+    "featured": false,
+    "liveUrl": "https://beebites.o-a-momani.workers.dev/",
+    "repoUrl": null,
+    "publishedAt": "2026-11-12T15:19:47.609Z"
+  },
+  {
+    "_id": "react-router-activity",
+    "title": "react-router-activity",
+    "slug": {
+      "current": "react-router-activity"
+    },
+    "thumbnail": {
+      "assetId": null,
+      "url": "/projects/react-router-activity.webp",
+      "alt": "The package README describing how ActivityOutlet preserves route state.",
+      "width": 790,
+      "height": 490,
+      "lqip": null
+    },
+    "fullPageScreenshot": {
+      "assetId": null,
+      "url": "/projects/react-router-activity-full.webp",
+      "alt": "The public README with installation, ActivityOutlet usage, and the visibility hook.",
+      "width": 790,
+      "height": 1878,
+      "lqip": null
+    },
+    "gallery": [],
+    "year": null,
+    "role": "Package author",
+    "problem": "Navigating away from a route discards its component state.",
+    "summary": "I built a drop-in outlet for React Router that keeps visited routes mounted with React Activity.",
+    "result": "Returning to a cached route restores its existing form state.",
+    "highlights": [
+      "A configurable cache evicts the least recently used route when it reaches its limit.",
+      "The useOnActivity hook exposes when a route becomes visible or hidden."
+    ],
+    "tags": [
+      "Open source",
+      "npm"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "React Router"
+    ],
+    "accentColor": "#87BCDC",
+    "order": null,
+    "featured": false,
+    "liveUrl": "https://www.npmjs.com/package/react-router-activity",
+    "repoUrl": "https://github.com/momanio/react-router-activity",
+    "publishedAt": null
+  },
   {
     "_id": "3100a5bf-6875-4e32-87e2-84d223012007",
     "title": "Barqya",
@@ -21,7 +117,7 @@ export const projectFallback: Project[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": "Barqya is ",
+    "summary": "An Arabic landing page with a direct entry point for sending a telegram.",
     "highlights": [],
     "tags": [
       "Landing",
@@ -40,7 +136,9 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": null,
     "repoUrl": null,
-    "publishedAt": "2025-04-15T22:44:18.745Z"
+    "publishedAt": "2025-04-15T22:44:18.745Z",
+    "problem": "Send an Arabic telegram online.",
+    "legacyBody": "Barqya is"
   },
   {
     "_id": "94760a21-2a2e-4fca-bdfa-5de0fa71bd02",
@@ -60,7 +158,7 @@ export const projectFallback: Project[] = [
     "gallery": [],
     "year": null,
     "role": null,
-    "summary": null,
+    "summary": "A responsive laboratory platform with a public landing page and an admin dashboard.",
     "highlights": [],
     "tags": [
       "Admin",
@@ -80,7 +178,8 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": null,
     "repoUrl": null,
-    "publishedAt": "2025-02-16T00:53:01.294Z"
+    "publishedAt": "2025-02-16T00:53:01.294Z",
+    "problem": "Connect medical laboratories through one platform."
   },
   {
     "_id": "a5ea5660-7b93-489c-8d9a-4a07f5136378",
@@ -119,7 +218,8 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": "https://xitmnt.sa/",
     "repoUrl": null,
-    "publishedAt": "2025-01-23T13:47:07.054Z"
+    "publishedAt": "2025-01-23T13:47:07.054Z",
+    "problem": "Introduce gaming and VR services to visitors in Saudi Arabia."
   },
   {
     "_id": "c1217f80-2837-4278-bc28-c970b774833b",
@@ -156,7 +256,8 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": null,
     "repoUrl": null,
-    "publishedAt": "2025-01-23T13:45:20.210Z"
+    "publishedAt": "2025-01-23T13:45:20.210Z",
+    "problem": "Find ratings and details for herbal products."
   },
   {
     "_id": "0670fe83-1057-4668-a573-44c18fdc94ca",
@@ -172,11 +273,18 @@ export const projectFallback: Project[] = [
       "height": 804,
       "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMABQDASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQFB//EACAQAAEEAgMAAwAAAAAAAAAAAAEAAgMEESEFEzESFEH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABwRAAICAgMAAAAAAAAAAAAAAAARARQDBBJSYf/aAAwDAQACEQMRAD8A4hUsWpet8j2hoyMfLCuWrt0xBlV7GNGNFwPqj+rFrRSmvGcZyqdqUgqeu3xG1eQ5LrIfOSWuI14haNGtH0+fqEVifRK+Hqf/2Q=="
     },
-    "fullPageScreenshot": null,
+    "fullPageScreenshot": {
+      "assetId": null,
+      "url": "/projects/elham-full.webp",
+      "alt": "Elham’s website from its opening illustration through the process, services, and contact sections.",
+      "width": 960,
+      "height": 2170,
+      "lqip": null
+    },
     "gallery": [],
     "year": null,
-    "role": null,
-    "summary": "A single-page application that allows users to know more about Elham Company and its services.",
+    "role": "Frontend developer",
+    "summary": "I built a single-page site that walks visitors through the agency’s process, services, and contact form.",
     "highlights": [],
     "tags": [
       "Landing",
@@ -188,12 +296,14 @@ export const projectFallback: Project[] = [
       "Jsx",
       "Tailwindcss"
     ],
-    "accentColor": null,
+    "accentColor": "#A998EB",
     "order": null,
     "featured": false,
     "liveUrl": null,
-    "repoUrl": null,
-    "publishedAt": "2025-01-23T13:43:08.671Z"
+    "repoUrl": "https://github.com/momanio/Elham-Frontend",
+    "publishedAt": "2025-01-23T13:43:08.671Z",
+    "problem": "Help potential clients understand Elham’s services and how the team works.",
+    "legacyBody": "A single-page application that allows users to know more about Elham Company and its services."
   },
   {
     "_id": "ef3e66ef-968f-4776-9977-ce430f01c503",
@@ -233,7 +343,8 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": "https://baslex.vercel.app/",
     "repoUrl": "https://baslex.vercel.app/",
-    "publishedAt": "2025-01-18T14:37:09.988Z"
+    "publishedAt": "2025-01-18T14:37:09.988Z",
+    "problem": "Manage the day-to-day work of a fitness center."
   },
   {
     "_id": "2474de3f-651f-4e23-abcf-822e8d04b47b",
@@ -272,6 +383,7 @@ export const projectFallback: Project[] = [
     "featured": false,
     "liveUrl": "https://baslex.vercel.app/",
     "repoUrl": "https://baslex.vercel.app/",
-    "publishedAt": "2025-01-18T14:17:23.290Z"
+    "publishedAt": "2025-01-18T14:17:23.290Z",
+    "problem": "Manage photographers and client orders in one place."
   }
 ];

@@ -46,7 +46,7 @@ export function RouteEffects() {
       schedule();
     });
     return () => { cancelAnimationFrame(frame); stop(); clearTimeout(expiry); events.forEach((event) => window.removeEventListener(event, stop)); };
-  }, [location.pathname, location.hash, location.state]);
+  }, [location.key, location.pathname, location.hash, location.state]);
   useEffect(() => {
     const main = document.getElementById("main-content");
     if (!main) return;

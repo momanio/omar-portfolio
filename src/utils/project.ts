@@ -1,4 +1,4 @@
-import type { Project, ProjectDocument, ProjectImage, ProjectImageDocument } from "@/types/project";
+import type { Project, ProjectDocument, ProjectImage, ProjectImageDocument, ProjectSnapshot } from "@/types/project";
 
 export function safeProjectUrl(value: string | null | undefined): string | null {
   if (!value) return null;
@@ -27,27 +27,30 @@ function normalizeImage(image: ProjectImageDocument | null | undefined, title: s
   };
 }
 
-export function normalizeProject(document: ProjectDocument): Project {
+export function normalizeProject(document: ProjectDocument, snapshot?: ProjectSnapshot): Project {
   const title = document.title?.trim() || "Untitled project";
   const thumbnail = normalizeImage(document.thumbnail, title);
+  const legacy = document.legacySummary?.trim();
   return {
     _id: document._id,
     title,
     slug: { current: document.slug?.current?.trim() || document._id },
-    thumbnail,
-    fullPageScreenshot: normalizeImage(document.fullPageScreenshot, title),
+    thumbnail: thumbnail ?? snapshot?.thumbnail ?? null,
+    fullPageScreenshot: normalizeImage(document.fullPageScreenshot, title) ?? snapshot?.fullPageScreenshot ?? null,
     gallery: (document.gallery ?? []).flatMap((image) => {
       const normalized = normalizeImage(image, title);
       return normalized ? [normalized] : [];
     }),
     // Publishing time is not evidence of the project's year.
     year: document.year && Number.isInteger(document.year) && document.year >= 1900 && document.year <= 2200 ? document.year : null,
-    role: document.role?.trim() || null,
-    summary: document.summary?.trim() || null,
+    role: document.role?.trim() || snapshot?.role || null,
+    problem: document.problem?.trim() || snapshot?.problem || null,
+    result: document.result?.trim() || snapshot?.result || null,
+    summary: document.summary?.trim() || (legacy === snapshot?.legacyBody ? snapshot?.summary : legacy) || snapshot?.summary || null,
     highlights: strings(document.highlights),
     tags: strings(document.tags),
     techStack: strings(document.techStack),
-    accentColor: /^#[\da-f]{6}$/i.test(document.accentColor ?? "") ? document.accentColor! : null,
+    accentColor: /^#[\da-f]{6}$/i.test(document.accentColor ?? "") ? document.accentColor! : snapshot?.accentColor ?? null,
     order: typeof document.order === "number" && Number.isFinite(document.order) ? document.order : null,
     featured: document.featured === true,
     liveUrl: safeProjectUrl(document.liveUrl),
@@ -74,4 +77,14 @@ export function projectSlugFromHash(hash: string): string | null {
 
 export function projectNumber(index: number): string {
   return new Intl.NumberFormat("en", { minimumIntegerDigits: 2, useGrouping: false }).format(index + 1);
+}
+
+export function selectProjectShelf(projects: Project[]) {
+  const sorted = sortProjects(projects);
+  const curated = ["beebites", "react-router-activity", "elham"]
+    .flatMap((slug) => sorted.filter((project) => project.slug.current === slug));
+  const marked = sorted.filter((project) => project.featured);
+  const ordered = [...new Set([...marked, ...curated, ...sorted])];
+  const featured = ordered.slice(0, Math.min(4, Math.max(3, marked.length)));
+  return { featured, more: sorted.filter((project) => !featured.includes(project)) };
 }

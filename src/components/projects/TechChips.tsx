@@ -8,9 +8,9 @@ const icons: Record<string, IconType> = {
   laravel: SiLaravel, php: SiPhp, html5: SiHtml5, css3: SiCss3, vite: SiVite, mui: SiMui,
 };
 
-export function TechChips({ technologies, tags, floating = false }: { technologies: string[]; tags: string[]; floating?: boolean }) {
+export function TechChips({ technologies, tags }: { technologies: string[]; tags: string[] }) {
   return (
-    <div className="project-chip-groups" data-project-chips={floating ? "" : undefined}>
+    <div className="project-chip-groups">
       {technologies.length > 0 && <ul className="project-tech-list" aria-label="Technology stack" dir="auto">
         {technologies.map((name) => {
           const Icon = icons[name.toLowerCase()] ?? FiCode;
